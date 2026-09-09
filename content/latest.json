@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.09.08-1",
+  "publishedAt": "2026-09-09T02:25:17.976Z",
+  "sourceManifestVersion": "2026.09.08-1",
+  "files": {
+    "source-manifest.json": "f913776baba28e11ded8bae0a3199f2d264e77d305e6482199bbd05d64494053",
+    "review-queue.json": "ddb536af66f551a4baeed7a36a7b3ac55001b0cefe86ae987ebba84e29d680dc",
+    "content-policy.json": "2de845f0f3ba131bab52a8a1f549a7e7b2d591dbd8c3f19600c411c959ff0f5c"
+  }
+}

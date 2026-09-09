@@ -1,0 +1,110 @@
+{
+  "version": "2026.09.08-1",
+  "generatedAt": "2026-09-09T02:25:51.907Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
+  "approvedChanges": [
+    {
+      "sourceId": "security-blog",
+      "currentHash": "9523e98f8c956b9e6b6a8a384518726a94d1beebd3f75c2b393ef7410357105f",
+      "approvedAt": "2026-08-31T17:50:28.978Z",
+      "note": "Triagem de 31/08/2026: nova publicação sobre governança e relatórios do IAM Identity Center; apresenta solução de referência e não altera objetivos, respostas ou recomendações oficiais usadas nas questões SAA-C03 atuais."
+    },
+    {
+      "sourceId": "cloudwatch",
+      "currentHash": "2b87c0665b80223b22f49561af8ac9968f21dd94ba7d9c8803582a8b59d98b38",
+      "approvedAt": "2026-09-08T04:10:35.811Z",
+      "note": "Revisão de 08/09/2026: a página introdutória atual continua descrevendo métricas, logs, alarmes e observabilidade; não há questão mapeada diretamente nem impacto nas respostas atuais."
+    },
+    {
+      "sourceId": "decision-guides",
+      "currentHash": "d080ca5a5cc34e6c047d9bf9ba20c005eab299a172f1df09ee7507b5f293861f",
+      "approvedAt": "2026-09-08T04:10:36.877Z",
+      "note": "Revisão de 08/09/2026: o índice recebeu conteúdo novo, inclusive o guia Fargate ou Lambda de agosto de 2026. As questões mapeadas continuam sustentadas pelas documentações específicas de VPC, EBS, S3 e Cost Management; nenhuma resposta mudou."
+    },
+    {
+      "sourceId": "documentdb",
+      "currentHash": "2387f701255d17f75cf9323e633261058c068442bd47abd8d570f1eaa810de76",
+      "approvedAt": "2026-09-08T04:10:37.802Z",
+      "note": "Revisão de 08/09/2026: Amazon DocumentDB permanece serviço de banco documental em escopo; não há questão mapeada diretamente e nenhuma resposta atual depende da alteração introdutória."
+    },
+    {
+      "sourceId": "domain-1",
+      "currentHash": "d46b1083378a46992a4944b83fbf4750f11029cd79234eb1dd2a7534052d2732",
+      "approvedAt": "2026-09-08T04:10:38.939Z",
+      "note": "Revisão de 08/09/2026: as tarefas 1.1, 1.2 e 1.3 continuam cobrindo acesso seguro, workloads seguros e controles de dados. A cobertura e as respostas do domínio permanecem alinhadas."
+    },
+    {
+      "sourceId": "domain-3",
+      "currentHash": "94ef7c12d1c3fe5cbbf7ce969b422e082ddd2c3b4ba1192df85eea0506ecbfae",
+      "approvedAt": "2026-09-08T04:10:40.086Z",
+      "note": "Revisão de 08/09/2026: as cinco tarefas continuam cobrindo storage, compute, bancos, rede e ingestão de alto desempenho. A nomenclatura Amazon QuickSuite não é usada nas questões atuais; nenhuma resposta precisou mudar."
+    },
+    {
+      "sourceId": "domain-4",
+      "currentHash": "8a4e704cbf0dcb12ab86fdf483bab2c141521ef36c8ab3ad7f4304451743a4ca",
+      "approvedAt": "2026-09-08T04:10:41.148Z",
+      "note": "Revisão de 08/09/2026: as quatro tarefas continuam cobrindo otimização de storage, compute, bancos e rede. As questões atuais preservam os trade-offs exigidos e nenhuma resposta mudou."
+    },
+    {
+      "sourceId": "guardduty",
+      "currentHash": "1d3376d35904201741c56da0a75b54f80e743b41184aee9503d408409bb5a337",
+      "approvedAt": "2026-09-08T04:10:42.064Z",
+      "note": "Revisão de 08/09/2026: GuardDuty permanece serviço de detecção de ameaças em escopo. Não há questão mapeada diretamente e nenhuma resposta atual depende da alteração introdutória."
+    },
+    {
+      "sourceId": "in-scope",
+      "currentHash": "f221b9d317c47aeb68964f81880d0f8e5480492c1d2564f0c710212b138acd2d",
+      "approvedAt": "2026-09-08T04:10:43.052Z",
+      "note": "Revisão de 08/09/2026: os serviços usados nas questões afetadas — Macie, Directory Service, EBS, Managed Service for Apache Flink, Cost Explorer e Budgets — continuam em escopo. Nenhuma resposta ou nomenclatura afetada precisou mudar."
+    },
+    {
+      "sourceId": "integration-guide",
+      "currentHash": "f3044cfb516052ef01f958e47d9fc7dfde7dc17ef8a2db75ac92d40b53034986",
+      "approvedAt": "2026-09-08T04:10:44.086Z",
+      "note": "Revisão de 08/09/2026: o guia atual confirma SQS para buffer e processamento assíncrono, FIFO para ordenação e deduplicação, e EventBridge para roteamento sem garantia de ordem. As questões res-07, res-11 e res-17 permanecem corretas."
+    },
+    {
+      "sourceId": "out-of-scope",
+      "currentHash": "26e7992f083948966b192c35f3da6084b8e616331bd565aa7d1629c510bb132f",
+      "approvedAt": "2026-09-08T04:10:45.329Z",
+      "note": "Revisão de 08/09/2026: a lista atual de serviços fora do escopo foi conferida; não há questão mapeada diretamente nem resposta atual baseada em serviço fora do escopo."
+    },
+    {
+      "sourceId": "rds",
+      "currentHash": "7899c74dc48d36958355e0078ef77144f051d5e7ab07c66906f7dd3486970934",
+      "approvedAt": "2026-09-08T04:10:46.176Z",
+      "note": "Revisão de 08/09/2026: a documentação atual confirma KMS gerenciada pelo cliente e auditoria CloudTrail, security groups encadeados, Multi-AZ síncrono com failover, RDS Proxy para pooling, Secrets Manager, Aurora Global Database e reader endpoints. Todas as questões mapeadas permanecem corretas."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "70d91d214d2cf65be0ceeb5a0a7dd4ab94e5330870b84d73326b19a97365d517",
+      "approvedAt": "2026-09-08T04:11:47.205Z",
+      "note": "Triagem de 08/09/2026: publicações novas tratam de orquestração híbrida, MCP e arquiteturas de agentes. São referências de aprofundamento e não alteram os objetivos nem as respostas SAA-C03 atuais."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "cd25ce30b4ec3a544f3f3d5cbd033541a20d10da42799b91edb7261cf258548b",
+      "approvedAt": "2026-09-08T04:11:47.972Z",
+      "note": "Triagem de 08/09/2026: novos artigos abordam investigação com CloudTrail, transição de identidade no IAM Identity Center e resposta a incidentes. Reforçam práticas existentes, sem alteração normativa nas respostas atuais."
+    },
+    {
+      "sourceId": "training-blog",
+      "currentHash": "c94dd3f1cf67a9d7ead42832e542f9044c930a52c5b35923e9b610fbd94aab1f",
+      "approvedAt": "2026-09-08T04:11:48.782Z",
+      "note": "Triagem de 08/09/2026: o boletim de setembro de 2026 anuncia mudanças em MLA-C02, SAP-C03 e DVA-C03; não anuncia substituição ou mudança do exame SAA-C03."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "2995ad85e7fcb6824f58261cbd5f8d4f76c9105cf7257be686295a5af3a10a12",
+      "approvedAt": "2026-09-08T04:11:49.634Z",
+      "note": "Triagem de 08/09/2026: anúncios recentes incluem recursos de Bedrock, EC2, ECS e Transfer Family. Nenhum altera os objetivos ou as decisões arquiteturais usadas nas questões SAA-C03 atuais."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "2629c7783790b0ff8a69c4079349fdce87e53be6d1366d947503d5258269202d",
+      "approvedAt": "2026-09-09T02:25:51.012Z",
+      "note": "Triagem de 08/09/2026: o feed adicionou recursos de Dynamic Image Transformation para CloudFront, mTLS em integrações de backend do API Gateway, versões menores do RDS MariaDB e novidades de Bedrock, Timestream, SageMaker, Transform e HealthOmics. As questões atuais de CloudFront tratam de cache e origem; a questão de API Gateway trata de private API e PrivateLink. Nenhum anúncio altera objetivos, enunciados, respostas ou recomendações usados no SAA-C03 atual."
+    }
+  ]
+}

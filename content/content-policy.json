@@ -1,0 +1,11 @@
+{
+  "version": "2026.09.08-1",
+  "reviewedAt": "2026-09-08",
+  "principles": [
+    "Questões autorais e não derivadas de dumps ou conteúdo confidencial de prova.",
+    "Validação conceitual somente em fontes oficiais da AWS.",
+    "Alterações detectadas na documentação suspendem as questões afetadas até revisão editorial e aprovação registrada.",
+    "O monitor usa somente fontes oficiais da AWS e nunca atualiza respostas automaticamente sem validação humana.",
+    "Não existe limite mínimo artificial de caracteres para enunciados; a qualidade é validada por consistência, rastreabilidade e nível cognitivo."
+  ]
+}

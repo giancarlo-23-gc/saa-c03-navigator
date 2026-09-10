@@ -1,8 +1,25 @@
 {
   "version": "2026.09.10-1",
-  "generatedAt": "2026-09-10T14:06:02.189Z",
+  "generatedAt": "2026-09-10T14:27:51.905Z",
   "pendingChanges": [],
-  "discoveryChanges": [],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-09-10T14:27:51.039Z",
+      "currentHash": "23e88c0739d253e65e21d4684cc7743bf52710183d475592c431347a71a78a2c",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

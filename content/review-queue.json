@@ -1,25 +1,8 @@
 {
-  "version": "2026.09.08-1",
-  "generatedAt": "2026-09-09T14:37:35.281Z",
+  "version": "2026.09.10-1",
+  "generatedAt": "2026-09-10T14:06:02.189Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-09T14:37:34.507Z",
-      "currentHash": "cdf1304af6ae672aa9bbf2e8b0c54b3b8d31596074d41c2ba9150a5e25637402",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -122,6 +105,108 @@
       "currentHash": "2629c7783790b0ff8a69c4079349fdce87e53be6d1366d947503d5258269202d",
       "approvedAt": "2026-09-09T02:25:51.012Z",
       "note": "Triagem de 08/09/2026: o feed adicionou recursos de Dynamic Image Transformation para CloudFront, mTLS em integrações de backend do API Gateway, versões menores do RDS MariaDB e novidades de Bedrock, Timestream, SageMaker, Transform e HealthOmics. As questões atuais de CloudFront tratam de cache e origem; a questão de API Gateway trata de private API e PrivateLink. Nenhum anúncio altera objetivos, enunciados, respostas ou recomendações usados no SAA-C03 atual."
+    },
+    {
+      "sourceId": "aurora-serverless-v2",
+      "currentHash": "560adada8ef3cb88f6b4ea7813cf4c5f02041d1b591e1a1bb8baa7bc4d7e0835",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "databrew-pii",
+      "currentHash": "10d352d7f3ad0005a91422d4f76f34a4084f0eb05de9f820c691d6090c35d038",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "direct-connect-resiliency",
+      "currentHash": "93f9113bc7a68a2ad6cdc1efcc65767bcae36b4107752611e608054f2d1e5c58",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "documentdb-iam-auth",
+      "currentHash": "11bc906ad0ee1d5ee6a5f00a87f38f46bfda65e1bbb236f164eff03284e61609",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "dynamodb-dax",
+      "currentHash": "fa59e676b0c1349691a3fc29239464c83b99f8f5ab6ba8cc07a0d25ae39114e1",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "ec2-instance-store",
+      "currentHash": "57835dce2157f3e1c65e22c9de263acf97e173dd406d061c619025a4efa08ccf",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "ecs-autoscaling",
+      "currentHash": "dbb782affd4e55541ea4beb2fd78277ab677d211e582f43baaf409084293ff28",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "elb-deregistration-delay",
+      "currentHash": "9df16fd2dd205bb3f4e8853d846898f241c22c4db93a52acb47216006f49fafb",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "lambda-timeout",
+      "currentHash": "3b402e561bf2b9cb59aabfcf3d64322ece1a27ad84e319599f8e3966f6e0ab47",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "nlb-multi-az",
+      "currentHash": "b387e1f179c7028b1d4001af0c45bb209fd0bbb9d0be8f8c0043489abe8d5703",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "rds-storage",
+      "currentHash": "79f133ccb9055f3361879e06a94c7ab0256119cfd5c0efdaa66fa92a028a4578",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "s3-glacier-classes",
+      "currentHash": "06bea9ca6320367fd70428ea48250e3cef2a8887ebcccca13b15808c2e894b55",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "shield-advanced-ddos",
+      "currentHash": "d506f04f18f5ffec04ff19e4c34d0947879fd295ad8083d2c456b382bdb6bc8d",
+      "approvedAt": "2026-09-10T13:55:22.488Z",
+      "note": "Revisão editorial de 10/09/2026: documentação oficial conferida para autenticação IAM do DocumentDB 5.0, drenagem de targets, alta disponibilidade do NLB, DAX e consistência eventual, storage gp3 do RDS, classes Glacier, transformação de PII no DataBrew, escala do Aurora Serverless v2, instance store, resiliência do Direct Connect, limite do Lambda, Shield Advanced e auto scaling do ECS. As 32 novas decisões e seus distratores foram validados contra esses requisitos; nenhum enunciado oficial foi incorporado."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "b323e62a9bc5c61b874bb5d3babbe6a71a1c758a68814edd9bd1afd77096e557",
+      "approvedAt": "2026-09-10T13:56:07.294Z",
+      "note": "Triagem de 10/09/2026: os novos artigos de arquitetura reforçam testes de resiliência com SQS/FIS e DR; o Security Blog adiciona orientação de IA e conformidade sem alterar as respostas SAA-C03. O What's New inclui Lambda Managed Instances com timeout ampliado; o item de processamento longo foi redigido explicitamente para o ambiente Lambda padrão e permanece sustentado pelo guia atual de timeout. Nenhuma outra decisão da base foi afetada."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "3f3e3136ee16bc935db48f5c794e18d0c79f531d9ea2ff477f0439946e9c36b0",
+      "approvedAt": "2026-09-10T13:56:07.294Z",
+      "note": "Triagem de 10/09/2026: os novos artigos de arquitetura reforçam testes de resiliência com SQS/FIS e DR; o Security Blog adiciona orientação de IA e conformidade sem alterar as respostas SAA-C03. O What's New inclui Lambda Managed Instances com timeout ampliado; o item de processamento longo foi redigido explicitamente para o ambiente Lambda padrão e permanece sustentado pelo guia atual de timeout. Nenhuma outra decisão da base foi afetada."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "9e669c29e776b8664c76c5bee4a930118458e30c11a34118d61794b853a41c99",
+      "approvedAt": "2026-09-10T13:56:07.294Z",
+      "note": "Triagem de 10/09/2026: os novos artigos de arquitetura reforçam testes de resiliência com SQS/FIS e DR; o Security Blog adiciona orientação de IA e conformidade sem alterar as respostas SAA-C03. O What's New inclui Lambda Managed Instances com timeout ampliado; o item de processamento longo foi redigido explicitamente para o ambiente Lambda padrão e permanece sustentado pelo guia atual de timeout. Nenhuma outra decisão da base foi afetada."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "cdf1304af6ae672aa9bbf2e8b0c54b3b8d31596074d41c2ba9150a5e25637402",
+      "approvedAt": "2026-09-10T14:06:01.159Z",
+      "note": "Triagem de 10/09/2026: o feed adicionou cinco anúncios do portfólio AWS Elemental sobre watermarking, publicidade, metadados de vídeo, multiview e HLS de baixa latência. Esses anúncios não alteram os objetivos SAA-C03 nem enunciados, alternativas, respostas ou explicações da base atual."
     }
   ]
 }

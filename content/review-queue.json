@@ -1,25 +1,8 @@
 {
   "version": "2026.09.10-1",
-  "generatedAt": "2026-09-10T14:27:51.905Z",
+  "generatedAt": "2026-09-10T18:37:51.395Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-10T14:27:51.039Z",
-      "currentHash": "23e88c0739d253e65e21d4684cc7743bf52710183d475592c431347a71a78a2c",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -224,6 +207,12 @@
       "currentHash": "cdf1304af6ae672aa9bbf2e8b0c54b3b8d31596074d41c2ba9150a5e25637402",
       "approvedAt": "2026-09-10T14:06:01.159Z",
       "note": "Triagem de 10/09/2026: o feed adicionou cinco anúncios do portfólio AWS Elemental sobre watermarking, publicidade, metadados de vídeo, multiview e HLS de baixa latência. Esses anúncios não alteram os objetivos SAA-C03 nem enunciados, alternativas, respostas ou explicações da base atual."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "23e88c0739d253e65e21d4684cc7743bf52710183d475592c431347a71a78a2c",
+      "approvedAt": "2026-09-10T18:37:50.349Z",
+      "note": "Triagem de 10/09/2026: o feed adicionou suporte do CloudWatch Network Monitor ao Network Health Indicator em caminhos que cruzam peering inter-Region do Transit Gateway. O recurso melhora diagnóstico e observabilidade de rede, mas não altera os objetivos, respostas ou explicações das questões SAA-C03 atuais."
     }
   ]
 }

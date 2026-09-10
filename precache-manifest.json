@@ -1,11 +1,11 @@
 {
-  "version": "2026-09-10T14:28:26.958Z",
+  "version": "2026-09-10T18:38:37.831Z",
   "files": [
     "app-icon-192.png",
     "app-icon-512.png",
     "app-icon.svg",
+    "assets/index-CafskPin.js",
     "assets/index-CpsOXawq.css",
-    "assets/index-Duatz4L4.js",
     "content/content-policy.json",
     "content/latest.json",
     "content/review-brief.md",

@@ -1,8 +1,41 @@
 {
   "version": "2026.09.10-1",
-  "generatedAt": "2026-09-10T18:37:51.395Z",
+  "generatedAt": "2026-09-11T14:27:41.990Z",
   "pendingChanges": [],
-  "discoveryChanges": [],
+  "discoveryChanges": [
+    {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-09-11T14:27:41.355Z",
+      "currentHash": "4331599db988a83d4bd61f1c724c883fc083516e02faeb6696177dd1ef0a5b91",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-09-11T14:27:41.355Z",
+      "currentHash": "5bca6af893a11505860e235d1d5609f1adaad095642d8b34486ee5617d9fcc04",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

@@ -1,25 +1,8 @@
 {
   "version": "2026.09.13-1",
-  "generatedAt": "2026-09-13T19:46:32.386Z",
+  "generatedAt": "2026-09-13T19:50:06.989Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-13T19:46:31.376Z",
-      "currentHash": "1993f4ab2f8ea6e0cff85ac972c9410fe553a72a542ad222cb2294eedb863ef9",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -254,6 +237,12 @@
       "currentHash": "c0980864bfa05124c0495c5586e806fd6d7b606d2ba4c02f52eddf5bbd9ab764",
       "approvedAt": "2026-09-13T19:27:37.484Z",
       "note": "Triagem de 13/09/2026: os lançamentos recentes incluem retenção por evento no S3 Object Lock, PrivateLink FIPS no Storage Gateway, leitura direta de S3 Files no Lambda e recursos especializados de mídia. São capacidades novas e válidas, porém nenhuma invalida as decisões atuais; sua inclusão como questão dependerá de relevância confirmada no guia e nas tarefas do SAA-C03."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "1993f4ab2f8ea6e0cff85ac972c9410fe553a72a542ad222cb2294eedb863ef9",
+      "approvedAt": "2026-09-13T19:50:05.972Z",
+      "note": "Triagem de 13/09/2026: o novo anúncio apresenta bloqueio de pipelines com precisão de quadro no AWS Elemental MediaLive para streams sem timecode. É uma capacidade especializada de mídia e não altera objetivos, decisões arquiteturais, alternativas, respostas ou explicações da base SAA-C03 atual."
     }
   ]
 }

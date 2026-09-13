@@ -1,41 +1,8 @@
 {
-  "version": "2026.09.10-1",
-  "generatedAt": "2026-09-11T14:27:41.990Z",
+  "version": "2026.09.13-1",
+  "generatedAt": "2026-09-13T19:28:15.883Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-11T14:27:41.355Z",
-      "currentHash": "4331599db988a83d4bd61f1c724c883fc083516e02faeb6696177dd1ef0a5b91",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-11T14:27:41.355Z",
-      "currentHash": "5bca6af893a11505860e235d1d5609f1adaad095642d8b34486ee5617d9fcc04",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -246,6 +213,30 @@
       "currentHash": "23e88c0739d253e65e21d4684cc7743bf52710183d475592c431347a71a78a2c",
       "approvedAt": "2026-09-10T18:37:50.349Z",
       "note": "Triagem de 10/09/2026: o feed adicionou suporte do CloudWatch Network Monitor ao Network Health Indicator em caminhos que cruzam peering inter-Region do Transit Gateway. O recurso melhora diagnóstico e observabilidade de rede, mas não altera os objetivos, respostas ou explicações das questões SAA-C03 atuais."
+    },
+    {
+      "sourceId": "s3",
+      "currentHash": "c196c98d39549ea62701d0fd3057b350419daa3558dd55a18f5cc4c4d0dca8b4",
+      "approvedAt": "2026-09-13T19:27:24.493Z",
+      "note": "Revisão editorial de 13/09/2026: a documentação introdutória do Amazon S3 passou a destacar os tipos atuais de bucket e o namespace regional reservado por conta; também foi conferido o lançamento de retenção variável com event holds no S3 Object Lock. Nenhuma das 24 decisões mapeadas depende de unicidade global de nomes ou de retenção iniciada por evento. Versionamento, OAC, endpoints, lifecycle, replicação, Object Lock Compliance, Transfer Acceleration e classes de armazenamento continuam corretos; nenhuma resposta precisou mudar."
+    },
+    {
+      "sourceId": "storage-gateway",
+      "currentHash": "0b05004bb5a56bb1231867d80cc7954e02d51c40567512afbb3d2491656e4a16",
+      "approvedAt": "2026-09-13T19:27:28.981Z",
+      "note": "Revisão editorial de 13/09/2026: a documentação atual do Storage Gateway incorpora conectividade privada FIPS por AWS PrivateLink para gateways compatíveis. Não há decisão mapeada diretamente para esta fonte e a novidade não altera nenhuma resposta ou explicação atual do SAA-C03."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "4331599db988a83d4bd61f1c724c883fc083516e02faeb6696177dd1ef0a5b91",
+      "approvedAt": "2026-09-13T19:27:33.194Z",
+      "note": "Triagem de 13/09/2026: os artigos recentes abordam testes de resiliência com SQS e FIS, leases do DynamoDB para workers e arquiteturas com Bedrock AgentCore. Eles reforçam padrões existentes, mas não alteram os objetivos nem as respostas atuais do SAA-C03."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "c0980864bfa05124c0495c5586e806fd6d7b606d2ba4c02f52eddf5bbd9ab764",
+      "approvedAt": "2026-09-13T19:27:37.484Z",
+      "note": "Triagem de 13/09/2026: os lançamentos recentes incluem retenção por evento no S3 Object Lock, PrivateLink FIPS no Storage Gateway, leitura direta de S3 Files no Lambda e recursos especializados de mídia. São capacidades novas e válidas, porém nenhuma invalida as decisões atuais; sua inclusão como questão dependerá de relevância confirmada no guia e nas tarefas do SAA-C03."
     }
   ]
 }

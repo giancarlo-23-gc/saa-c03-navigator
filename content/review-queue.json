@@ -1,41 +1,8 @@
 {
   "version": "2026.09.13-1",
-  "generatedAt": "2026-09-15T12:47:44.647Z",
+  "generatedAt": "2026-09-15T12:51:29.144Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-15T12:47:43.822Z",
-      "currentHash": "1b265bbe753395080ba025b76ddda9119cba7561d5d314c58e46996155e7e19d",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-15T12:47:43.822Z",
-      "currentHash": "1c979b279fe817351cc2b272f4909c19b77274ccc3565a7dde8159273bd8fa31",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -282,6 +249,18 @@
       "currentHash": "e6b5485dab76ab4021868cf6f88b1cacc426f50f80f32a403dcfcddbc328b4b0",
       "approvedAt": "2026-09-15T12:48:04.567Z",
       "note": "Triagem de 15/09/2026: o feed adicionou quatro anúncios de modelos no SageMaker JumpStart, dois recursos do AWS End User Messaging e propriedade/detecção de conflitos em integrações AWS Glue zero-ETL. São novidades de produto que não alteram o guia, os objetivos, os enunciados, os distratores ou as respostas atuais do SAA-C03."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "1b265bbe753395080ba025b76ddda9119cba7561d5d314c58e46996155e7e19d",
+      "approvedAt": "2026-09-15T12:51:27.680Z",
+      "note": "Triagem de 15/09/2026: o AWS Security Blog publicou um aprofundamento da AWS Security Reference Architecture para PCI DSS, e o What's New adicionou quatro anúncios de modelos no SageMaker JumpStart. O material reforça práticas de segurança e apresenta novidades especializadas, sem alterar o guia, os objetivos, as decisões arquiteturais, os distratores, as respostas ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "1c979b279fe817351cc2b272f4909c19b77274ccc3565a7dde8159273bd8fa31",
+      "approvedAt": "2026-09-15T12:51:27.680Z",
+      "note": "Triagem de 15/09/2026: o AWS Security Blog publicou um aprofundamento da AWS Security Reference Architecture para PCI DSS, e o What's New adicionou quatro anúncios de modelos no SageMaker JumpStart. O material reforça práticas de segurança e apresenta novidades especializadas, sem alterar o guia, os objetivos, as decisões arquiteturais, os distratores, as respostas ou as explicações atuais do SAA-C03."
     }
   ]
 }

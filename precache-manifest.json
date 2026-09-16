@@ -1,11 +1,11 @@
 {
-  "version": "2026-09-15T15:02:02.464Z",
+  "version": "2026-09-16T02:19:12.443Z",
   "files": [
     "app-icon-192.png",
     "app-icon-512.png",
     "app-icon.svg",
-    "assets/index-B1I_dUiX.css",
-    "assets/index-CzlfkEfa.js",
+    "assets/index-CGmgdN58.css",
+    "assets/index-DOodbZJl.js",
     "content/content-policy.json",
     "content/latest.json",
     "content/review-brief.md",
@@ -13,6 +13,9 @@
     "content/source-manifest.json",
     "favicon.svg",
     "index.html",
-    "manifest.webmanifest"
+    "manifest.webmanifest",
+    "robots.txt",
+    "sitemap.xml",
+    "social-card.png"
   ]
 }

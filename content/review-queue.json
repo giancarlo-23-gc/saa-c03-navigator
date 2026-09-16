@@ -1,25 +1,8 @@
 {
-  "version": "2026.09.13-1",
-  "generatedAt": "2026-09-15T15:01:33.598Z",
+  "version": "2026.09.15-1",
+  "generatedAt": "2026-09-15T20:54:59.307Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-15T15:01:32.724Z",
-      "currentHash": "3c682380c331ca5f6777280fade455eac34df6ec4491f76d21a6afb550baa257",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -278,6 +261,18 @@
       "currentHash": "1c979b279fe817351cc2b272f4909c19b77274ccc3565a7dde8159273bd8fa31",
       "approvedAt": "2026-09-15T12:51:27.680Z",
       "note": "Triagem de 15/09/2026: o AWS Security Blog publicou um aprofundamento da AWS Security Reference Architecture para PCI DSS, e o What's New adicionou quatro anúncios de modelos no SageMaker JumpStart. O material reforça práticas de segurança e apresenta novidades especializadas, sem alterar o guia, os objetivos, as decisões arquiteturais, os distratores, as respostas ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "7dd780e5debe8893c3a15f1065ce1c046cccfa3d1528d5197f2c2aae4e45f49e",
+      "approvedAt": "2026-09-15T20:54:54.708Z",
+      "note": "Triagem de 15/09/2026: as publicações recentes do AWS Security Blog sobre resiliência multi-Região do Amazon Cognito, remediação de menor privilégio no IAM e a SRA para PCI DSS, além dos anúncios recentes do What's New sobre SageMaker, CloudTrail e resiliência regional de sign-in, foram lidas como sinais de descoberta. Elas reforçam práticas atuais, mas não alteram o guia SAA-C03 nem invalidam respostas existentes; as 130 decisões desta versão permanecem sustentadas pela documentação de serviço específica."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "8762e64c8d57ceb944f816eb640e5c1099d321f20560b760c3e063b47a490ffa",
+      "approvedAt": "2026-09-15T20:54:54.708Z",
+      "note": "Triagem de 15/09/2026: as publicações recentes do AWS Security Blog sobre resiliência multi-Região do Amazon Cognito, remediação de menor privilégio no IAM e a SRA para PCI DSS, além dos anúncios recentes do What's New sobre SageMaker, CloudTrail e resiliência regional de sign-in, foram lidas como sinais de descoberta. Elas reforçam práticas atuais, mas não alteram o guia SAA-C03 nem invalidam respostas existentes; as 130 decisões desta versão permanecem sustentadas pela documentação de serviço específica."
     }
   ]
 }

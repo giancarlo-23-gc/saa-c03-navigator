@@ -1,13 +1,14 @@
 {
-  "version": "2026.09.15-1",
-  "reviewedAt": "2026-09-15",
+  "version": "2026.09.16-1",
+  "reviewedAt": "2026-09-16",
   "principles": [
     "Questões autorais e não derivadas de dumps ou conteúdo confidencial de prova.",
     "Validação conceitual somente em fontes oficiais da AWS.",
     "Alterações detectadas na documentação suspendem as questões afetadas até revisão editorial e aprovação registrada.",
     "O monitor usa somente fontes oficiais da AWS e nunca atualiza respostas automaticamente sem validação humana.",
     "Não existe limite mínimo artificial de caracteres para enunciados; a qualidade é validada por consistência, rastreabilidade e nível cognitivo.",
-    "A base contém 130 decisões arquiteturais distintas; o aplicativo não reescreve enunciados nem contabiliza mudanças de contexto ou de ordem das alternativas como conhecimento novo.",
+    "A base contém 130 questões editoriais e 520 casos compostos por duas decisões técnicas independentes, totalizando 650 cenários identificados.",
+    "O aplicativo não reescreve enunciados nem contabiliza paráfrases ou mudanças de ordem das alternativas como conhecimento novo; nos casos compostos, mudar um requisito técnico muda a solução correta.",
     "Uma decisão apresentada é bloqueada nas sessões seguintes daquele navegador até que o usuário apague explicitamente o histórico antirrepetição.",
     "Distratores devem representar soluções AWS tecnicamente próximas e ser diferenciados por requisito, limite ou trade-off, sem pistas artificiais de extensão."
   ]

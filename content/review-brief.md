@@ -10,4 +10,3 @@ Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não blo
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.
-

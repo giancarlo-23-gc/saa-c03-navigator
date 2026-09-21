@@ -1,66 +1,15 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-21T13:54:28.073Z",
-  "pendingChanges": [
-    {
-      "sourceId": "sns",
-      "title": "Amazon SNS Developer Guide",
-      "url": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html",
-      "tier": "service",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "e267b5f2ca0594591243e1261c389551c71a8b34af6dbec6f8d79f536417b4af",
-      "affectedBlueprintIds": [
-        "res-04",
-        "mx-res-event-queue-21",
-        "mx-res-event-queue-22",
-        "mx-res-event-queue-23",
-        "mx-res-event-queue-24",
-        "mx-res-events-compute-21",
-        "mx-res-events-compute-22",
-        "mx-res-events-compute-23",
-        "mx-res-events-compute-24",
-        "mx-perf-analysis-events-14",
-        "mx-perf-analysis-events-24",
-        "mx-perf-analysis-events-34",
-        "mx-perf-analysis-events-44",
-        "mx-perf-compute-events-14",
-        "mx-perf-compute-events-24",
-        "mx-perf-compute-events-34",
-        "mx-perf-compute-events-44"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "generatedAt": "2026-09-17T15:01:26.395Z",
+  "pendingChanges": [],
   "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "05d34c0ee6c31cc221b19c1f4d5e9d5d9d5ad8c389888d5d8d2c37188e22da43",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
     {
       "sourceId": "security-blog",
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "3838fa23a5cbb5e7ee64a504c0909b43c46759705d75b1faf60742e814ab5bcf",
+      "detectedAt": "2026-09-17T15:01:25.537Z",
+      "currentHash": "3f9e3ea4216e935ca58ceb60b9796cb08b5ba8da53cf8387c92fc07556bea57c",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -75,8 +24,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "13f3408a3fbb82dc321a3e71ac08057ec49b3ed8e88b27363631f5b0684acb7d",
+      "detectedAt": "2026-09-17T15:01:25.537Z",
+      "currentHash": "dc5ad5b70c0bdd30aa5e7df46d7576bd5b0c570a95c8bba56856eef97bba9f15",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

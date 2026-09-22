@@ -1,6 +1,6 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-21T16:29:04.774Z",
+  "generatedAt": "2026-09-22T14:56:12.833Z",
   "pendingChanges": [
     {
       "sourceId": "sns",
@@ -43,8 +43,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "05d34c0ee6c31cc221b19c1f4d5e9d5d9d5ad8c389888d5d8d2c37188e22da43",
+      "detectedAt": "2026-09-22T14:56:11.311Z",
+      "currentHash": "3b02bf0def14e55016c46ed81fc5f2a45dcc051974e03bcca2d4ac059a3b8877",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -75,8 +75,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-21T16:29:03.899Z",
-      "currentHash": "7cef3315e7c1e2c36bfdc9a3b0f37d685f8b798838cc79180acf43dc457b4c8b",
+      "detectedAt": "2026-09-22T14:56:11.311Z",
+      "currentHash": "5e6bfa5157e5298d50c6bc982b1b32a9fd61c10bd0445c3fb21c3b512fb100dd",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

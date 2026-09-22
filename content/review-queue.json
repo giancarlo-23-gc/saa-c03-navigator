@@ -1,92 +1,8 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-22T14:56:12.833Z",
-  "pendingChanges": [
-    {
-      "sourceId": "sns",
-      "title": "Amazon SNS Developer Guide",
-      "url": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html",
-      "tier": "service",
-      "detectedAt": "2026-09-21T13:54:27.199Z",
-      "currentHash": "e267b5f2ca0594591243e1261c389551c71a8b34af6dbec6f8d79f536417b4af",
-      "affectedBlueprintIds": [
-        "res-04",
-        "mx-res-event-queue-21",
-        "mx-res-event-queue-22",
-        "mx-res-event-queue-23",
-        "mx-res-event-queue-24",
-        "mx-res-events-compute-21",
-        "mx-res-events-compute-22",
-        "mx-res-events-compute-23",
-        "mx-res-events-compute-24",
-        "mx-perf-analysis-events-14",
-        "mx-perf-analysis-events-24",
-        "mx-perf-analysis-events-34",
-        "mx-perf-analysis-events-44",
-        "mx-perf-compute-events-14",
-        "mx-perf-compute-events-24",
-        "mx-perf-compute-events-34",
-        "mx-perf-compute-events-44"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-22T14:56:11.311Z",
-      "currentHash": "3b02bf0def14e55016c46ed81fc5f2a45dcc051974e03bcca2d4ac059a3b8877",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-21T16:29:03.899Z",
-      "currentHash": "183229068bac38d8fd62c27334b9ac1273753ddec2eb124db4e7f880ce9205c0",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-22T14:56:11.311Z",
-      "currentHash": "5e6bfa5157e5298d50c6bc982b1b32a9fd61c10bd0445c3fb21c3b512fb100dd",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "generatedAt": "2026-09-22T15:02:39.834Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -357,6 +273,30 @@
       "currentHash": "8762e64c8d57ceb944f816eb640e5c1099d321f20560b760c3e063b47a490ffa",
       "approvedAt": "2026-09-15T20:54:54.708Z",
       "note": "Triagem de 15/09/2026: as publicações recentes do AWS Security Blog sobre resiliência multi-Região do Amazon Cognito, remediação de menor privilégio no IAM e a SRA para PCI DSS, além dos anúncios recentes do What's New sobre SageMaker, CloudTrail e resiliência regional de sign-in, foram lidas como sinais de descoberta. Elas reforçam práticas atuais, mas não alteram o guia SAA-C03 nem invalidam respostas existentes; as 130 decisões desta versão permanecem sustentadas pela documentação de serviço específica."
+    },
+    {
+      "sourceId": "sns",
+      "currentHash": "e267b5f2ca0594591243e1261c389551c71a8b34af6dbec6f8d79f536417b4af",
+      "approvedAt": "2026-09-22T15:02:38.891Z",
+      "note": "Triagem de 22/09/2026: a documentação do Amazon SNS passou a registrar payloads de até 1 MiB, sem alterar o padrão de fanout SNS para filas SQS independentes usado em res-04 e nas combinações afetadas. Os feeds Architecture, Security e What's New publicaram artigos e anúncios especializados, incluindo observabilidade de deployments ECS, isolamento em EKS e transformação de eventos Bedrock Guardrails em OCSF, sem alterar o guia, os objetivos, os gabaritos, os distratores ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "3b02bf0def14e55016c46ed81fc5f2a45dcc051974e03bcca2d4ac059a3b8877",
+      "approvedAt": "2026-09-22T15:02:38.891Z",
+      "note": "Triagem de 22/09/2026: a documentação do Amazon SNS passou a registrar payloads de até 1 MiB, sem alterar o padrão de fanout SNS para filas SQS independentes usado em res-04 e nas combinações afetadas. Os feeds Architecture, Security e What's New publicaram artigos e anúncios especializados, incluindo observabilidade de deployments ECS, isolamento em EKS e transformação de eventos Bedrock Guardrails em OCSF, sem alterar o guia, os objetivos, os gabaritos, os distratores ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "183229068bac38d8fd62c27334b9ac1273753ddec2eb124db4e7f880ce9205c0",
+      "approvedAt": "2026-09-22T15:02:38.891Z",
+      "note": "Triagem de 22/09/2026: a documentação do Amazon SNS passou a registrar payloads de até 1 MiB, sem alterar o padrão de fanout SNS para filas SQS independentes usado em res-04 e nas combinações afetadas. Os feeds Architecture, Security e What's New publicaram artigos e anúncios especializados, incluindo observabilidade de deployments ECS, isolamento em EKS e transformação de eventos Bedrock Guardrails em OCSF, sem alterar o guia, os objetivos, os gabaritos, os distratores ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "5e6bfa5157e5298d50c6bc982b1b32a9fd61c10bd0445c3fb21c3b512fb100dd",
+      "approvedAt": "2026-09-22T15:02:38.891Z",
+      "note": "Triagem de 22/09/2026: a documentação do Amazon SNS passou a registrar payloads de até 1 MiB, sem alterar o padrão de fanout SNS para filas SQS independentes usado em res-04 e nas combinações afetadas. Os feeds Architecture, Security e What's New publicaram artigos e anúncios especializados, incluindo observabilidade de deployments ECS, isolamento em EKS e transformação de eventos Bedrock Guardrails em OCSF, sem alterar o guia, os objetivos, os gabaritos, os distratores ou as explicações atuais do SAA-C03."
     }
   ]
 }

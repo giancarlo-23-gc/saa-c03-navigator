@@ -1,6 +1,6 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-23T15:02:20.160Z",
+  "generatedAt": "2026-09-24T15:08:01.567Z",
   "pendingChanges": [
     {
       "sourceId": "cloudwatch",
@@ -44,8 +44,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-23T15:02:19.491Z",
-      "currentHash": "b5e2978c47e65b09bd3ef9887d3d93196087166168f060c5f6774b9ec0845c8f",
+      "detectedAt": "2026-09-24T15:08:01.065Z",
+      "currentHash": "3de28d479ba2bd30dbdd0c3a93f437d2dbb24d6dad0a3ee8375b2f15473db137",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -60,8 +60,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-23T15:02:19.491Z",
-      "currentHash": "b044ca4ae6daf7db440c5db7f85fa4071ef8580f3d2d3c373f5368f04b119aa6",
+      "detectedAt": "2026-09-24T15:08:01.065Z",
+      "currentHash": "11cf731d82e8b50aa1293aeefc1cee053ff48a098ef455df21dc2c02f0bfd884",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

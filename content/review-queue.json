@@ -1,6 +1,6 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-24T15:08:01.567Z",
+  "generatedAt": "2026-09-25T15:17:37.321Z",
   "pendingChanges": [
     {
       "sourceId": "cloudwatch",
@@ -36,6 +36,45 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "eventbridge",
+      "title": "Amazon EventBridge User Guide",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-09-25T15:17:36.402Z",
+      "currentHash": "b10a30af0a475cad5d341e4b3e5cb644b360c8de2518a303b274adfa6bbfad80",
+      "affectedBlueprintIds": [
+        "sec-08",
+        "res-11",
+        "cost-06",
+        "sec-26",
+        "res-25",
+        "res-27",
+        "mx-res-event-queue-31",
+        "mx-res-event-queue-32",
+        "mx-res-event-queue-33",
+        "mx-res-event-queue-34",
+        "mx-res-events-compute-31",
+        "mx-res-events-compute-32",
+        "mx-res-events-compute-33",
+        "mx-res-events-compute-34",
+        "mx-perf-analysis-events-13",
+        "mx-perf-analysis-events-23",
+        "mx-perf-analysis-events-33",
+        "mx-perf-analysis-events-43",
+        "mx-perf-compute-events-13",
+        "mx-perf-compute-events-23",
+        "mx-perf-compute-events-33",
+        "mx-perf-compute-events-43"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -56,12 +95,28 @@
       ]
     },
     {
+      "sourceId": "training-blog",
+      "title": "AWS Training and Certification Blog Feed",
+      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-09-25T15:17:36.402Z",
+      "currentHash": "ed803b7af011aba60c6672f802673e7d55fc19ec05549e243c86427cae8aac1c",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-24T15:08:01.065Z",
-      "currentHash": "11cf731d82e8b50aa1293aeefc1cee053ff48a098ef455df21dc2c02f0bfd884",
+      "detectedAt": "2026-09-25T15:17:36.402Z",
+      "currentHash": "9602ccec096aa3790fab76742ab24eef98ddc1a7a3b79c51b3fafc3b07a34802",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

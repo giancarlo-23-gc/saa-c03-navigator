@@ -1,6 +1,6 @@
 {
   "version": "2026.09.18-1",
-  "generatedAt": "2026-09-28T18:10:37.724Z",
+  "generatedAt": "2026-09-29T16:31:49.181Z",
   "pendingChanges": [
     {
       "sourceId": "cloudwatch",
@@ -79,6 +79,22 @@
   ],
   "discoveryChanges": [
     {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-09-29T16:31:48.290Z",
+      "currentHash": "e87892d810feadef8143b1bb19c4cae55900e32ad4cdfddb51cbbd6098e30457",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "security-blog",
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -115,8 +131,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-28T18:10:36.348Z",
-      "currentHash": "7567152506f37ff6451852e5d75ac0fa78e4662fa9cfbaf11f68b0bf2001921d",
+      "detectedAt": "2026-09-29T16:31:48.290Z",
+      "currentHash": "1671d1ad785a84353d96bd2ab3791b0541835bf3d7b22eea4cf5f645f5b80ccb",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

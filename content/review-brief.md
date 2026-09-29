@@ -28,10 +28,11 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (3)
+## Sinais de descoberta (4)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
 - AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS Training and Certification Blog Feed: https://aws.amazon.com/blogs/training-and-certification/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/

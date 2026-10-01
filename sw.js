@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'saa-navigator-2026-09-16-1';
+const CACHE_VERSION = 'saa-navigator-970cc444a835c6713633';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const BASE_URL = self.registration.scope;
@@ -20,6 +20,18 @@ const APP_SHELL = [
   'content/review-queue.json',
   'content/content-policy.json',
 ].map(resolveUrl);
+
+function rememberResponse(event, cacheName, response) {
+  if (!response.ok) return;
+  // Clonar antes que o consumidor leia o body e manter o worker vivo até salvar.
+  const copy = response.clone();
+  event.waitUntil(
+    caches
+      .open(cacheName)
+      .then((cache) => cache.put(event.request, copy))
+      .catch(() => undefined),
+  );
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -74,18 +86,15 @@ self.addEventListener('fetch', (event) => {
 
   if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request, { cache: 'no-store' })
-        .then((response) => {
-          const copy = response.clone();
-          void caches
-            .open(STATIC_CACHE)
-            .then((cache) => cache.put(APP_ROOT, copy));
-          return response;
-        })
-        .catch(
-          async () =>
-            (await caches.match(APP_ROOT)) ??
-            caches.match(resolveUrl('index.html')),
+      // O HTML e os chunks pertencem à mesma release. Só a ativação de um
+      // worker completamente instalado troca o shell, inclusive ao recarregar.
+      caches
+        .open(STATIC_CACHE)
+        .then(
+          async (cache) =>
+            (await cache.match(APP_ROOT)) ??
+            (await cache.match(resolveUrl('index.html'))) ??
+            fetch(event.request, { cache: 'no-store' }),
         ),
     );
     return;
@@ -95,13 +104,14 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(event.request, { cache: 'no-store' })
         .then((response) => {
-          if (response.ok)
-            void caches
-              .open(CONTENT_CACHE)
-              .then((cache) => cache.put(event.request, response.clone()));
+          rememberResponse(event, CONTENT_CACHE, response);
           return response;
         })
-        .catch(() => caches.match(event.request)),
+        .catch(
+          async () =>
+            (await (await caches.open(CONTENT_CACHE)).match(event.request)) ??
+            (await (await caches.open(STATIC_CACHE)).match(event.request)),
+        ),
     );
     return;
   }
@@ -109,10 +119,12 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.startsWith(CONTENT_PATH)) {
     event.respondWith(
       caches.open(CONTENT_CACHE).then(async (cache) => {
-        const cached = await caches.match(event.request);
+        const cached =
+          (await cache.match(event.request)) ??
+          (await (await caches.open(STATIC_CACHE)).match(event.request));
         return fetch(event.request, { cache: 'no-store' })
           .then((response) => {
-            if (response.ok) void cache.put(event.request, response.clone());
+            rememberResponse(event, CONTENT_CACHE, response);
             return response;
           })
           .catch(
@@ -126,16 +138,16 @@ self.addEventListener('fetch', (event) => {
   }
 
   event.respondWith(
-    caches.match(url.toString(), { ignoreSearch: true }).then(
-      (cached) =>
-        cached ??
-        fetch(event.request).then((response) => {
-          if (response.ok)
-            void caches
-              .open(STATIC_CACHE)
-              .then((cache) => cache.put(event.request, response.clone()));
-          return response;
-        }),
-    ),
+    caches
+      .open(STATIC_CACHE)
+      .then((cache) => cache.match(url.toString(), { ignoreSearch: true }))
+      .then(
+        (cached) =>
+          cached ??
+          fetch(event.request).then((response) => {
+            rememberResponse(event, STATIC_CACHE, response);
+            return response;
+          }),
+      ),
   );
 });

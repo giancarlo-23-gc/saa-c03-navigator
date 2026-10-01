@@ -1,174 +1,7 @@
 {
-  "version": "2026.09.18-1",
-  "generatedAt": "2026-09-30T16:25:26.412Z",
-  "pendingChanges": [
-    {
-      "sourceId": "cloudwatch",
-      "title": "Amazon CloudWatch User Guide",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
-      "tier": "service",
-      "detectedAt": "2026-09-23T15:02:19.491Z",
-      "currentHash": "ab0f4727720c6e689e33a18f4cc67bffd8e3dbc8d71bf59b1b30efd67f0f77e2",
-      "affectedBlueprintIds": [
-        "res-23",
-        "cost-17",
-        "mx-sec-audit-detection-41",
-        "mx-sec-audit-detection-42",
-        "mx-sec-audit-detection-43",
-        "mx-sec-audit-detection-44",
-        "mx-sec-identity-audit-14",
-        "mx-sec-identity-audit-24",
-        "mx-sec-identity-audit-34",
-        "mx-sec-identity-audit-44",
-        "mx-sec-object-audit-14",
-        "mx-sec-object-audit-24",
-        "mx-sec-object-audit-34",
-        "mx-sec-object-audit-44",
-        "mx-cost-network-waste-11",
-        "mx-cost-network-waste-21",
-        "mx-cost-network-waste-31",
-        "mx-cost-network-waste-41"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito",
-      "title": "Amazon Cognito Developer Guide",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
-      "tier": "service",
-      "detectedAt": "2026-09-30T16:25:24.789Z",
-      "currentHash": "ddcbfc3badf24cf26e484a7eb7c78cbe440ecc1660659e9107dd6c7d731fbe81",
-      "affectedBlueprintIds": [
-        "sec-25",
-        "mx-sec-workforce-edge-41",
-        "mx-sec-workforce-edge-42",
-        "mx-sec-workforce-edge-43",
-        "mx-sec-workforce-edge-44",
-        "mx-sec-identity-audit-41",
-        "mx-sec-identity-audit-42",
-        "mx-sec-identity-audit-43",
-        "mx-sec-identity-audit-44"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "elasticache",
-      "title": "Amazon ElastiCache User Guide",
-      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html",
-      "tier": "service",
-      "detectedAt": "2026-09-30T16:25:24.789Z",
-      "currentHash": "5026a8ad7a26b680fe939672c4a4c2adf3fd36935d1b9b87310ed00a8c91b735",
-      "affectedBlueprintIds": [
-        "perf-03",
-        "perf-28",
-        "mx-perf-cache-storage-21",
-        "mx-perf-cache-storage-22",
-        "mx-perf-cache-storage-23",
-        "mx-perf-cache-storage-24",
-        "mx-perf-cache-compute-21",
-        "mx-perf-cache-compute-22",
-        "mx-perf-cache-compute-23",
-        "mx-perf-cache-compute-24"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "eventbridge",
-      "title": "Amazon EventBridge User Guide",
-      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-09-25T15:17:36.402Z",
-      "currentHash": "b10a30af0a475cad5d341e4b3e5cb644b360c8de2518a303b274adfa6bbfad80",
-      "affectedBlueprintIds": [
-        "sec-08",
-        "res-11",
-        "cost-06",
-        "sec-26",
-        "res-25",
-        "res-27",
-        "mx-res-event-queue-31",
-        "mx-res-event-queue-32",
-        "mx-res-event-queue-33",
-        "mx-res-event-queue-34",
-        "mx-res-events-compute-31",
-        "mx-res-events-compute-32",
-        "mx-res-events-compute-33",
-        "mx-res-events-compute-34",
-        "mx-perf-analysis-events-13",
-        "mx-perf-analysis-events-23",
-        "mx-perf-analysis-events-33",
-        "mx-perf-analysis-events-43",
-        "mx-perf-compute-events-13",
-        "mx-perf-compute-events-23",
-        "mx-perf-compute-events-33",
-        "mx-perf-compute-events-43"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda",
-      "title": "AWS Lambda Developer Guide",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
-      "tier": "service",
-      "detectedAt": "2026-09-30T16:25:24.789Z",
-      "currentHash": "3445b011d0b5a576cf9f864dab4373b24cfea090a7be6ac862b7807ead091ed8",
-      "affectedBlueprintIds": [
-        "res-09",
-        "perf-11",
-        "cost-06",
-        "sec-27",
-        "sec-30",
-        "res-25",
-        "sec-40",
-        "res-33",
-        "mx-perf-compute-storage-11",
-        "mx-perf-compute-storage-12",
-        "mx-perf-compute-storage-13",
-        "mx-perf-compute-storage-14",
-        "mx-perf-compute-events-11",
-        "mx-perf-compute-events-12",
-        "mx-perf-compute-events-13",
-        "mx-perf-compute-events-14",
-        "mx-perf-cache-compute-11",
-        "mx-perf-cache-compute-21",
-        "mx-perf-cache-compute-31",
-        "mx-perf-cache-compute-41",
-        "mx-cost-compute-data-11",
-        "mx-cost-compute-data-13"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.01-1",
+  "generatedAt": "2026-10-01T13:31:57.579Z",
+  "pendingChanges": [],
   "discoveryChanges": [
     {
       "sourceId": "architecture-blog",
@@ -223,8 +56,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-09-30T16:25:24.789Z",
-      "currentHash": "765f620057e31ab154fa6e56beb83c0f3ebf4f4e74f2fab45addea50aa67dc79",
+      "detectedAt": "2026-10-01T13:21:43.327Z",
+      "currentHash": "e1166c0f413aedc131f3c9e5071fb57578874a988a510126d60c27ca945d031e",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -529,6 +362,66 @@
       "currentHash": "5e6bfa5157e5298d50c6bc982b1b32a9fd61c10bd0445c3fb21c3b512fb100dd",
       "approvedAt": "2026-09-22T15:02:38.891Z",
       "note": "Triagem de 22/09/2026: a documentação do Amazon SNS passou a registrar payloads de até 1 MiB, sem alterar o padrão de fanout SNS para filas SQS independentes usado em res-04 e nas combinações afetadas. Os feeds Architecture, Security e What's New publicaram artigos e anúncios especializados, incluindo observabilidade de deployments ECS, isolamento em EKS e transformação de eventos Bedrock Guardrails em OCSF, sem alterar o guia, os objetivos, os gabaritos, os distratores ou as explicações atuais do SAA-C03."
+    },
+    {
+      "sourceId": "dynamodb-write-sharding",
+      "currentHash": "8bd6d8e7e42f36995fc1ead66057faa5f191b303dcddeb022cf7beaefeaa3fcf",
+      "approvedAt": "2026-10-01T13:31:55.434Z",
+      "note": "Revisão semântica individual de sec-32/sec-38/sec-33/perf-25/perf-30 e leitura das páginas específicas em 01/10/2026; refinados enunciados, distratores e ressalvas. Evidência em content/editorial-evidence.md, fechamento de 01/10."
+    },
+    {
+      "sourceId": "ec2-imdsv2-session",
+      "currentHash": "b712fbad337d97c0bb844854d1db5c7d2d688da2ed10a8e755b09e4f191b0f8d",
+      "approvedAt": "2026-10-01T13:31:55.434Z",
+      "note": "Revisão semântica individual de sec-32/sec-38/sec-33/perf-25/perf-30 e leitura das páginas específicas em 01/10/2026; refinados enunciados, distratores e ressalvas. Evidência em content/editorial-evidence.md, fechamento de 01/10."
+    },
+    {
+      "sourceId": "kinesis-partition-keys",
+      "currentHash": "13209fe8d98a1bedff8781d03a64a06b52a08f60ac50ee2c18909a2243ba4171",
+      "approvedAt": "2026-10-01T13:31:55.434Z",
+      "note": "Revisão semântica individual de sec-32/sec-38/sec-33/perf-25/perf-30 e leitura das páginas específicas em 01/10/2026; refinados enunciados, distratores e ressalvas. Evidência em content/editorial-evidence.md, fechamento de 01/10."
+    },
+    {
+      "sourceId": "s3-object-ownership",
+      "currentHash": "9dd1a2633d21799958405fbe7befd0a04ce8d5f15215c99772970feb472e73db",
+      "approvedAt": "2026-10-01T13:31:55.434Z",
+      "note": "Revisão semântica individual de sec-32/sec-38/sec-33/perf-25/perf-30 e leitura das páginas específicas em 01/10/2026; refinados enunciados, distratores e ressalvas. Evidência em content/editorial-evidence.md, fechamento de 01/10."
+    },
+    {
+      "sourceId": "s3-presigned-upload",
+      "currentHash": "543193949e09a02261a2ee072c8c47c9d4f77beee02b6c77f6469af7c3fa54ae",
+      "approvedAt": "2026-10-01T13:31:55.434Z",
+      "note": "Revisão semântica individual de sec-32/sec-38/sec-33/perf-25/perf-30 e leitura das páginas específicas em 01/10/2026; refinados enunciados, distratores e ressalvas. Evidência em content/editorial-evidence.md, fechamento de 01/10."
+    },
+    {
+      "sourceId": "cloudwatch",
+      "currentHash": "ab0f4727720c6e689e33a18f4cc67bffd8e3dbc8d71bf59b1b30efd67f0f77e2",
+      "approvedAt": "2026-10-01T13:31:56.147Z",
+      "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
+    },
+    {
+      "sourceId": "cognito",
+      "currentHash": "ddcbfc3badf24cf26e484a7eb7c78cbe440ecc1660659e9107dd6c7d731fbe81",
+      "approvedAt": "2026-10-01T13:31:56.147Z",
+      "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
+    },
+    {
+      "sourceId": "elasticache",
+      "currentHash": "5026a8ad7a26b680fe939672c4a4c2adf3fd36935d1b9b87310ed00a8c91b735",
+      "approvedAt": "2026-10-01T13:31:56.147Z",
+      "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
+    },
+    {
+      "sourceId": "eventbridge",
+      "currentHash": "b10a30af0a475cad5d341e4b3e5cb644b360c8de2518a303b274adfa6bbfad80",
+      "approvedAt": "2026-10-01T13:31:56.147Z",
+      "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
+    },
+    {
+      "sourceId": "lambda",
+      "currentHash": "3445b011d0b5a576cf9f864dab4373b24cfea090a7be6ac862b7807ead091ed8",
+      "approvedAt": "2026-10-01T13:31:56.147Z",
+      "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
     }
   ]
 }

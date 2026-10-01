@@ -1,44 +1,7 @@
 {
-  "version": "2026.10.01-1",
-  "generatedAt": "2026-10-01T17:02:48.474Z",
-  "pendingChanges": [
-    {
-      "sourceId": "wa-tool-improvements",
-      "title": "AWS Well-Architected Tool improvement tracking and milestones",
-      "url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/implement-and-track-improvements.html",
-      "tier": "service",
-      "detectedAt": "2026-10-01T17:02:47.497Z",
-      "currentHash": "90806ca153f8f44bde7dd4fbde85626e32df3262f6a88a8ca95c97536b45d9dc",
-      "affectedBlueprintIds": [
-        "res-149"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "wa-tool-overview",
-      "title": "AWS Well-Architected Tool workload reviews",
-      "url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/intro.html",
-      "tier": "service",
-      "detectedAt": "2026-10-01T17:02:47.497Z",
-      "currentHash": "92702a5f5b1507f54d6d8242f63d9ae29daed9753ed9978b84d5c3db25b80c2e",
-      "affectedBlueprintIds": [
-        "res-149"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.01-2",
+  "generatedAt": "2026-10-01T22:14:17.087Z",
+  "pendingChanges": [],
   "discoveryChanges": [
     {
       "sourceId": "architecture-blog",
@@ -459,6 +422,18 @@
       "currentHash": "3445b011d0b5a576cf9f864dab4373b24cfea090a7be6ac862b7807ead091ed8",
       "approvedAt": "2026-10-01T13:31:56.147Z",
       "note": "Overviews atuais lidos; remapeamento do banco retirou matrizes antigas. CloudWatch/Cognito sem referência direta ativa. Conferidos perf-28 (shards), res-11 (archive/replay), res-33 (resposta parcial SQS e DLQ); sem mudança de gabarito. Fechamento em content/editorial-evidence.md."
+    },
+    {
+      "sourceId": "wa-tool-improvements",
+      "currentHash": "90806ca153f8f44bde7dd4fbde85626e32df3262f6a88a8ca95c97536b45d9dc",
+      "approvedAt": "2026-10-01T22:04:49.182Z",
+      "note": "Páginas atuais e res-149 relidas integralmente: documentação do workload, lentes, recomendações e milestones confirmados. Distratores são complementares, não substitutos. Gabarito e texto mantidos; evidência em content/editorial-evidence.md, rodada de 01/10/2026."
+    },
+    {
+      "sourceId": "wa-tool-overview",
+      "currentHash": "92702a5f5b1507f54d6d8242f63d9ae29daed9753ed9978b84d5c3db25b80c2e",
+      "approvedAt": "2026-10-01T22:04:49.182Z",
+      "note": "Páginas atuais e res-149 relidas integralmente: documentação do workload, lentes, recomendações e milestones confirmados. Distratores são complementares, não substitutos. Gabarito e texto mantidos; evidência em content/editorial-evidence.md, rodada de 01/10/2026."
     }
   ]
 }

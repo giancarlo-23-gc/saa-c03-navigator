@@ -1,73 +1,8 @@
 {
-  "version": "2026.10.01-2",
-  "generatedAt": "2026-10-01T22:14:17.087Z",
+  "version": "2026.10.02-1",
+  "generatedAt": "2026-10-02T13:22:15.619Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-01T17:02:47.497Z",
-      "currentHash": "dfbe9036353b294a91294cbd92637288029725e98d5ead9b22ee209023112071",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-28T18:10:36.348Z",
-      "currentHash": "168a86f53c9f59628a823e4188579061d7ec87d247298064e6a89a306bafe57f",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "training-blog",
-      "title": "AWS Training and Certification Blog Feed",
-      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-09-30T16:25:24.789Z",
-      "currentHash": "0c9a15638bf55c11882793ed2f9b6d3645901f4ce93adadbd68eb342d2468fbb",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-01T17:02:47.497Z",
-      "currentHash": "323ee5abbe0d1c3234547125c0785fec4ac76cb8f6bf9c7f9c5eea54f76616ec",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -434,6 +369,108 @@
       "currentHash": "92702a5f5b1507f54d6d8242f63d9ae29daed9753ed9978b84d5c3db25b80c2e",
       "approvedAt": "2026-10-01T22:04:49.182Z",
       "note": "Páginas atuais e res-149 relidas integralmente: documentação do workload, lentes, recomendações e milestones confirmados. Distratores são complementares, não substitutos. Gabarito e texto mantidos; evidência em content/editorial-evidence.md, rodada de 01/10/2026."
+    },
+    {
+      "sourceId": "cloudtrail-data-events",
+      "currentHash": "8923c7e6764386c9797a54eae94d74073933028693bda2f4700b35c0212563f5",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "currentHash": "f0a159506712b5f6cd9e4db591c2bf830c8e7eb1d3c8e713c18cdcfc25948db8",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "cloudwatch-logs-field-index",
+      "currentHash": "ec217934ce160b3f78314d2b035ef055966057fd663ab26c3e328b206f0aab77",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "dynamodb-export-s3",
+      "currentHash": "628cc218be1bc1bc6c5589e5029e954e3050b0d67e05a08559664215cd082d4e",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "ebs-elastic-volumes-modify",
+      "currentHash": "c77973b42065b50f843f164d8681a01519e75d664730de2e62d1354f852c5c57",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "ebs-modify-volume",
+      "currentHash": "c77973b42065b50f843f164d8681a01519e75d664730de2e62d1354f852c5c57",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "ebs-multi-attach",
+      "currentHash": "d48d2660769db3173b871fa605b4bf7a098e58b430de403f55b3ad9584e5fa43",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "ec2-capacity-blocks-window",
+      "currentHash": "9892c3b81dceea54949ef34ca42c7b199f212fc6f1c2d2e1108cf071fe636530",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "exam-guide",
+      "currentHash": "b986f1cfc0c116e74ab62609eba961d4e82e08ae64e2c8efb39e1fa9f5e60131",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "s3-byte-range-performance",
+      "currentHash": "577858c049c4ee8510c4fc2b9e36e389c891f9893fde9d647ea37e69eda3e346",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "sagemaker-managed-spot-training",
+      "currentHash": "368dcee9b8081fbcfb89fe14ea7773701b6968002ab57d97531652d7375e4302",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "wa-tool-overview",
+      "currentHash": "a3493e5c58c964b8aa06e3b7c0ffb6f72f83cc774a4b07220d49408a961fec2b",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "waf-forwarded-ip",
+      "currentHash": "93b4b70bfda6f3775e05c152f3c34e27bbecf596156f801a4b61eb54d121d9f3",
+      "approvedAt": "2026-10-02T13:22:14.302Z",
+      "note": "Revisão direcionada de 02/10/2026 registrada em content/editorial-evidence.md: documentos canônicos reais, todas as alternativas dos itens afetados, 32 adaptações de múltipla seleção e esclarecimento do fallback SageMaker. IDs e decisões preservados."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "dfbe9036353b294a91294cbd92637288029725e98d5ead9b22ee209023112071",
+      "approvedAt": "2026-10-02T13:22:14.391Z",
+      "note": "Triagem de 02/10/2026 registrada em content/editorial-evidence.md: itens atuais lidos, impactos confrontados com os cenários existentes e guia SAA-C03. Sem criação automática de questões. Aprovação vinculada ao snapshot consultado."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "168a86f53c9f59628a823e4188579061d7ec87d247298064e6a89a306bafe57f",
+      "approvedAt": "2026-10-02T13:22:14.391Z",
+      "note": "Triagem de 02/10/2026 registrada em content/editorial-evidence.md: itens atuais lidos, impactos confrontados com os cenários existentes e guia SAA-C03. Sem criação automática de questões. Aprovação vinculada ao snapshot consultado."
+    },
+    {
+      "sourceId": "training-blog",
+      "currentHash": "4805bb3fd356f5bea849514a34c58461da63dbf2577258fc24680ae1ffac465b",
+      "approvedAt": "2026-10-02T13:22:14.391Z",
+      "note": "Triagem de 02/10/2026 registrada em content/editorial-evidence.md: itens atuais lidos, impactos confrontados com os cenários existentes e guia SAA-C03. Sem criação automática de questões. Aprovação vinculada ao snapshot consultado."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "66880f6b85b1920e84c162009f10ddd062800e4c93f7793b33c5b40b0e5a4adb",
+      "approvedAt": "2026-10-02T13:22:14.391Z",
+      "note": "Triagem de 02/10/2026 registrada em content/editorial-evidence.md: itens atuais lidos, impactos confrontados com os cenários existentes e guia SAA-C03. Sem criação automática de questões. Aprovação vinculada ao snapshot consultado."
     }
   ]
 }

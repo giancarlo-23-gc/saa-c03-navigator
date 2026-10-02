@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Relatar vulnerabilidade de segurança em privado
+    url: https://github.com/giancarlo-23-gc/saa-c03-navigator/security/advisories/new
+    about: Não publique vulnerabilidades, credenciais ou dados pessoais em issues.
   - name: Abrir o SAA Navigator
     url: https://giancarlo-23-gc.github.io/saa-c03-navigator/
     about: Voltar ao aplicativo público.

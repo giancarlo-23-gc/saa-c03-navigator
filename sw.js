@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'saa-navigator-ab5bae45b4b45f53486b';
+const CACHE_VERSION = 'saa-navigator-0c038f510fc22b391243';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const BASE_URL = self.registration.scope;

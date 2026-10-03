@@ -1,15 +1,141 @@
 {
   "version": "2026.10.02-2",
-  "generatedAt": "2026-10-02T16:17:12.946Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-03T14:43:55.280Z",
+  "pendingChanges": [
+    {
+      "sourceId": "cognito-pools-scenarios",
+      "title": "Common Amazon Cognito scenarios",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "c0b1fd15c363ef29d8c1e333584efb6bc6b52464e59cc86d19e5dda63e01f2bf",
+      "affectedBlueprintIds": [
+        "sec-25"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "direct-connect",
+      "title": "AWS Direct Connect User Guide",
+      "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "d884706fad5ed5281b79489b4ade977c18c1319caa9ebafd256c8d2c549ee3ab",
+      "affectedBlueprintIds": [
+        "cost-134"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "direct-connect-public-vif",
+      "title": "Direct Connect public and private virtual interfaces",
+      "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "373abab70602c5ccdd6c4ae187440976484eec7c4add096ca8a03e82060ab801",
+      "affectedBlueprintIds": [
+        "cost-134"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ecs-native-blue-green",
+      "title": "Create an Amazon ECS blue/green service deployment",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deploy-blue-green-service.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "98f235a97dc49c8333b0d94df9edca31ffff8006649785e36ed16f564505c907",
+      "affectedBlueprintIds": [
+        "res-139"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "guardduty-fargate-runtime",
+      "title": "How GuardDuty Runtime Monitoring works with ECS Fargate",
+      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/how-runtime-monitoring-works-ecs-fargate.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "ab661009dc47fc4788fe6d3f62c0c4875b1aa65ef438bdd0c267fff8df1efa59",
+      "affectedBlueprintIds": [
+        "sec-133"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "session-manager-access",
+      "title": "AWS Systems Manager Session Manager",
+      "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html",
+      "tier": "service",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "8fd1dce51ffcfae009c6ba745488f2861f0f8bef400199d7f1363304f1b64d5b",
+      "affectedBlueprintIds": [
+        "sec-62",
+        "sec-204"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [
+    {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "8060dd234fafc080a7513ebfac8f4a67a5c86ed9976c447c0082c3a8e6fed9cb",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-02T16:17:11.992Z",
-      "currentHash": "34de13fc9fd3dc06dcdba0ccadc466cc6a99ab82163fc29dde1713427e37d9a3",
+      "detectedAt": "2026-10-03T14:43:54.524Z",
+      "currentHash": "b0e3be3211d428d9b8a40c3114879a0517dae0a4312cb219cb4610d19adb2b71",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

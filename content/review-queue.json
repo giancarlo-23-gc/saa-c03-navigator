@@ -1,6 +1,6 @@
 {
   "version": "2026.10.02-2",
-  "generatedAt": "2026-10-03T21:54:56.747Z",
+  "generatedAt": "2026-10-04T15:23:13.756Z",
   "pendingChanges": [],
   "discoveryChanges": [
     {
@@ -24,8 +24,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-03T14:43:54.524Z",
-      "currentHash": "b0e3be3211d428d9b8a40c3114879a0517dae0a4312cb219cb4610d19adb2b71",
+      "detectedAt": "2026-10-04T15:23:13.171Z",
+      "currentHash": "a232cb41e31884482fcde8738476b313a8b7023b6446399b0a8ad56fd086a17b",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,41 +1,8 @@
 {
-  "version": "2026.10.02-2",
-  "generatedAt": "2026-10-04T15:23:13.756Z",
+  "version": "2026.10.05-1",
+  "generatedAt": "2026-10-05T15:33:47.986Z",
   "pendingChanges": [],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-03T14:43:54.524Z",
-      "currentHash": "8060dd234fafc080a7513ebfac8f4a67a5c86ed9976c447c0082c3a8e6fed9cb",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-04T15:23:13.171Z",
-      "currentHash": "a232cb41e31884482fcde8738476b313a8b7023b6446399b0a8ad56fd086a17b",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -540,6 +507,24 @@
       "currentHash": "8fd1dce51ffcfae009c6ba745488f2861f0f8bef400199d7f1363304f1b64d5b",
       "approvedAt": "2026-10-03T21:54:54.346Z",
       "note": "Revisão específica de 03/10/2026 registrada em content/source-review-2026-10-03.md: sec-62 e sec-204 relidas com todas as alternativas; IAM/shell sem inbound, logging suportado e ausência de transcript de port forwarding/SSH mantidos; pgAudit confirmado na referência RDS. Aviso de console legado em 31/12/2026 não significa descontinuação do serviço. Hash consultado corresponde ao snapshot pendente. Sem mudança de gabarito/texto."
+    },
+    {
+      "sourceId": "acm-exportable-certificates",
+      "currentHash": "2b35acde0385888b639aac32d5226e4e5d2a67ea60fc0922e0ac437107b6118a",
+      "approvedAt": "2026-10-05T15:33:45.173Z",
+      "note": "Revisao especifica 05/10/2026 registrada em content/source-review-2026-10-05.md e editorial-evidence.md: ACM exportavel corrigido em sec-57; triagem dos snapshots atuais dos feeds sem outra contradicao identificada nos cenarios. Gabarito e IDs preservados; gates de release e publicacao separados."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "8060dd234fafc080a7513ebfac8f4a67a5c86ed9976c447c0082c3a8e6fed9cb",
+      "approvedAt": "2026-10-05T15:33:45.173Z",
+      "note": "Revisao especifica 05/10/2026 registrada em content/source-review-2026-10-05.md e editorial-evidence.md: ACM exportavel corrigido em sec-57; triagem dos snapshots atuais dos feeds sem outra contradicao identificada nos cenarios. Gabarito e IDs preservados; gates de release e publicacao separados."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "ebe8e9fd1a121639258ff3a5400da90b083780d453fc2fa401ea9eb3be942e75",
+      "approvedAt": "2026-10-05T15:33:45.173Z",
+      "note": "Revisao especifica 05/10/2026 registrada em content/source-review-2026-10-05.md e editorial-evidence.md: ACM exportavel corrigido em sec-57; triagem dos snapshots atuais dos feeds sem outra contradicao identificada nos cenarios. Gabarito e IDs preservados; gates de release e publicacao separados."
     }
   ]
 }

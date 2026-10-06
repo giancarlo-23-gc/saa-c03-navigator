@@ -1,7 +1,118 @@
 {
   "version": "2026.10.05-1",
-  "generatedAt": "2026-10-05T19:23:37.753Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-06T16:49:47.694Z",
+  "pendingChanges": [
+    {
+      "sourceId": "alb-automatic-target-weights",
+      "title": "Automatic Target Weights and anomaly mitigation for Application Load Balancers",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
+      "affectedBlueprintIds": [
+        "res-69"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "alb-dns-failover-threshold",
+      "title": "Target group health for Application Load Balancers",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
+      "affectedBlueprintIds": [
+        "res-108"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "alb-grpc-target-group",
+      "title": "Application Load Balancer target groups and gRPC",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
+      "affectedBlueprintIds": [
+        "perf-103"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "alb-slow-start",
+      "title": "Edit target group attributes for your Application Load Balancer",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
+      "affectedBlueprintIds": [
+        "perf-11",
+        "perf-90",
+        "perf-172"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudwatch-emf-spec",
+      "title": "CloudWatch embedded metric format specification",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format_Specification.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "4c6420ef31c21e06440b53113dacccfff6b385e7844490ad5039a087b3447dd9",
+      "affectedBlueprintIds": [
+        "perf-146"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "service-catalog-launch-constraint",
+      "title": "AWS Service Catalog launch constraints and launch roles",
+      "url": "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/constraints-launch.html",
+      "tier": "service",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "41bf0e2d31992ae60555eb0de599e2672b93908e4173d87073bd5ca9cb67a78d",
+      "affectedBlueprintIds": [
+        "sec-151"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [
     {
       "sourceId": "architecture-blog",
@@ -20,12 +131,28 @@
       ]
     },
     {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "bdfbe38f44935e89eb48ebdef1c5d44dd4b6895702989a03c37617a4fe814dc3",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-05T19:23:36.868Z",
-      "currentHash": "7f2f74ee0bdba6170bd051b452f03b14748d718f696f65b20bccbbfdb5809494",
+      "detectedAt": "2026-10-06T16:49:46.713Z",
+      "currentHash": "30bf094a603782fa56cd1abb527787ef0b0186434a5f56702156ae5c0aa9eaa2",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

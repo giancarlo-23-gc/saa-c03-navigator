@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **6**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **7**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Automatic Target Weights and anomaly mitigation for Application Load Balancers
 
@@ -59,6 +59,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format_Specification.html
 - Detectada em: 2026-10-06T16:49:46.713Z
 - Questões afetadas: perf-146
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon RDS encryption with AWS KMS
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html
+- Detectada em: 2026-10-07T17:26:22.167Z
+- Questões afetadas: sec-05
 
 Checklist:
 

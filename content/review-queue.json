@@ -1,6 +1,6 @@
 {
   "version": "2026.10.05-1",
-  "generatedAt": "2026-10-06T16:49:47.694Z",
+  "generatedAt": "2026-10-07T17:26:23.121Z",
   "pendingChanges": [
     {
       "sourceId": "alb-automatic-target-weights",
@@ -95,6 +95,24 @@
       ]
     },
     {
+      "sourceId": "rds-encryption",
+      "title": "Amazon RDS encryption with AWS KMS",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html",
+      "tier": "service",
+      "detectedAt": "2026-10-07T17:26:22.167Z",
+      "currentHash": "60a182a7413758b40722268851aa71cb2da9e43b311d982359b7c8a9b912307c",
+      "affectedBlueprintIds": [
+        "sec-05"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "service-catalog-launch-constraint",
       "title": "AWS Service Catalog launch constraints and launch roles",
       "url": "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/constraints-launch.html",
@@ -135,8 +153,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "bdfbe38f44935e89eb48ebdef1c5d44dd4b6895702989a03c37617a4fe814dc3",
+      "detectedAt": "2026-10-07T17:26:22.167Z",
+      "currentHash": "1e7d6728968c49f3ebd68bff57b5d793e9bc0665424a506308f0722f58cbe844",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -151,8 +169,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "30bf094a603782fa56cd1abb527787ef0b0186434a5f56702156ae5c0aa9eaa2",
+      "detectedAt": "2026-10-07T17:26:22.167Z",
+      "currentHash": "efea4d5ff2ce9d5b9e9264d0f6ad54663371e707f71745b54036347da9cd5602",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

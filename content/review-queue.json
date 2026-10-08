@@ -1,186 +1,8 @@
 {
-  "version": "2026.10.05-1",
-  "generatedAt": "2026-10-07T17:26:23.121Z",
-  "pendingChanges": [
-    {
-      "sourceId": "alb-automatic-target-weights",
-      "title": "Automatic Target Weights and anomaly mitigation for Application Load Balancers",
-      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
-      "affectedBlueprintIds": [
-        "res-69"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "alb-dns-failover-threshold",
-      "title": "Target group health for Application Load Balancers",
-      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
-      "affectedBlueprintIds": [
-        "res-108"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "alb-grpc-target-group",
-      "title": "Application Load Balancer target groups and gRPC",
-      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
-      "affectedBlueprintIds": [
-        "perf-103"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "alb-slow-start",
-      "title": "Edit target group attributes for your Application Load Balancer",
-      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-target-group-attributes.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
-      "affectedBlueprintIds": [
-        "perf-11",
-        "perf-90",
-        "perf-172"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-emf-spec",
-      "title": "CloudWatch embedded metric format specification",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format_Specification.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "4c6420ef31c21e06440b53113dacccfff6b385e7844490ad5039a087b3447dd9",
-      "affectedBlueprintIds": [
-        "perf-146"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-encryption",
-      "title": "Amazon RDS encryption with AWS KMS",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html",
-      "tier": "service",
-      "detectedAt": "2026-10-07T17:26:22.167Z",
-      "currentHash": "60a182a7413758b40722268851aa71cb2da9e43b311d982359b7c8a9b912307c",
-      "affectedBlueprintIds": [
-        "sec-05"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "service-catalog-launch-constraint",
-      "title": "AWS Service Catalog launch constraints and launch roles",
-      "url": "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/constraints-launch.html",
-      "tier": "service",
-      "detectedAt": "2026-10-06T16:49:46.713Z",
-      "currentHash": "41bf0e2d31992ae60555eb0de599e2672b93908e4173d87073bd5ca9cb67a78d",
-      "affectedBlueprintIds": [
-        "sec-151"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-05T19:23:36.868Z",
-      "currentHash": "3a9526ece681d0f5bf3a8e3e5e6e16ae99778e4fc7ea024bff9c2e9767e1e2c4",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-07T17:26:22.167Z",
-      "currentHash": "1e7d6728968c49f3ebd68bff57b5d793e9bc0665424a506308f0722f58cbe844",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-07T17:26:22.167Z",
-      "currentHash": "efea4d5ff2ce9d5b9e9264d0f6ad54663371e707f71745b54036347da9cd5602",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.08-1",
+  "generatedAt": "2026-10-08T16:32:42.410Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -703,6 +525,72 @@
       "currentHash": "ebe8e9fd1a121639258ff3a5400da90b083780d453fc2fa401ea9eb3be942e75",
       "approvedAt": "2026-10-05T15:33:45.173Z",
       "note": "Revisao especifica 05/10/2026 registrada em content/source-review-2026-10-05.md e editorial-evidence.md: ACM exportavel corrigido em sec-57; triagem dos snapshots atuais dos feeds sem outra contradicao identificada nos cenarios. Gabarito e IDs preservados; gates de release e publicacao separados."
+    },
+    {
+      "sourceId": "alb-automatic-target-weights",
+      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "alb-dns-failover-threshold",
+      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "alb-grpc-target-group",
+      "currentHash": "f47296f3e5061caa4326b938a61dd849393573be107271348d9e3c0d8bf63789",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "alb-slow-start",
+      "currentHash": "cf344b1e00438518f15b1284ff31f7bee56e06b6974a26e49e682e25605e621a",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "cloudwatch",
+      "currentHash": "df3ba389c556079c34f766eb7da96b97d082a2d4a8c35e150325796b038f8494",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "cloudwatch-emf-spec",
+      "currentHash": "4c6420ef31c21e06440b53113dacccfff6b385e7844490ad5039a087b3447dd9",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "rds-encryption",
+      "currentHash": "42a3f1e601af40552dab5b777069699f1541e7610ad84452e45dfed89b33ade3",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "service-catalog-launch-constraint",
+      "currentHash": "41bf0e2d31992ae60555eb0de599e2672b93908e4173d87073bd5ca9cb67a78d",
+      "approvedAt": "2026-10-08T16:32:40.311Z",
+      "note": "Revisão integral das nove questões afetadas contra snapshots atuais; corrigidos perf-90 e res-108, mantidos IDs e gabaritos. CloudWatch geral e impactos RDS conferidos. Evidência: content/source-review-2026-10-08.md; a integridade não equivale a releitura das 800."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "3a9526ece681d0f5bf3a8e3e5e6e16ae99778e4fc7ea024bff9c2e9767e1e2c4",
+      "approvedAt": "2026-10-08T16:32:41.070Z",
+      "note": "Triagem de 140 títulos, 16 resumos selecionados e trechos de dois artigos de governança/identidade; não são 140 artigos integralmente revisados. Sem impacto adicional demonstrado no banco; evidência: content/source-review-2026-10-08.md."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "489427ec9fe642ee79bcc02d2504c6967b40dba82bc1646736a4a407988329a7",
+      "approvedAt": "2026-10-08T16:32:41.070Z",
+      "note": "Triagem de 140 títulos, 16 resumos selecionados e trechos de dois artigos de governança/identidade; não são 140 artigos integralmente revisados. Sem impacto adicional demonstrado no banco; evidência: content/source-review-2026-10-08.md."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "d7eac8173cad994b6d5f674b804acb2a516223b27f6194f7434bac3b671a119a",
+      "approvedAt": "2026-10-08T16:32:41.070Z",
+      "note": "Triagem de 140 títulos, 16 resumos selecionados e trechos de dois artigos de governança/identidade; não são 140 artigos integralmente revisados. Sem impacto adicional demonstrado no banco; evidência: content/source-review-2026-10-08.md."
     }
   ]
 }

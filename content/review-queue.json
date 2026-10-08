@@ -1,8 +1,98 @@
 {
   "version": "2026.10.08-1",
-  "generatedAt": "2026-10-08T16:32:42.410Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-10-08T17:25:02.968Z",
+  "pendingChanges": [
+    {
+      "sourceId": "amp-eks",
+      "title": "Amazon EKS metrics with Amazon Managed Service for Prometheus",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/prometheus.html",
+      "tier": "service",
+      "detectedAt": "2026-10-08T17:25:02.292Z",
+      "currentHash": "2e18d38faa8e3e9444c363e4ca26a8677bbcbf6e09955fa0a8d72bf04dbda00d",
+      "affectedBlueprintIds": [
+        "perf-153"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudtrail-data-events",
+      "title": "Logging data events with AWS CloudTrail",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
+      "tier": "service",
+      "detectedAt": "2026-10-08T17:25:02.292Z",
+      "currentHash": "9cf638b4c352aa53382efe3102037bb909a096758956f1639dbfcdcac492588c",
+      "affectedBlueprintIds": [
+        "sec-73"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "title": "CloudTrail Lake and event data stores",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-10-08T17:25:02.292Z",
+      "currentHash": "fe34f7acb7ec9dec2739f39bf4a93b03f032be64eb4dc5c9db9933c88cca2a61",
+      "affectedBlueprintIds": [
+        "sec-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-access-policies",
+      "title": "Associate EKS access policies and namespace scopes",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/access-policies.html",
+      "tier": "service",
+      "detectedAt": "2026-10-08T17:25:02.292Z",
+      "currentHash": "4e85fa7d6dfb0c7f4fca1b498ba69fd4b6c0709385e1d2c77205c10847f977e8",
+      "affectedBlueprintIds": [
+        "sec-219"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-08T17:25:02.292Z",
+      "currentHash": "4e0e684783a0170c43cf75557e3b8296e37256772dbcf7b51f795b2271a0e0e6",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

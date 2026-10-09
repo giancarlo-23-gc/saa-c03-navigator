@@ -1,8 +1,222 @@
 {
   "version": "2026.10.08-2",
-  "generatedAt": "2026-10-08T17:39:49.409Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-10-09T17:00:31.823Z",
+  "pendingChanges": [
+    {
+      "sourceId": "cloudwatch-alarm-pricing",
+      "title": "Amazon CloudWatch pricing including high-resolution alarms",
+      "url": "https://aws.amazon.com/cloudwatch/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "83da1a1a57e9705b8cc2e53949cd5c5313b21b39ad3e9d3addba7b8b80c2ad14",
+      "affectedBlueprintIds": [
+        "cost-149"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito",
+      "title": "Amazon Cognito Developer Guide",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "33bd0f03cb09003a637d34d92c7a3f6f1fabbed1bfcf7b9999daa28c371cec52",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-client-security",
+      "title": "Cognito client secrets and unpredictable PKCE verifiers",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-security-best-practices.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "96dbccd2699c28246c96f6e556398637743ab068c06951ec3cb0ee9a9e5d7b6e",
+      "affectedBlueprintIds": [
+        "sec-181"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-identity-pool-settings",
+      "title": "Cognito identity pool authenticated and guest access settings",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "f70be5d88bb3933d9b1c5b227d6b277f8e28e0b5e030a5597845146b6c0cad6f",
+      "affectedBlueprintIds": [
+        "sec-211"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-pools-scenarios",
+      "title": "Common Amazon Cognito scenarios",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "60054526e3080b8f428ee96721aaa3d10c5c5c180d53e35742df94d7b7bc6ccf",
+      "affectedBlueprintIds": [
+        "sec-25"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-public-client-pkce",
+      "title": "Cognito public clients and authorization code with PKCE",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "bac4143f66bf2137bafb60d5dd197f31781a552494adf5408d74da9f101f6500",
+      "affectedBlueprintIds": [
+        "sec-181"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-threat-protection",
+      "title": "Amazon Cognito threat protection and adaptive authentication",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-settings-threat-protection.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "db77c8bb09990db454b058b4e637ffddb4ce31a5e8c6b3e5d9afa6d95557c3b5",
+      "affectedBlueprintIds": [
+        "sec-87"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "guardduty-rds-protection",
+      "title": "GuardDuty RDS Protection",
+      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/rds-protection.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "5683ca7c6cedb0f1564962917a0e0cceac29737f7ca37d5b22fff0eae1b332a6",
+      "affectedBlueprintIds": [
+        "sec-111"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda-sqs-scaling",
+      "title": "Configuring scaling behavior for SQS event source mappings",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-scaling.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "5ad0b943de6674d4da7d5f8bcddf5cab1fe1254c99843c5b27efd1bbe93c944b",
+      "affectedBlueprintIds": [
+        "res-91"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rds-backup-shared-storage-allocation",
+      "title": "RDS backups, AWS Backup periodic snapshots and shared backup storage allocation",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "20eaed52bb65631010050e521c0fced8bc1cfea550ca5a70db5593405d636b26",
+      "affectedBlueprintIds": [
+        "cost-158"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "waf-bot-control-targeted",
+      "title": "Choosing and configuring Bot Control for your use case",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html",
+      "tier": "service",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "2f716c248b85d76cccd8df5e8c926780f105eb6c420c70dd45fc06e882dea965",
+      "affectedBlueprintIds": [
+        "sec-108"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-09T17:00:30.822Z",
+      "currentHash": "ea21399fe31efafd064c3da0aa5fdfc24d217e1ce90be56ac69a56c993e45508",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

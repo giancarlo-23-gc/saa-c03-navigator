@@ -1,7 +1,97 @@
 {
   "version": "2026.10.08-2",
-  "generatedAt": "2026-10-09T17:00:31.823Z",
+  "generatedAt": "2026-10-10T15:53:12.053Z",
   "pendingChanges": [
+    {
+      "sourceId": "aurora-data-api-authorization",
+      "title": "Authorization for the Aurora Data API and Secrets Manager credentials",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.access.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "ccf90ddf063eeef8aac16a4e55e7bce441261d0404f9fdb087337ed9395e3275",
+      "affectedBlueprintIds": [
+        "sec-242"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "aurora-rds-data-api",
+      "title": "Use the RDS Data API with an Aurora DB cluster",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "c7e37f90f7581d45cfe18b286a3de53b4b592ef16f53ea6fbccb138773418e3e",
+      "affectedBlueprintIds": [
+        "perf-140"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "title": "AWS Builders Library caching challenges and request coalescing",
+      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "257c7309505411d438f6fb5a56f8b4f3e1beafc29c2cd56bbbc3f5344ce25eeb",
+      "affectedBlueprintIds": [
+        "perf-178"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudformation-continue-rollback",
+      "title": "CloudFormation recover UPDATE_ROLLBACK_FAILED",
+      "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "4f5fbfb0b280b0b33af61a47758a733bdc71692a80fdd08d2216096b53301150",
+      "affectedBlueprintIds": [
+        "res-165"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudwatch-alarm-action-transitions",
+      "title": "CloudWatch alarm actions on state transitions",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "7558a4c3999bc891b7bb5ac279dd72ccac5b66830b18bbde7338eada7a36650a",
+      "affectedBlueprintIds": [
+        "res-195"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cloudwatch-alarm-pricing",
       "title": "Amazon CloudWatch pricing including high-resolution alarms",
@@ -127,6 +217,24 @@
       ]
     },
     {
+      "sourceId": "drs-failback-client",
+      "title": "Failback to on-premises environment with AWS Elastic Disaster Recovery",
+      "url": "https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "2dc9f9bcdbb700c3e89e39626918ce86d1fedd1d9c23e45a97ee35c14eeac3dd",
+      "affectedBlueprintIds": [
+        "res-103"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "guardduty-rds-protection",
       "title": "GuardDuty RDS Protection",
       "url": "https://docs.aws.amazon.com/guardduty/latest/ug/rds-protection.html",
@@ -181,6 +289,60 @@
       ]
     },
     {
+      "sourceId": "secrets-cross-account",
+      "title": "Access an AWS Secrets Manager secret from a different account",
+      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "639c582df7d23c87e414b486ff6bcdcaa5df4074800978fbafe3ea1bdd3c9132",
+      "affectedBlueprintIds": [
+        "sec-54"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "secrets-manager-db-rotation",
+      "title": "Move database credentials to Secrets Manager and rotate them",
+      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/hardcoded-db-creds.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "802854d12b355a20f441f47d904646c05f6cf328e7f09a6f48138584a1a63085",
+      "affectedBlueprintIds": [
+        "sec-02"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "secrets-rotation",
+      "title": "Lambda rotation functions for AWS Secrets Manager",
+      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_lambda-functions.html",
+      "tier": "service",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "9115969f565609016748ccb29abe264d2534dbfe5e4ec47f651418ed08abec14",
+      "affectedBlueprintIds": [
+        "sec-64"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "waf-bot-control-targeted",
       "title": "Choosing and configuring Bot Control for your use case",
       "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html",
@@ -201,12 +363,28 @@
   ],
   "discoveryChanges": [
     {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "12d7a0f5616528f96246b7c658e64be416425a70d0d6f7cef23120d5ce9d3339",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "ea21399fe31efafd064c3da0aa5fdfc24d217e1ce90be56ac69a56c993e45508",
+      "detectedAt": "2026-10-10T15:53:11.067Z",
+      "currentHash": "272f16e523d32fdae599e4537c7f06e2e33d4a9f0e146d9f3a2a4f4bc1e350f4",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

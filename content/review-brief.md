@@ -1,6 +1,71 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **11**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **20**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Authorization for the Aurora Data API and Secrets Manager credentials
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.access.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: sec-242
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Use the RDS Data API with an Aurora DB cluster
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: perf-140
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Builders Library caching challenges and request coalescing
+
+- Fonte: https://aws.amazon.com/builders-library/caching-challenges-and-strategies/
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: perf-178
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## CloudFormation recover UPDATE_ROLLBACK_FAILED
+
+- Fonte: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: res-165
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## CloudWatch alarm actions on state transitions
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: res-195
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## Amazon CloudWatch pricing including high-resolution alarms
 
@@ -93,6 +158,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Failback to on-premises environment with AWS Elastic Disaster Recovery
+
+- Fonte: https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: res-103
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## GuardDuty RDS Protection
 
 - Fonte: https://docs.aws.amazon.com/guardduty/latest/ug/rds-protection.html
@@ -132,6 +210,45 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Access an AWS Secrets Manager secret from a different account
+
+- Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: sec-54
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Move database credentials to Secrets Manager and rotate them
+
+- Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/hardcoded-db-creds.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: sec-02
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Lambda rotation functions for AWS Secrets Manager
+
+- Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_lambda-functions.html
+- Detectada em: 2026-10-10T15:53:11.067Z
+- Questões afetadas: sec-64
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Choosing and configuring Bot Control for your use case
 
 - Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html
@@ -145,10 +262,11 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (1)
+## Sinais de descoberta (2)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.

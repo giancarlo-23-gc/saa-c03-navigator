@@ -1,6 +1,6 @@
 {
   "version": "2026.10.08-2",
-  "generatedAt": "2026-10-10T15:53:12.053Z",
+  "generatedAt": "2026-10-11T16:20:11.991Z",
   "pendingChanges": [
     {
       "sourceId": "aurora-data-api-authorization",
@@ -383,8 +383,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "272f16e523d32fdae599e4537c7f06e2e33d4a9f0e146d9f3a2a4f4bc1e350f4",
+      "detectedAt": "2026-10-11T16:20:11.088Z",
+      "currentHash": "82cac85ed05d84a7a2d4a14946529253e067702e5c4de7b8e5694f919e153f9c",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **20**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **23**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Authorization for the Aurora Data API and Secrets Manager credentials
 
@@ -46,6 +46,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html
 - Detectada em: 2026-10-10T15:53:11.067Z
 - Questões afetadas: res-165
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Logging data events with AWS CloudTrail
+
+- Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
+- Detectada em: 2026-10-12T19:48:59.794Z
+- Questões afetadas: sec-73
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## CloudTrail Lake and event data stores
+
+- Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
+- Detectada em: 2026-10-12T19:48:59.794Z
+- Questões afetadas: sec-90
 
 Checklist:
 
@@ -197,6 +223,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## OpenSearch bulk ingestion and refresh interval performance
+
+- Fonte: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/bp.html
+- Detectada em: 2026-10-12T19:48:59.794Z
+- Questões afetadas: perf-185
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## RDS backups, AWS Backup periodic snapshots and shared backup storage allocation
 
 - Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html
@@ -262,10 +301,11 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (2)
+## Sinais de descoberta (3)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
 - AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 

@@ -1,6 +1,6 @@
 {
   "version": "2026.10.08-2",
-  "generatedAt": "2026-10-11T16:20:11.991Z",
+  "generatedAt": "2026-10-12T19:49:00.799Z",
   "pendingChanges": [
     {
       "sourceId": "aurora-data-api-authorization",
@@ -65,6 +65,42 @@
       "currentHash": "4f5fbfb0b280b0b33af61a47758a733bdc71692a80fdd08d2216096b53301150",
       "affectedBlueprintIds": [
         "res-165"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudtrail-data-events",
+      "title": "Logging data events with AWS CloudTrail",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
+      "tier": "service",
+      "detectedAt": "2026-10-12T19:48:59.794Z",
+      "currentHash": "f8152f6f240ecfab42a63c15707319d211a9692d1df55e9b2c1d11cc5bc918f8",
+      "affectedBlueprintIds": [
+        "sec-73"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "title": "CloudTrail Lake and event data stores",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-10-12T19:48:59.794Z",
+      "currentHash": "50e0a83ed5fc299b02c3c3971f530f4218c71247007b9c94b86b17fefe4428d8",
+      "affectedBlueprintIds": [
+        "sec-90"
       ],
       "status": "pending",
       "requiredActions": [
@@ -271,6 +307,24 @@
       ]
     },
     {
+      "sourceId": "opensearch-indexing-best-practices",
+      "title": "OpenSearch bulk ingestion and refresh interval performance",
+      "url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/bp.html",
+      "tier": "service",
+      "detectedAt": "2026-10-12T19:48:59.794Z",
+      "currentHash": "5fb8e80d219790addc05dcbd10a95856f2f3546049e2195d17077d061d6ef8dc",
+      "affectedBlueprintIds": [
+        "perf-185"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "rds-backup-shared-storage-allocation",
       "title": "RDS backups, AWS Backup periodic snapshots and shared backup storage allocation",
       "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html",
@@ -363,6 +417,22 @@
   ],
   "discoveryChanges": [
     {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-12T19:48:59.794Z",
+      "currentHash": "7da7d7d59a87b2f07ae875cc21129db2a33259817c739a1c639c804c901d1bcc",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "security-blog",
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -383,8 +453,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-11T16:20:11.088Z",
-      "currentHash": "82cac85ed05d84a7a2d4a14946529253e067702e5c4de7b8e5694f919e153f9c",
+      "detectedAt": "2026-10-12T19:48:59.794Z",
+      "currentHash": "43fdc4335d30b2e4bd3e60807b70176ca5067881e4f4434afc10b9af900c8a21",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

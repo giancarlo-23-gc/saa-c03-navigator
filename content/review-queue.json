@@ -1,1177 +1,8 @@
 {
-  "version": "2026.10.08-2",
-  "generatedAt": "2026-10-13T17:36:39.761Z",
-  "pendingChanges": [
-    {
-      "sourceId": "aurora-data-api-authorization",
-      "title": "Authorization for the Aurora Data API and Secrets Manager credentials",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.access.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "ccf90ddf063eeef8aac16a4e55e7bce441261d0404f9fdb087337ed9395e3275",
-      "affectedBlueprintIds": [
-        "sec-242"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "aurora-rds-data-api",
-      "title": "Use the RDS Data API with an Aurora DB cluster",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "c7e37f90f7581d45cfe18b286a3de53b4b592ef16f53ea6fbccb138773418e3e",
-      "affectedBlueprintIds": [
-        "perf-140"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "aws-backup-s3-continuous",
-      "title": "Amazon S3 backups with AWS Backup",
-      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/s3-backups.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "bc27a73f1a97bee5a6ea1f2d37333c0c2d7f3fa32d0f545a5a7a3fe64c118dfb",
-      "affectedBlueprintIds": [
-        "res-133"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "builders-library-cache-coalescing",
-      "title": "AWS Builders Library caching challenges and request coalescing",
-      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "257c7309505411d438f6fb5a56f8b4f3e1beafc29c2cd56bbbc3f5344ce25eeb",
-      "affectedBlueprintIds": [
-        "perf-178"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudformation-continue-rollback",
-      "title": "CloudFormation recover UPDATE_ROLLBACK_FAILED",
-      "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-continueupdaterollback.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "4f5fbfb0b280b0b33af61a47758a733bdc71692a80fdd08d2216096b53301150",
-      "affectedBlueprintIds": [
-        "res-165"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudfront-s3-oac",
-      "title": "Restrict access to an Amazon S3 origin",
-      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "fc0dad24dcf2755c164cd1e9b368660b241b3d9e59090b6b1ca33430d77c52bb",
-      "affectedBlueprintIds": [
-        "sec-24",
-        "sec-236",
-        "sec-237"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudtrail-data-events",
-      "title": "Logging data events with AWS CloudTrail",
-      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
-      "tier": "service",
-      "detectedAt": "2026-10-12T19:48:59.794Z",
-      "currentHash": "f8152f6f240ecfab42a63c15707319d211a9692d1df55e9b2c1d11cc5bc918f8",
-      "affectedBlueprintIds": [
-        "sec-73"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudtrail-lake-eds",
-      "title": "CloudTrail Lake and event data stores",
-      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
-      "tier": "service",
-      "detectedAt": "2026-10-12T19:48:59.794Z",
-      "currentHash": "50e0a83ed5fc299b02c3c3971f530f4218c71247007b9c94b86b17fefe4428d8",
-      "affectedBlueprintIds": [
-        "sec-90"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-alarm-action-transitions",
-      "title": "CloudWatch alarm actions on state transitions",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "7558a4c3999bc891b7bb5ac279dd72ccac5b66830b18bbde7338eada7a36650a",
-      "affectedBlueprintIds": [
-        "res-195"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-alarm-pricing",
-      "title": "Amazon CloudWatch pricing including high-resolution alarms",
-      "url": "https://aws.amazon.com/cloudwatch/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "83da1a1a57e9705b8cc2e53949cd5c5313b21b39ad3e9d3addba7b8b80c2ad14",
-      "affectedBlueprintIds": [
-        "cost-149"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito",
-      "title": "Amazon Cognito Developer Guide",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "33bd0f03cb09003a637d34d92c7a3f6f1fabbed1bfcf7b9999daa28c371cec52",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-client-security",
-      "title": "Cognito client secrets and unpredictable PKCE verifiers",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-security-best-practices.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "96dbccd2699c28246c96f6e556398637743ab068c06951ec3cb0ee9a9e5d7b6e",
-      "affectedBlueprintIds": [
-        "sec-181"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-identity-pool-settings",
-      "title": "Cognito identity pool authenticated and guest access settings",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "f70be5d88bb3933d9b1c5b227d6b277f8e28e0b5e030a5597845146b6c0cad6f",
-      "affectedBlueprintIds": [
-        "sec-211"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-pools-scenarios",
-      "title": "Common Amazon Cognito scenarios",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "60054526e3080b8f428ee96721aaa3d10c5c5c180d53e35742df94d7b7bc6ccf",
-      "affectedBlueprintIds": [
-        "sec-25"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-public-client-pkce",
-      "title": "Cognito public clients and authorization code with PKCE",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "bac4143f66bf2137bafb60d5dd197f31781a552494adf5408d74da9f101f6500",
-      "affectedBlueprintIds": [
-        "sec-181"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-threat-protection",
-      "title": "Amazon Cognito threat protection and adaptive authentication",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-settings-threat-protection.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "db77c8bb09990db454b058b4e637ffddb4ce31a5e8c6b3e5d9afa6d95557c3b5",
-      "affectedBlueprintIds": [
-        "sec-87"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "datasync-enhanced-mode",
-      "title": "Choosing a DataSync task mode",
-      "url": "https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "16e98bed450cd794ad01cc5b1cb39bd504291749aef55d7bbc9e8ea941ce3530",
-      "affectedBlueprintIds": [
-        "perf-111"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "datasync-security-descriptors",
-      "title": "AWS DataSync handling of Windows ownership and ACL metadata",
-      "url": "https://docs.aws.amazon.com/datasync/latest/userguide/configure-metadata.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "bca0cfb3c0820d6e0d3d6d474db519b6fcb6caf1b1c9cbaa5037f0a3570ffc39",
-      "affectedBlueprintIds": [
-        "sec-155"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "drs-failback-client",
-      "title": "Failback to on-premises environment with AWS Elastic Disaster Recovery",
-      "url": "https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "2dc9f9bcdbb700c3e89e39626918ce86d1fedd1d9c23e45a97ee35c14eeac3dd",
-      "affectedBlueprintIds": [
-        "res-103"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "dynamodb-leading-keys",
-      "title": "IAM condition keys for DynamoDB",
-      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/specifying-conditions.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "625482a9cb6b9cad910e39caaa31f411fb6600c8bf13252b01f27db249b2b255",
-      "affectedBlueprintIds": [
-        "sec-112"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-capacity-blocks-window",
-      "title": "EC2 Capacity Blocks for scheduled short GPU workloads",
-      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "95ae790d21c1fbd164a1e973bd8a0d62e71ab08f5088b8252d4d35ef377ed988",
-      "affectedBlueprintIds": [
-        "cost-138"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "elasticache-current-pricing",
-      "title": "Amazon ElastiCache pricing by engine and deployment",
-      "url": "https://aws.amazon.com/elasticache/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "ed48c4122f921734a4c0c1f3a515f95b52b1a8f9d08cd2f1d336e518ffad438b",
-      "affectedBlueprintIds": [
-        "cost-126"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "guardduty-rds-protection",
-      "title": "GuardDuty RDS Protection",
-      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/rds-protection.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "5683ca7c6cedb0f1564962917a0e0cceac29737f7ca37d5b22fff0eae1b332a6",
-      "affectedBlueprintIds": [
-        "sec-111"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda",
-      "title": "AWS Lambda Developer Guide",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "bebc760e899fb62613dd508d5ae6513556785417bd9c1a5e23d96af8bc6a8258",
-      "affectedBlueprintIds": [
-        "res-33"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-arm64",
-      "title": "Selecting an instruction set architecture for AWS Lambda",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "af4d077402d3df3cf3c924f12a844822d5365ffb7001a64d52a874cf355f50f9",
-      "affectedBlueprintIds": [
-        "cost-50"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-async-error-semantics",
-      "title": "Lambda asynchronous invocation errors and retry behavior",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/invocation-async-error-handling.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "7ed509cdad1f56ec7d2e22235682cfa562dc28ebadb1e1cb450de917307190d5",
-      "affectedBlueprintIds": [
-        "res-187"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-async-errors",
-      "title": "Configuring error handling for asynchronous Lambda invocation",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/invocation-async-configuring.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "9e28eb5410b01e2463dd28079f0cb799d862b21dff11a8a1b942f1eb87697e9f",
-      "affectedBlueprintIds": [
-        "res-49"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-async-failure-records",
-      "title": "Capture Lambda asynchronous invocation records and distinguish SQS DLQs",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/invocation-async-retain-records.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "c347f7e5bf3244547aa7f14aed1d29794275039e214770bd033b4ab49a7bd378",
-      "affectedBlueprintIds": [
-        "res-196"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-code-signing-enforce",
-      "title": "Lambda code signing trust enforcement at deployment",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-codesigning.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "af61f7e5068c433bd01bf34a835cf999775b3b851bda1f6032d10f530639435d",
-      "affectedBlueprintIds": [
-        "sec-178"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-ephemeral-storage",
-      "title": "AWS Lambda configurable ephemeral storage",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-ephemeral-storage.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "5e447be8136c3d0c70add39a604272c23a48caf8b44c8451107c277a590e6147",
-      "affectedBlueprintIds": [
-        "perf-38"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-ephemeral-storage-pricing",
-      "title": "AWS Lambda pricing: ephemeral storage",
-      "url": "https://aws.amazon.com/lambda/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "8584c981a76a295a69f224cc40216d76a446f1cdde834788fee01ff577a7a647",
-      "affectedBlueprintIds": [
-        "cost-107"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-event-filtering",
-      "title": "AWS Lambda event filtering",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventfiltering.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "3c8241eb4f83cf4d88ea4d8332bbd16f5dabdf97722bc782bf01b63c2b47dda2",
-      "affectedBlueprintIds": [
-        "perf-104"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-eventbridge-scheduler",
-      "title": "Invoke a Lambda function on a schedule",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-eventbridge-scheduler.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "d33fefa60deafeab2477b400303f31ca334dab06df8ca1f6070b5ef99fdb8cf2",
-      "affectedBlueprintIds": [
-        "cost-06"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-invoke-api",
-      "title": "Lambda Invoke API invocation status versus function errors",
-      "url": "https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "de908db199b88b399b559692d65210589f9b6f0718285870718b632d9f4c05cf",
-      "affectedBlueprintIds": [
-        "res-187"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-kinesis-onfailure",
-      "title": "Retain discarded Kinesis batch records in Amazon S3",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/kinesis-on-failure-destination.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "2794dab502d6012b9aaebb6df385c76338140f8f0c33d374e69f159c7520afa4",
-      "affectedBlueprintIds": [
-        "res-124"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-kinesis-parallelization",
-      "title": "Using Lambda with Kinesis Data Streams",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "0f9b67cf20e3bd755aecb623d259e8e5cd709b74d2ddb05d391ded7c917ceb13",
-      "affectedBlueprintIds": [
-        "perf-109"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-kinesis-partial-batch",
-      "title": "Configuring partial batch response with Kinesis and Lambda",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-kinesis-batchfailurereporting.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "37b0e991918850491d619dfae1ee6a8fc53fed72b208723e58391aba33f73212",
-      "affectedBlueprintIds": [
-        "res-125"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-log-level-filtering",
-      "title": "Log-level filtering for AWS Lambda",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/monitoring-cloudwatchlogs-log-level.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "905c56c8a8c1906c281fb7d14a3cf2b5d8841fa90bc009f80111408d67f9bc51",
-      "affectedBlueprintIds": [
-        "cost-95"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-memory-cpu",
-      "title": "Lambda memory allocation and proportional CPU",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-memory.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "d8164e0465d1c19395f705aca8ca308e1291cf9e51b5ebec213455af43ca5806",
-      "affectedBlueprintIds": [
-        "perf-35"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-provisioned-concurrency",
-      "title": "Lambda provisioned concurrency for predictable startup latency",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "282137de62debce4ce96831b65c9f0b9c2a2f1fe6fbe5c1c350f8bf33d5b5005",
-      "affectedBlueprintIds": [
-        "perf-34",
-        "cost-136",
-        "perf-189"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-request-concurrency-quotas",
-      "title": "Lambda request quotas for functions and provisioned aliases",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "555adecebd92751e833e5d69846199f7981d107893ef2a10bf133f30ab026aa8",
-      "affectedBlueprintIds": [
-        "perf-189"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-reserved-concurrency",
-      "title": "Configuring reserved concurrency for an AWS Lambda function",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "0d3ea6512d3b70c8189da8e2a629d0163bf6a1357f373a209249da87d8b043b6",
-      "affectedBlueprintIds": [
-        "res-60"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-response-streaming",
-      "title": "Invoking Lambda response streaming with function URLs",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/config-rs-invoke-furls.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "b8e4feaf70e0e8115952237a8510103a6fe4ee449dbdcae71b13210083c2b75e",
-      "affectedBlueprintIds": [
-        "perf-79"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-s3-batch-integration",
-      "title": "Lambda integration with S3 Batch Operations",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-s3-batch.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "d6ff2fd2aa34677f34bd19fad28771318a6863f98a700c07fc887dc512969283",
-      "affectedBlueprintIds": [
-        "res-208"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-s3-recursion",
-      "title": "Lambda S3 event integration and recursive invocation prevention",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "9870e4c5ba860a1622c0f6d15dec2b68a7cd6736de7e70fe8a6514ab3ba0b9a3",
-      "affectedBlueprintIds": [
-        "res-150"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-snapstart",
-      "title": "Improving startup performance with Lambda SnapStart",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "3d3d956ab2854d065cadd26769bad1ed164237c738aa69d6dd02f08cca332bdd",
-      "affectedBlueprintIds": [
-        "perf-50"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-sqs-batching-window",
-      "title": "Configure Lambda batches and batching window for an SQS event source",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-configure.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "9c25e1d11f068db50531e8691f7494bc136664add6892a955a4392aefa58714b",
-      "affectedBlueprintIds": [
-        "perf-138"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-sqs-invocation-model",
-      "title": "Lambda polling and synchronous invocation for an SQS event source",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "4e91c58b1242978897231db3a060f4fe642207cef159b0843901bb526cdc4235",
-      "affectedBlueprintIds": [
-        "res-196"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-sqs-partial-batch",
-      "title": "Handling errors for an SQS event source in Lambda",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-errorhandling.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "1217107b2d49e8c75f9ea1b00288efdb456bcb1b36cb4cefc89b57b9f3ac9916",
-      "affectedBlueprintIds": [
-        "res-33",
-        "res-179"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-sqs-scaling",
-      "title": "Configuring scaling behavior for SQS event source mappings",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-scaling.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "195292bfd6f9a84915ed18248ebd3f800e0013d7d945ba99c64d94ce833cc794",
-      "affectedBlueprintIds": [
-        "res-91"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-timeout",
-      "title": "AWS Lambda function timeout",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-timeout.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "b6c8764b2953704af5fda7490200d0642cd0b79c10039cae49a10de823bf4b8d",
-      "affectedBlueprintIds": [
-        "res-21"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-url-auth-permissions",
-      "title": "Lambda function URL authentication and cross-account permissions",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "10f5c06de4d87a85e08e1138941a2c7a21e842c94167041d2525713ddcafef8f",
-      "affectedBlueprintIds": [
-        "sec-197"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-url-invocation-signing",
-      "title": "Invoking Lambda function URLs with SigV4",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/urls-invocation.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "fdfb3aaef886dc9c2705a3b2c73b390b607660f9f76eda32a23154a9b8008b40",
-      "affectedBlueprintIds": [
-        "sec-197"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-vpc-internet-routing",
-      "title": "Internet routing for VPC-connected Lambda functions",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-internet.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "3ad60c7fa6fb9300d874a97996ceb8eb915af0cf883781467685536ac747c1a0",
-      "affectedBlueprintIds": [
-        "perf-183"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-weighted-alias-routing",
-      "title": "Lambda weighted aliases and executed version monitoring",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuring-alias-routing.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "75ad39be87fa86b941d796242a51191cdfe4dcbbea9a8543bafeee0356e31920",
-      "affectedBlueprintIds": [
-        "res-174"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "opensearch-indexing-best-practices",
-      "title": "OpenSearch bulk ingestion and refresh interval performance",
-      "url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/bp.html",
-      "tier": "service",
-      "detectedAt": "2026-10-12T19:48:59.794Z",
-      "currentHash": "5fb8e80d219790addc05dcbd10a95856f2f3546049e2195d17077d061d6ef8dc",
-      "affectedBlueprintIds": [
-        "perf-185"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-backup-shared-storage-allocation",
-      "title": "RDS backups, AWS Backup periodic snapshots and shared backup storage allocation",
-      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "20eaed52bb65631010050e521c0fced8bc1cfea550ca5a70db5593405d636b26",
-      "affectedBlueprintIds": [
-        "cost-158"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "redshift-vacuum-delete-space",
-      "title": "Redshift VACUUM DELETE ONLY reclaim deleted row space",
-      "url": "https://docs.aws.amazon.com/redshift/latest/dg/r_VACUUM_command.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "723d203d98e38ea5eb7c0601cfc48bf8243f1885539d2ad06f1c3d1c9125eab6",
-      "affectedBlueprintIds": [
-        "cost-130"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "secrets-cross-account",
-      "title": "Access an AWS Secrets Manager secret from a different account",
-      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "639c582df7d23c87e414b486ff6bcdcaa5df4074800978fbafe3ea1bdd3c9132",
-      "affectedBlueprintIds": [
-        "sec-54"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "secrets-manager-db-rotation",
-      "title": "Move database credentials to Secrets Manager and rotate them",
-      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/hardcoded-db-creds.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "802854d12b355a20f441f47d904646c05f6cf328e7f09a6f48138584a1a63085",
-      "affectedBlueprintIds": [
-        "sec-02"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "secrets-rotation",
-      "title": "Lambda rotation functions for AWS Secrets Manager",
-      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotate-secrets_lambda-functions.html",
-      "tier": "service",
-      "detectedAt": "2026-10-10T15:53:11.067Z",
-      "currentHash": "9115969f565609016748ccb29abe264d2534dbfe5e4ec47f651418ed08abec14",
-      "affectedBlueprintIds": [
-        "sec-64"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "waf-bot-control-targeted",
-      "title": "Choosing and configuring Bot Control for your use case",
-      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html",
-      "tier": "service",
-      "detectedAt": "2026-10-09T17:00:30.822Z",
-      "currentHash": "2f716c248b85d76cccd8df5e8c926780f105eb6c420c70dd45fc06e882dea965",
-      "affectedBlueprintIds": [
-        "sec-108"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "16aa8bdd20bb7861cfa0cee62b029c9e8cd9b37cfaac5fa359cda74b6b8db4ac",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "36c9e93bcdc48f3f0b88c249d752a04ca61695c071d778a235756d6859f72e1d",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-13T17:36:39.152Z",
-      "currentHash": "bf04197c028072a5ad33e813c5470e73fd4b1da0674be231ffb7c758d33a4357",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.14-1",
+  "generatedAt": "2026-10-14T14:03:23.742Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -1790,6 +621,438 @@
       "currentHash": "4e0e684783a0170c43cf75557e3b8296e37256772dbcf7b51f795b2271a0e0e6",
       "approvedAt": "2026-10-08T17:39:48.125Z",
       "note": "Complemento de 08/10/2026: comparados os 100 registros de RSS por URL, título, data e descrição contra a triagem de 16:20. Zero itens novos/modificados; mudança do RSS sem mudança dos itens já triados. Não é nova leitura de 100 artigos. Evidência em content/source-review-2026-10-08-followup.md."
+    },
+    {
+      "sourceId": "asg-sqs-backlog",
+      "currentHash": "3cb3639e6aea3f6f327e1f8662aa071281072b1d2322afef5043a30b9d5bbb67",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "aurora-data-api-authorization",
+      "currentHash": "ccf90ddf063eeef8aac16a4e55e7bce441261d0404f9fdb087337ed9395e3275",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "aurora-rds-data-api",
+      "currentHash": "c7e37f90f7581d45cfe18b286a3de53b4b592ef16f53ea6fbccb138773418e3e",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "aws-backup-s3-continuous",
+      "currentHash": "bc27a73f1a97bee5a6ea1f2d37333c0c2d7f3fa32d0f545a5a7a3fe64c118dfb",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "currentHash": "257c7309505411d438f6fb5a56f8b4f3e1beafc29c2cd56bbbc3f5344ce25eeb",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudformation-continue-rollback",
+      "currentHash": "4f5fbfb0b280b0b33af61a47758a733bdc71692a80fdd08d2216096b53301150",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudfront-s3-oac",
+      "currentHash": "fc0dad24dcf2755c164cd1e9b368660b241b3d9e59090b6b1ca33430d77c52bb",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudtrail-data-events",
+      "currentHash": "f8152f6f240ecfab42a63c15707319d211a9692d1df55e9b2c1d11cc5bc918f8",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "currentHash": "50e0a83ed5fc299b02c3c3971f530f4218c71247007b9c94b86b17fefe4428d8",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudwatch-alarm-action-transitions",
+      "currentHash": "7558a4c3999bc891b7bb5ac279dd72ccac5b66830b18bbde7338eada7a36650a",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cloudwatch-alarm-pricing",
+      "currentHash": "83da1a1a57e9705b8cc2e53949cd5c5313b21b39ad3e9d3addba7b8b80c2ad14",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito",
+      "currentHash": "33bd0f03cb09003a637d34d92c7a3f6f1fabbed1bfcf7b9999daa28c371cec52",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito-client-security",
+      "currentHash": "96dbccd2699c28246c96f6e556398637743ab068c06951ec3cb0ee9a9e5d7b6e",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito-identity-pool-settings",
+      "currentHash": "f70be5d88bb3933d9b1c5b227d6b277f8e28e0b5e030a5597845146b6c0cad6f",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito-pools-scenarios",
+      "currentHash": "60054526e3080b8f428ee96721aaa3d10c5c5c180d53e35742df94d7b7bc6ccf",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito-public-client-pkce",
+      "currentHash": "bac4143f66bf2137bafb60d5dd197f31781a552494adf5408d74da9f101f6500",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "cognito-threat-protection",
+      "currentHash": "db77c8bb09990db454b058b4e637ffddb4ce31a5e8c6b3e5d9afa6d95557c3b5",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "datasync-enhanced-mode",
+      "currentHash": "16e98bed450cd794ad01cc5b1cb39bd504291749aef55d7bbc9e8ea941ce3530",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "datasync-security-descriptors",
+      "currentHash": "bca0cfb3c0820d6e0d3d6d474db519b6fcb6caf1b1c9cbaa5037f0a3570ffc39",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "drs-failback-client",
+      "currentHash": "2dc9f9bcdbb700c3e89e39626918ce86d1fedd1d9c23e45a97ee35c14eeac3dd",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "dynamodb-global-tables-mrsc",
+      "currentHash": "90657923d3b69648dfed7311202fa48d49b3fb0e165ad1c2debdc6ee6b431880",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "dynamodb-leading-keys",
+      "currentHash": "c1a6fe1035be5fed54d5ada3bed49c9ca95be9a10c30b2b30ccd9d3c95789df9",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "dynamodb-transaction-client-token",
+      "currentHash": "06fa1a6ecfb42ae3a929f69eeb29ac81b09c601c1c0fd15f73cc84dd4999992b",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "ebs-dlm-policies",
+      "currentHash": "9842aebac334a9da7d2f16f91b9655b84ff71e31daa396f2c0a6b42f2eb367c1",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "ec2-asg-sqs-backlog",
+      "currentHash": "3cb3639e6aea3f6f327e1f8662aa071281072b1d2322afef5043a30b9d5bbb67",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "ec2-capacity-blocks-window",
+      "currentHash": "95ae790d21c1fbd164a1e973bd8a0d62e71ab08f5088b8252d4d35ef377ed988",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "elasticache-current-pricing",
+      "currentHash": "12e4cfd2fb8544be9c9d1c75b8273b4dbdc2e2c8ca6ce4f174e36a645e5c405d",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "guardduty-rds-protection",
+      "currentHash": "5683ca7c6cedb0f1564962917a0e0cceac29737f7ca37d5b22fff0eae1b332a6",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda",
+      "currentHash": "bebc760e899fb62613dd508d5ae6513556785417bd9c1a5e23d96af8bc6a8258",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-arm64",
+      "currentHash": "af4d077402d3df3cf3c924f12a844822d5365ffb7001a64d52a874cf355f50f9",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-async-error-semantics",
+      "currentHash": "7ed509cdad1f56ec7d2e22235682cfa562dc28ebadb1e1cb450de917307190d5",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-async-errors",
+      "currentHash": "9e28eb5410b01e2463dd28079f0cb799d862b21dff11a8a1b942f1eb87697e9f",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-async-failure-records",
+      "currentHash": "c347f7e5bf3244547aa7f14aed1d29794275039e214770bd033b4ab49a7bd378",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-code-signing-enforce",
+      "currentHash": "af61f7e5068c433bd01bf34a835cf999775b3b851bda1f6032d10f530639435d",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-container-image-requirements",
+      "currentHash": "c598dd5c3b8ff79e157966effb18de96d46919116bff3ff8641016fa09b2b20b",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-ephemeral-storage",
+      "currentHash": "5e447be8136c3d0c70add39a604272c23a48caf8b44c8451107c277a590e6147",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-ephemeral-storage-pricing",
+      "currentHash": "ad72a5475caf954514b99b644d96255904005c1429973cafa64abbcdaa2f3e62",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-event-filtering",
+      "currentHash": "3c8241eb4f83cf4d88ea4d8332bbd16f5dabdf97722bc782bf01b63c2b47dda2",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-eventbridge-scheduler",
+      "currentHash": "d33fefa60deafeab2477b400303f31ca334dab06df8ca1f6070b5ef99fdb8cf2",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-invoke-api",
+      "currentHash": "de908db199b88b399b559692d65210589f9b6f0718285870718b632d9f4c05cf",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-kinesis-onfailure",
+      "currentHash": "2794dab502d6012b9aaebb6df385c76338140f8f0c33d374e69f159c7520afa4",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-kinesis-parallelization",
+      "currentHash": "0f9b67cf20e3bd755aecb623d259e8e5cd709b74d2ddb05d391ded7c917ceb13",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-kinesis-partial-batch",
+      "currentHash": "37b0e991918850491d619dfae1ee6a8fc53fed72b208723e58391aba33f73212",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-log-level-filtering",
+      "currentHash": "905c56c8a8c1906c281fb7d14a3cf2b5d8841fa90bc009f80111408d67f9bc51",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-memory-cpu",
+      "currentHash": "d8164e0465d1c19395f705aca8ca308e1291cf9e51b5ebec213455af43ca5806",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-provisioned-concurrency",
+      "currentHash": "282137de62debce4ce96831b65c9f0b9c2a2f1fe6fbe5c1c350f8bf33d5b5005",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-request-concurrency-quotas",
+      "currentHash": "94a3c47a05e5a073a2d2ad58e9f08f3a1876b9ac42c9339dec9f892c780f66e4",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-reserved-concurrency",
+      "currentHash": "0d3ea6512d3b70c8189da8e2a629d0163bf6a1357f373a209249da87d8b043b6",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-response-streaming",
+      "currentHash": "b8e4feaf70e0e8115952237a8510103a6fe4ee449dbdcae71b13210083c2b75e",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-s3-batch-integration",
+      "currentHash": "d6ff2fd2aa34677f34bd19fad28771318a6863f98a700c07fc887dc512969283",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-s3-recursion",
+      "currentHash": "9870e4c5ba860a1622c0f6d15dec2b68a7cd6736de7e70fe8a6514ab3ba0b9a3",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-snapstart",
+      "currentHash": "3d3d956ab2854d065cadd26769bad1ed164237c738aa69d6dd02f08cca332bdd",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-sqs-batching-window",
+      "currentHash": "9c25e1d11f068db50531e8691f7494bc136664add6892a955a4392aefa58714b",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-sqs-invocation-model",
+      "currentHash": "4e91c58b1242978897231db3a060f4fe642207cef159b0843901bb526cdc4235",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-sqs-partial-batch",
+      "currentHash": "1217107b2d49e8c75f9ea1b00288efdb456bcb1b36cb4cefc89b57b9f3ac9916",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-sqs-scaling",
+      "currentHash": "195292bfd6f9a84915ed18248ebd3f800e0013d7d945ba99c64d94ce833cc794",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-timeout",
+      "currentHash": "b6c8764b2953704af5fda7490200d0642cd0b79c10039cae49a10de823bf4b8d",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-url-auth-permissions",
+      "currentHash": "10f5c06de4d87a85e08e1138941a2c7a21e842c94167041d2525713ddcafef8f",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-url-invocation-signing",
+      "currentHash": "fdfb3aaef886dc9c2705a3b2c73b390b607660f9f76eda32a23154a9b8008b40",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-vpc-internet-routing",
+      "currentHash": "3ad60c7fa6fb9300d874a97996ceb8eb915af0cf883781467685536ac747c1a0",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "lambda-weighted-alias-routing",
+      "currentHash": "75ad39be87fa86b941d796242a51191cdfe4dcbbea9a8543bafeee0356e31920",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "opensearch-indexing-best-practices",
+      "currentHash": "5fb8e80d219790addc05dcbd10a95856f2f3546049e2195d17077d061d6ef8dc",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "rds-backup-shared-storage-allocation",
+      "currentHash": "20eaed52bb65631010050e521c0fced8bc1cfea550ca5a70db5593405d636b26",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "redshift-vacuum-delete-space",
+      "currentHash": "723d203d98e38ea5eb7c0601cfc48bf8243f1885539d2ad06f1c3d1c9125eab6",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "secrets-cross-account",
+      "currentHash": "639c582df7d23c87e414b486ff6bcdcaa5df4074800978fbafe3ea1bdd3c9132",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "secrets-manager-db-rotation",
+      "currentHash": "802854d12b355a20f441f47d904646c05f6cf328e7f09a6f48138584a1a63085",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "secrets-rotation",
+      "currentHash": "9115969f565609016748ccb29abe264d2534dbfe5e4ec47f651418ed08abec14",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "security-hub-region-aggregation",
+      "currentHash": "9425077d0f95461b2bc4d36b6f1cb18865b8b93978472b1567c6c4e5252576ab",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "waf-bot-control-targeted",
+      "currentHash": "2f716c248b85d76cccd8df5e8c926780f105eb6c420c70dd45fc06e882dea965",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "6da9790a463e5c6dab0139f4c291ef94f796d7ab22c18280c0e68d3871a55ebb",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "f46c8c996e987b71e357435976d5171c611b5be5ee4792ba9e1667173bf4d4a3",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "6845364e627991829ed1264c47144719750824b42bb7ddbdfa4f5f74b56ad822",
+      "approvedAt": "2026-10-14T14:03:21.928Z",
+      "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
     }
   ]
 }

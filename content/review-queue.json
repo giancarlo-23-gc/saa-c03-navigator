@@ -1,6 +1,6 @@
 {
   "version": "2026.10.14-1",
-  "generatedAt": "2026-10-14T14:03:23.742Z",
+  "generatedAt": "2026-10-14T14:48:13.241Z",
   "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
@@ -1053,6 +1053,30 @@
       "currentHash": "6845364e627991829ed1264c47144719750824b42bb7ddbdfa4f5f74b56ad822",
       "approvedAt": "2026-10-14T14:03:21.928Z",
       "note": "Revisão deliberada de 14/10/2026: 67 itens integralmente relidos contra 69 referências; dez correções/esclarecimentos, 800 IDs/gabaritos preservados e 790 fingerprints iguais. Snapshots consultados sem drift. Feeds: 140 títulos e resumos pertinentes, não artigos integrais. Evidência: content/source-review-2026-10-14.md e editorial-evidence.md. Gates e publicação são etapas separadas, sem aprovação automática."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "ac09c200a6b4b85d9f6cecb1bd1e7829136ea28ac1a4e08656f2b8dcd9fcd4a2",
+      "approvedAt": "2026-10-14T14:48:11.592Z",
+      "note": "Fechamento deliberado em content/source-review-2026-10-14.md: dois artigos novos lidos e perf-97/perf-108 mantidas; Security/Training idênticos ao baseline, Whats New só datas do canal. Migração v2 preserva conteúdo/datas dos itens; hashes diretos coincidem com o snapshot. Nenhum gabarito alterado."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "01e4beb88f0e1c15c1a0e6b5c062dea60b880582d0f2ede577080a03c776a62d",
+      "approvedAt": "2026-10-14T14:48:11.592Z",
+      "note": "Fechamento deliberado em content/source-review-2026-10-14.md: dois artigos novos lidos e perf-97/perf-108 mantidas; Security/Training idênticos ao baseline, Whats New só datas do canal. Migração v2 preserva conteúdo/datas dos itens; hashes diretos coincidem com o snapshot. Nenhum gabarito alterado."
+    },
+    {
+      "sourceId": "training-blog",
+      "currentHash": "3c1b859657a9f73df5fdd5567eeb94eb017ff09f14ddb20963af2f34ad16f3e2",
+      "approvedAt": "2026-10-14T14:48:11.592Z",
+      "note": "Fechamento deliberado em content/source-review-2026-10-14.md: dois artigos novos lidos e perf-97/perf-108 mantidas; Security/Training idênticos ao baseline, Whats New só datas do canal. Migração v2 preserva conteúdo/datas dos itens; hashes diretos coincidem com o snapshot. Nenhum gabarito alterado."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "8323fdd006c96b0d257c88223e6d36019df4978e753aaea7f1b8c1e00f6bff83",
+      "approvedAt": "2026-10-14T14:48:11.592Z",
+      "note": "Fechamento deliberado em content/source-review-2026-10-14.md: dois artigos novos lidos e perf-97/perf-108 mantidas; Security/Training idênticos ao baseline, Whats New só datas do canal. Migração v2 preserva conteúdo/datas dos itens; hashes diretos coincidem com o snapshot. Nenhum gabarito alterado."
     }
   ]
 }

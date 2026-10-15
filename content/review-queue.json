@@ -1,8 +1,96 @@
 {
   "version": "2026.10.14-1",
-  "generatedAt": "2026-10-14T15:11:14.666Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-10-15T15:03:05.676Z",
+  "pendingChanges": [
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "title": "AWS Builders Library caching challenges and request coalescing",
+      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
+      "tier": "service",
+      "detectedAt": "2026-10-15T15:03:04.697Z",
+      "currentHash": "06960f1e4353898814625e6070263206b9fa579f89d99078a0ef7a64b022363f",
+      "affectedBlueprintIds": [
+        "perf-178"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-vpc-origins",
+      "title": "Restrict access with CloudFront VPC origins",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html",
+      "tier": "service",
+      "detectedAt": "2026-10-15T15:03:04.697Z",
+      "currentHash": "8113e61b357487fb7150b7a2ab461deb081cb0a0ecb18d71b64ed6cdd7789042",
+      "affectedBlueprintIds": [
+        "sec-134"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ec2-image-builder-pipeline",
+      "title": "Create and update AMI image pipelines in EC2 Image Builder",
+      "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
+      "tier": "service",
+      "detectedAt": "2026-10-15T15:03:04.697Z",
+      "currentHash": "76a1c3679da2460f5b95fad6a9cf9eef061f938a72f812457d7246fdf7493e26",
+      "affectedBlueprintIds": [
+        "sec-145"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-15T15:03:04.697Z",
+      "currentHash": "7d2b0a019769a89f2d7ff7dc754700f9c81e48101059f091d7d9a1fcb4a6adad",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-15T15:03:04.697Z",
+      "currentHash": "6895e5a1fffa782cae2be1ca89cd623d4c9d745fb92f1e0e6c5157e0c67b15e0",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

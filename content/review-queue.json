@@ -1,6 +1,6 @@
 {
   "version": "2026.10.14-1",
-  "generatedAt": "2026-10-15T15:03:05.676Z",
+  "generatedAt": "2026-10-16T14:52:07.657Z",
   "pendingChanges": [
     {
       "sourceId": "builders-library-cache-coalescing",
@@ -39,6 +39,24 @@
       ]
     },
     {
+      "sourceId": "cloudwatch-alarm-change-events",
+      "title": "CloudWatch alarm state changes and EventBridge events",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Acting_Alarm_Changes.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "3a5d1952c27d033524dc5c012b216344dbd83c91a06deeeee6aa6db93bb93efd",
+      "affectedBlueprintIds": [
+        "res-195"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-image-builder-pipeline",
       "title": "Create and update AMI image pipelines in EC2 Image Builder",
       "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
@@ -55,16 +73,86 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "rds-optimized-reads",
+      "title": "Improve RDS for MySQL query performance with Optimized Reads",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-optimized-reads.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "bde58d61ed1a365aa7e544a6e1a03ef641ea660ed019b951c472f887acb874e1",
+      "affectedBlueprintIds": [
+        "perf-78"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-batch-replication",
+      "title": "Amazon S3 Batch Replication for existing objects",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-batch-replication-batch.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "74aad42504ef17e8ef242e5bbbfac65c2f6303d71139053ac96d486095bd6c9b",
+      "affectedBlueprintIds": [
+        "res-35"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-replication-requirements",
+      "title": "Requirements and considerations for Amazon S3 replication",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "31202dc82f06f1cc3062923dfadb8aecbc8d5628d343080350b607ff435ce5a4",
+      "affectedBlueprintIds": [
+        "res-24"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
+    {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "a4633065723537bdf1cf91dc92b75b076c7ec59d8a4c2fd5e4331fc3bab0701b",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "security-blog",
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-15T15:03:04.697Z",
-      "currentHash": "7d2b0a019769a89f2d7ff7dc754700f9c81e48101059f091d7d9a1fcb4a6adad",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "16c490e009eededbce7d869ed32a52a5022d34a93e9f0656e445b7a7bf6aa22c",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -79,8 +167,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-15T15:03:04.697Z",
-      "currentHash": "6895e5a1fffa782cae2be1ca89cd623d4c9d745fb92f1e0e6c5157e0c67b15e0",
+      "detectedAt": "2026-10-16T14:52:06.978Z",
+      "currentHash": "625e4848e11d960fdd2ddb64f696978cc18dcf08d3b19e51203735a2642dc4a2",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

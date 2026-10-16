@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **3**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **7**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## AWS Builders Library caching challenges and request coalescing
 
@@ -28,6 +28,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## CloudWatch alarm state changes and EventBridge events
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Acting_Alarm_Changes.html
+- Detectada em: 2026-10-16T14:52:06.978Z
+- Questões afetadas: res-195
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Create and update AMI image pipelines in EC2 Image Builder
 
 - Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
@@ -41,10 +54,50 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (2)
+## Improve RDS for MySQL query performance with Optimized Reads
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-optimized-reads.html
+- Detectada em: 2026-10-16T14:52:06.978Z
+- Questões afetadas: perf-78
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon S3 Batch Replication for existing objects
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-batch-replication-batch.html
+- Detectada em: 2026-10-16T14:52:06.978Z
+- Questões afetadas: res-35
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Requirements and considerations for Amazon S3 replication
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html
+- Detectada em: 2026-10-16T14:52:06.978Z
+- Questões afetadas: res-24
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Sinais de descoberta (3)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
 - AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 

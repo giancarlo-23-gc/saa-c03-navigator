@@ -1,6 +1,19 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **7**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **12**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Download compliance documents from AWS Artifact
+
+- Fonte: https://docs.aws.amazon.com/artifact/latest/ug/downloading-documents.html
+- Detectada em: 2026-10-17T13:44:44.142Z
+- Questões afetadas: sec-82
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## AWS Builders Library caching challenges and request coalescing
 
@@ -41,11 +54,50 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## CloudWatch metrics concepts and dimensions
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html
+- Detectada em: 2026-10-17T13:44:44.142Z
+- Questões afetadas: cost-89, cost-149
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Create and update AMI image pipelines in EC2 Image Builder
 
 - Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
 - Detectada em: 2026-10-15T15:03:04.697Z
 - Questões afetadas: sec-145
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon GuardDuty User Guide
+
+- Fonte: https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html
+- Detectada em: 2026-10-17T13:44:44.142Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Processing GuardDuty findings with EventBridge
+
+- Fonte: https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_eventbridge.html
+- Detectada em: 2026-10-17T13:44:44.142Z
+- Questões afetadas: sec-26
 
 Checklist:
 
@@ -85,6 +137,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html
 - Detectada em: 2026-10-16T14:52:06.978Z
 - Questões afetadas: res-24
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## How EC2 Spot placement score works
+
+- Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-sps-works.html
+- Detectada em: 2026-10-17T13:44:44.142Z
+- Questões afetadas: cost-64
 
 Checklist:
 

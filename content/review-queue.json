@@ -1,7 +1,25 @@
 {
   "version": "2026.10.14-1",
-  "generatedAt": "2026-10-16T14:52:07.657Z",
+  "generatedAt": "2026-10-17T13:44:44.784Z",
   "pendingChanges": [
+    {
+      "sourceId": "artifact-compliance-reports",
+      "title": "Download compliance documents from AWS Artifact",
+      "url": "https://docs.aws.amazon.com/artifact/latest/ug/downloading-documents.html",
+      "tier": "service",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "0c453322c8d9286a7e81c6a5deab0a7ecfc0739a472beb8f6349880fb23e2dfe",
+      "affectedBlueprintIds": [
+        "sec-82"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "builders-library-cache-coalescing",
       "title": "AWS Builders Library caching challenges and request coalescing",
@@ -57,6 +75,25 @@
       ]
     },
     {
+      "sourceId": "cloudwatch-metric-cardinality",
+      "title": "CloudWatch metrics concepts and dimensions",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "369427ef0f154cbe8bf5cc98ba36f41e96d906c98052c44a9eea444094412f0c",
+      "affectedBlueprintIds": [
+        "cost-89",
+        "cost-149"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-image-builder-pipeline",
       "title": "Create and update AMI image pipelines in EC2 Image Builder",
       "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
@@ -65,6 +102,40 @@
       "currentHash": "76a1c3679da2460f5b95fad6a9cf9eef061f938a72f812457d7246fdf7493e26",
       "affectedBlueprintIds": [
         "sec-145"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "guardduty",
+      "title": "Amazon GuardDuty User Guide",
+      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+      "tier": "service",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "8a62becd6aeb22bc374b4936b6bf8eaa6701e466258349b294d64cb0b20bfdc3",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "guardduty-eventbridge-findings",
+      "title": "Processing GuardDuty findings with EventBridge",
+      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_eventbridge.html",
+      "tier": "service",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "8cfd72e1d1e29941f36861b8c4c84a9e62016f2d98fe475d1da58d7b60e77071",
+      "affectedBlueprintIds": [
+        "sec-26"
       ],
       "status": "pending",
       "requiredActions": [
@@ -127,6 +198,24 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "spot-placement-score",
+      "title": "How EC2 Spot placement score works",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-sps-works.html",
+      "tier": "service",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "c0acce56f0cc671c190e4a879c1191f1710c5629b292799e405e082525aa9d33",
+      "affectedBlueprintIds": [
+        "cost-64"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -167,8 +256,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "625e4848e11d960fdd2ddb64f696978cc18dcf08d3b19e51203735a2642dc4a2",
+      "detectedAt": "2026-10-17T13:44:44.142Z",
+      "currentHash": "6f2029e08a978d158df0108a02ab73e3b7fee9b964080bb81d0f5fdd52adf7f2",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

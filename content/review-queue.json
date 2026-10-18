@@ -1,6 +1,6 @@
 {
   "version": "2026.10.14-1",
-  "generatedAt": "2026-10-17T13:44:44.784Z",
+  "generatedAt": "2026-10-18T14:02:06.103Z",
   "pendingChanges": [
     {
       "sourceId": "artifact-compliance-reports",
@@ -256,8 +256,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "6f2029e08a978d158df0108a02ab73e3b7fee9b964080bb81d0f5fdd52adf7f2",
+      "detectedAt": "2026-10-18T14:02:05.308Z",
+      "currentHash": "cacc6a9119f1f9ddb45cfd47a82bf31d2ca39bcacee49f5e132fee7f6bd9e5a4",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

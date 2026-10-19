@@ -1,273 +1,8 @@
 {
-  "version": "2026.10.14-1",
-  "generatedAt": "2026-10-19T16:59:49.909Z",
-  "pendingChanges": [
-    {
-      "sourceId": "artifact-compliance-reports",
-      "title": "Download compliance documents from AWS Artifact",
-      "url": "https://docs.aws.amazon.com/artifact/latest/ug/downloading-documents.html",
-      "tier": "service",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "0c453322c8d9286a7e81c6a5deab0a7ecfc0739a472beb8f6349880fb23e2dfe",
-      "affectedBlueprintIds": [
-        "sec-82"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "builders-library-cache-coalescing",
-      "title": "AWS Builders Library caching challenges and request coalescing",
-      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
-      "tier": "service",
-      "detectedAt": "2026-10-15T15:03:04.697Z",
-      "currentHash": "06960f1e4353898814625e6070263206b9fa579f89d99078a0ef7a64b022363f",
-      "affectedBlueprintIds": [
-        "perf-178"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudfront-vpc-origins",
-      "title": "Restrict access with CloudFront VPC origins",
-      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html",
-      "tier": "service",
-      "detectedAt": "2026-10-15T15:03:04.697Z",
-      "currentHash": "8113e61b357487fb7150b7a2ab461deb081cb0a0ecb18d71b64ed6cdd7789042",
-      "affectedBlueprintIds": [
-        "sec-134"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-alarm-change-events",
-      "title": "CloudWatch alarm state changes and EventBridge events",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Acting_Alarm_Changes.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "3a5d1952c27d033524dc5c012b216344dbd83c91a06deeeee6aa6db93bb93efd",
-      "affectedBlueprintIds": [
-        "res-195"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-metric-cardinality",
-      "title": "CloudWatch metrics concepts and dimensions",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html",
-      "tier": "service",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "369427ef0f154cbe8bf5cc98ba36f41e96d906c98052c44a9eea444094412f0c",
-      "affectedBlueprintIds": [
-        "cost-89",
-        "cost-149"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-image-builder-pipeline",
-      "title": "Create and update AMI image pipelines in EC2 Image Builder",
-      "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
-      "tier": "service",
-      "detectedAt": "2026-10-15T15:03:04.697Z",
-      "currentHash": "76a1c3679da2460f5b95fad6a9cf9eef061f938a72f812457d7246fdf7493e26",
-      "affectedBlueprintIds": [
-        "sec-145"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "guardduty",
-      "title": "Amazon GuardDuty User Guide",
-      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
-      "tier": "service",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "8a62becd6aeb22bc374b4936b6bf8eaa6701e466258349b294d64cb0b20bfdc3",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "guardduty-eventbridge-findings",
-      "title": "Processing GuardDuty findings with EventBridge",
-      "url": "https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_eventbridge.html",
-      "tier": "service",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "8cfd72e1d1e29941f36861b8c4c84a9e62016f2d98fe475d1da58d7b60e77071",
-      "affectedBlueprintIds": [
-        "sec-26"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-optimized-reads",
-      "title": "Improve RDS for MySQL query performance with Optimized Reads",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-optimized-reads.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "bde58d61ed1a365aa7e544a6e1a03ef641ea660ed019b951c472f887acb874e1",
-      "affectedBlueprintIds": [
-        "perf-78"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "s3-batch-replication",
-      "title": "Amazon S3 Batch Replication for existing objects",
-      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-batch-replication-batch.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "74aad42504ef17e8ef242e5bbbfac65c2f6303d71139053ac96d486095bd6c9b",
-      "affectedBlueprintIds": [
-        "res-35"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "s3-replication-requirements",
-      "title": "Requirements and considerations for Amazon S3 replication",
-      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "31202dc82f06f1cc3062923dfadb8aecbc8d5628d343080350b607ff435ce5a4",
-      "affectedBlueprintIds": [
-        "res-24"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "spot-placement-score",
-      "title": "How EC2 Spot placement score works",
-      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/how-sps-works.html",
-      "tier": "service",
-      "detectedAt": "2026-10-17T13:44:44.142Z",
-      "currentHash": "c0acce56f0cc671c190e4a879c1191f1710c5629b292799e405e082525aa9d33",
-      "affectedBlueprintIds": [
-        "cost-64"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "a4633065723537bdf1cf91dc92b75b076c7ec59d8a4c2fd5e4331fc3bab0701b",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-16T14:52:06.978Z",
-      "currentHash": "16c490e009eededbce7d869ed32a52a5022d34a93e9f0656e445b7a7bf6aa22c",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-19T16:59:48.834Z",
-      "currentHash": "703da02b29ef1c89212cbd4ae7aefea5e89d3065ea8f197db3326cd1dab91bc4",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.19-1",
+  "generatedAt": "2026-10-19T19:25:28.328Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -1342,6 +1077,102 @@
       "currentHash": "8323fdd006c96b0d257c88223e6d36019df4978e753aaea7f1b8c1e00f6bff83",
       "approvedAt": "2026-10-14T14:48:11.592Z",
       "note": "Fechamento deliberado em content/source-review-2026-10-14.md: dois artigos novos lidos e perf-97/perf-108 mantidas; Security/Training idênticos ao baseline, Whats New só datas do canal. Migração v2 preserva conteúdo/datas dos itens; hashes diretos coincidem com o snapshot. Nenhum gabarito alterado."
+    },
+    {
+      "sourceId": "artifact-compliance-reports",
+      "currentHash": "0c453322c8d9286a7e81c6a5deab0a7ecfc0739a472beb8f6349880fb23e2dfe",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "aurora-redshift-zero-etl",
+      "currentHash": "45a5e5330052c88e194007d654c41087f8ed21bd3ea00406293d38977eb5ecc3",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "currentHash": "06960f1e4353898814625e6070263206b9fa579f89d99078a0ef7a64b022363f",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "cloudfront-vpc-origins",
+      "currentHash": "8113e61b357487fb7150b7a2ab461deb081cb0a0ecb18d71b64ed6cdd7789042",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "cloudwatch-alarm-change-events",
+      "currentHash": "3a5d1952c27d033524dc5c012b216344dbd83c91a06deeeee6aa6db93bb93efd",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "cloudwatch-metric-cardinality",
+      "currentHash": "369427ef0f154cbe8bf5cc98ba36f41e96d906c98052c44a9eea444094412f0c",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "ec2-image-builder-pipeline",
+      "currentHash": "76a1c3679da2460f5b95fad6a9cf9eef061f938a72f812457d7246fdf7493e26",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "guardduty",
+      "currentHash": "8a62becd6aeb22bc374b4936b6bf8eaa6701e466258349b294d64cb0b20bfdc3",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "guardduty-eventbridge-findings",
+      "currentHash": "8cfd72e1d1e29941f36861b8c4c84a9e62016f2d98fe475d1da58d7b60e77071",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "rds-optimized-reads",
+      "currentHash": "bde58d61ed1a365aa7e544a6e1a03ef641ea660ed019b951c472f887acb874e1",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "s3-batch-replication",
+      "currentHash": "74aad42504ef17e8ef242e5bbbfac65c2f6303d71139053ac96d486095bd6c9b",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "s3-replication-requirements",
+      "currentHash": "31202dc82f06f1cc3062923dfadb8aecbc8d5628d343080350b607ff435ce5a4",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "spot-placement-score",
+      "currentHash": "c0acce56f0cc671c190e4a879c1191f1710c5629b292799e405e082525aa9d33",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "a4633065723537bdf1cf91dc92b75b076c7ec59d8a4c2fd5e4331fc3bab0701b",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "16c490e009eededbce7d869ed32a52a5022d34a93e9f0656e445b7a7bf6aa22c",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "f4b79a93b5198957bb48dd0cebdee9089d75001f2ec8fb5d1dbe8b762f06f76d",
+      "approvedAt": "2026-10-19T19:25:26.698Z",
+      "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
     }
   ]
 }

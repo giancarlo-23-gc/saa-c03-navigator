@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'saa-navigator-ffdd78d43789965afdc4';
+const CACHE_VERSION = 'saa-navigator-797a09d89fb1464ac25d';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const BASE_URL = self.registration.scope;
@@ -83,6 +83,9 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+  // Uma página controlada pode requisitar recursos de um simulador vizinho.
+  // Não interceptar nem armazenar essas respostas no cache do SAA.
+  if (!url.pathname.startsWith(new URL(BASE_URL).pathname)) return;
 
   if (event.request.mode === 'navigate') {
     event.respondWith(

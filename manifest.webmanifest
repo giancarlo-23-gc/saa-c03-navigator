@@ -1,7 +1,7 @@
 {
   "name": "SAA Navigator — Simulador SAA-C03",
   "short_name": "SAA Navigator",
-  "id": "./",
+  "id": "/saa-c03-navigator/",
   "description": "Treino independente, original e rastreável para o exame AWS SAA-C03.",
   "start_url": "./",
   "scope": "./",
@@ -10,6 +10,13 @@
   "theme_color": "#0c1d36",
   "lang": "pt-BR",
   "categories": ["education", "productivity"],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "./manifest.webmanifest",
+      "id": "https://giancarlo-23-gc.github.io/saa-c03-navigator/"
+    }
+  ],
   "shortcuts": [
     {
       "name": "Abrir simulador",

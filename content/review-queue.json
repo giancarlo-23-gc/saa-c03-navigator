@@ -1,8 +1,44 @@
 {
   "version": "2026.10.19-1",
-  "generatedAt": "2026-10-19T19:25:28.328Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-10-20T15:07:05.062Z",
+  "pendingChanges": [
+    {
+      "sourceId": "redshift-data-sharing",
+      "title": "Data sharing in Amazon Redshift",
+      "url": "https://docs.aws.amazon.com/redshift/latest/dg/datashare-overview.html",
+      "tier": "service",
+      "detectedAt": "2026-10-20T15:07:03.857Z",
+      "currentHash": "50055d2ced32f63603f77ac1ad79fb74d42f803846c8f9e876bc7fcfdbf64683",
+      "affectedBlueprintIds": [
+        "perf-76"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-20T15:07:03.857Z",
+      "currentHash": "2e22ef31559e7e7322aaaba3a8f5abdcd558ed6771eecec5852e6265f512e6c3",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

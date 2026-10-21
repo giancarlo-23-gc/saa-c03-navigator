@@ -1,7 +1,221 @@
 {
   "version": "2026.10.19-1",
-  "generatedAt": "2026-10-20T15:07:05.062Z",
+  "generatedAt": "2026-10-21T15:17:03.541Z",
   "pendingChanges": [
+    {
+      "sourceId": "cognito",
+      "title": "Amazon Cognito Developer Guide",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "15bb7583bc6fa93ed4f00c6368ac1e7922492d2334d8e50b104dd261acc5e74f",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-client-security",
+      "title": "Cognito client secrets and unpredictable PKCE verifiers",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-security-best-practices.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "1efac9e1666011b08e0b8330b8048ed7d6eb88ced06e33e2c48ede788c10fa4e",
+      "affectedBlueprintIds": [
+        "sec-181"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-identity-pool-settings",
+      "title": "Cognito identity pool authenticated and guest access settings",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "58bfbbc4d445970adc516d3f25dbd5f6fc6343ada5dd48bf1f17a4de69c8bee7",
+      "affectedBlueprintIds": [
+        "sec-211"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-jwt-revocation-validation",
+      "title": "Cognito validating JWT claims and revocation status",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "f6852af8a155db40a94b2fc4c4e464ddf035619007077673c94522a040221b8d",
+      "affectedBlueprintIds": [
+        "sec-193"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-pools-scenarios",
+      "title": "Common Amazon Cognito scenarios",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "0dad2bfdeb3cc74c956b8d1d70e238048a2b0fcadf3ab7a7b5c50f2032fc99df",
+      "affectedBlueprintIds": [
+        "sec-25"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-public-client-pkce",
+      "title": "Cognito public clients and authorization code with PKCE",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "9d7981df42fc45f8502687943c95d8f79aeb8625234a828ef089e69dcfc2ee5a",
+      "affectedBlueprintIds": [
+        "sec-181"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-threat-protection",
+      "title": "Amazon Cognito threat protection and adaptive authentication",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-settings-threat-protection.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "b887ee7cc6936e846f7e53728d9dcf0b4307b612180bf9e4629b4ba99c57e6f4",
+      "affectedBlueprintIds": [
+        "sec-87"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-token-revocation",
+      "title": "Cognito token revocation and offline JWT validation limits",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/token-revocation.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "d15e01b0738ec4bab1597d5d0ea1b8bb9ec16de2c2a46924b4bcd60e806186eb",
+      "affectedBlueprintIds": [
+        "sec-193"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ec2-efa",
+      "title": "Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "fca8a6f5a14084b0fffd59847416be4e4b2caff6244154b85d636b6169e6943f",
+      "affectedBlueprintIds": [
+        "perf-23"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "elasticache-current-pricing",
+      "title": "Amazon ElastiCache pricing by engine and deployment",
+      "url": "https://aws.amazon.com/elasticache/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "2cffdb94065c7046e9116b8f98ea8b9702790a67fe37ba9010dff4762c4a0738",
+      "affectedBlueprintIds": [
+        "cost-126"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge",
+      "title": "Amazon EventBridge User Guide",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "cab5e5c0f72946eef28b5c4f4b6e3c81f50e99bf0b4bd57d444e49a34d891e1a",
+      "affectedBlueprintIds": [
+        "res-11"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rds-read-replica-promotion",
+      "title": "RDS promote a read replica to standalone database",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.Promote.html",
+      "tier": "service",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "9ac36874df3b7296475dec1db3a1abd1a3cabd64e8f9d7afae8f54b6cf6b392d",
+      "affectedBlueprintIds": [
+        "res-173"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "redshift-data-sharing",
       "title": "Data sharing in Amazon Redshift",
@@ -23,12 +237,60 @@
   ],
   "discoveryChanges": [
     {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "be62bd3c72b6a877d93d0cbabbf6f0669d5ccbc601ac807c7cf5f797f4763615",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "f075e5426baafc348f262df004d0b8da5864afa080fecadf6cc797b86f304f19",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "training-blog",
+      "title": "AWS Training and Certification Blog Feed",
+      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "dc586b94976cb43bd38b32979e285cd828fb76751c0907bf2556a4e2081979f4",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-20T15:07:03.857Z",
-      "currentHash": "2e22ef31559e7e7322aaaba3a8f5abdcd558ed6771eecec5852e6265f512e6c3",
+      "detectedAt": "2026-10-21T15:17:02.488Z",
+      "currentHash": "f8f42bc7ae6f3532d87ceceb36967d5f4836463f918f602c4c4a620f1afa8026",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

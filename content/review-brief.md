@@ -1,6 +1,32 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **13**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **18**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Instance maintenance policies for EC2 Auto Scaling
+
+- Fonte: https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-instance-maintenance-policy.html
+- Detectada em: 2026-10-22T15:18:28.258Z
+- Questões afetadas: res-122
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Aurora PostgreSQL global write forwarding
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding-apg.html
+- Detectada em: 2026-10-22T15:18:28.258Z
+- Questões afetadas: perf-86
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## Amazon Cognito Developer Guide
 
@@ -145,6 +171,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Network Firewall stateful domain lists for HTTP Host and TLS SNI
+
+- Fonte: https://docs.aws.amazon.com/network-firewall/latest/developerguide/stateful-rule-groups-domain-names.html
+- Detectada em: 2026-10-22T15:18:28.258Z
+- Questões afetadas: sec-150
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## RDS promote a read replica to standalone database
 
 - Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.Promote.html
@@ -163,6 +202,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/redshift/latest/dg/datashare-overview.html
 - Detectada em: 2026-10-20T15:07:03.857Z
 - Questões afetadas: perf-76
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 health check pricing and AWS endpoint allowance
+
+- Fonte: https://aws.amazon.com/route53/pricing/
+- Detectada em: 2026-10-22T15:18:28.258Z
+- Questões afetadas: cost-142
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 Resolver DNS Firewall filters outbound DNS requests
+
+- Fonte: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-dns-firewall.html
+- Detectada em: 2026-10-22T15:18:28.258Z
+- Questões afetadas: sec-44, sec-205
 
 Checklist:
 

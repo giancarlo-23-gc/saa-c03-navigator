@@ -1,7 +1,43 @@
 {
   "version": "2026.10.19-1",
-  "generatedAt": "2026-10-21T15:17:03.541Z",
+  "generatedAt": "2026-10-22T15:18:29.371Z",
   "pendingChanges": [
+    {
+      "sourceId": "asg-instance-maintenance-policy",
+      "title": "Instance maintenance policies for EC2 Auto Scaling",
+      "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-instance-maintenance-policy.html",
+      "tier": "service",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "0e75fb0f39368ed5b429d28e8c9cfbf65e443c86dca218a892deaf36c1be8824",
+      "affectedBlueprintIds": [
+        "res-122"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "aurora-global-write-forwarding",
+      "title": "Aurora PostgreSQL global write forwarding",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding-apg.html",
+      "tier": "service",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "7afe3b9ef2ccf921b1b8d83d0e427bc017169f67ec86a9ce745f1488928125e1",
+      "affectedBlueprintIds": [
+        "perf-86"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cognito",
       "title": "Amazon Cognito Developer Guide",
@@ -199,6 +235,24 @@
       ]
     },
     {
+      "sourceId": "network-firewall-domain-list-sni",
+      "title": "Network Firewall stateful domain lists for HTTP Host and TLS SNI",
+      "url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/stateful-rule-groups-domain-names.html",
+      "tier": "service",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "71e5eabb6f418d46a77c2658ea1fd0bd13cec40164c740a1b644be2f398e221c",
+      "affectedBlueprintIds": [
+        "sec-150"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "rds-read-replica-promotion",
       "title": "RDS promote a read replica to standalone database",
       "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.Promote.html",
@@ -233,6 +287,43 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "route53-health-check-pricing",
+      "title": "Route 53 health check pricing and AWS endpoint allowance",
+      "url": "https://aws.amazon.com/route53/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "2a624b0577bb05c1fd6d864d9c53ffd48861ba72270d4b879eb394fa137bb2fe",
+      "affectedBlueprintIds": [
+        "cost-142"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "route53-resolver-dns-firewall",
+      "title": "Route 53 Resolver DNS Firewall filters outbound DNS requests",
+      "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-dns-firewall.html",
+      "tier": "service",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "3a9824690057b81959c1430d3736758953d191bb43fa5ef86da65287e6d7cc1d",
+      "affectedBlueprintIds": [
+        "sec-44",
+        "sec-205"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -241,8 +332,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "be62bd3c72b6a877d93d0cbabbf6f0669d5ccbc601ac807c7cf5f797f4763615",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "bfa5997a629ea4c40eb693733d3f5b9554e2514b11b25c565de1c999929571a6",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -257,8 +348,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "f075e5426baafc348f262df004d0b8da5864afa080fecadf6cc797b86f304f19",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "b6cf5e4f84fe7d388d5f8b136d901c65a1305978cffbb3c0b4dea2f5bdea6377",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -289,8 +380,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "f8f42bc7ae6f3532d87ceceb36967d5f4836463f918f602c4c4a620f1afa8026",
+      "detectedAt": "2026-10-22T15:18:28.258Z",
+      "currentHash": "49eed4c19e023b95e0a26320222ff3d606918cf77561c91936dacb5429921612",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

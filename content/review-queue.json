@@ -1,6 +1,6 @@
 {
   "version": "2026.10.19-1",
-  "generatedAt": "2026-10-22T15:18:29.371Z",
+  "generatedAt": "2026-10-23T15:06:10.158Z",
   "pendingChanges": [
     {
       "sourceId": "asg-instance-maintenance-policy",
@@ -29,6 +29,24 @@
       "currentHash": "7afe3b9ef2ccf921b1b8d83d0e427bc017169f67ec86a9ce745f1488928125e1",
       "affectedBlueprintIds": [
         "perf-86"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "backup-vault-lock",
+      "title": "AWS Backup Vault Lock governance and compliance modes",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "33448efeaca41c48b6b0859c1a374d915a30c81c4797bd70ddb8443f08ebbdda",
+      "affectedBlueprintIds": [
+        "res-41"
       ],
       "status": "pending",
       "requiredActions": [
@@ -113,8 +131,8 @@
       "title": "Common Amazon Cognito scenarios",
       "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
       "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "0dad2bfdeb3cc74c956b8d1d70e238048a2b0fcadf3ab7a7b5c50f2032fc99df",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "39bee335cd9297cbac76d5fb0827fe71658aabd96c7cedf36786c34617ec1c24",
       "affectedBlueprintIds": [
         "sec-25"
       ],
@@ -181,6 +199,24 @@
       ]
     },
     {
+      "sourceId": "drs-failback-client",
+      "title": "Failback to on-premises environment with AWS Elastic Disaster Recovery",
+      "url": "https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "de647984d8f9bb52390bd04e50bfe23af7392482a9d15558d7e0d214b3b0ab7f",
+      "affectedBlueprintIds": [
+        "res-103"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-efa",
       "title": "Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html",
@@ -221,10 +257,47 @@
       "title": "Amazon EventBridge User Guide",
       "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
       "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "cab5e5c0f72946eef28b5c4f4b6e3c81f50e99bf0b4bd57d444e49a34d891e1a",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "ec928721793e55beffce4be716d8f8323c154ab9b74ff3b259b5de5dcbf1e53f",
       "affectedBlueprintIds": [
         "res-11"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge-api-destination",
+      "title": "API destinations as targets in Amazon EventBridge",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "6393c69be718723e5c34380bfe63f03d707c32f8a028fabe7902edae1db4a177",
+      "affectedBlueprintIds": [
+        "res-27",
+        "res-143"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge-sqs-fifo-target",
+      "title": "EventBridge rule targets including SQS FIFO parameters",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "d511366d15402c52d285cbdcc1bef469f75351a49d8cd182c8b8c01e0f376d89",
+      "affectedBlueprintIds": [
+        "res-209"
       ],
       "status": "pending",
       "requiredActions": [
@@ -324,6 +397,42 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "tgw-isolated-shared-routing",
+      "title": "AWS Transit Gateway isolated routing with shared services",
+      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
+      "affectedBlueprintIds": [
+        "sec-163"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "transit-gateway-vpn-ecmp",
+      "title": "Equal Cost Multipath routing in AWS Transit Gateway",
+      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
+      "affectedBlueprintIds": [
+        "perf-77"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -332,8 +441,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "bfa5997a629ea4c40eb693733d3f5b9554e2514b11b25c565de1c999929571a6",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "fe0e1b6997aec741beb928c9b1442e5ac2f8b15c1e9357321d8975fad8aaf148",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -348,8 +457,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "b6cf5e4f84fe7d388d5f8b136d901c65a1305978cffbb3c0b4dea2f5bdea6377",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "e6317f93003089e016c24da7a68ab015d6db28cf8538756bc9a0d8f740b6fc26",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -380,8 +489,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "49eed4c19e023b95e0a26320222ff3d606918cf77561c91936dacb5429921612",
+      "detectedAt": "2026-10-23T15:06:09.389Z",
+      "currentHash": "4c05e7987467089dddc55e70f321f0986b9b9145333ea5d17e4967653adfe559",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

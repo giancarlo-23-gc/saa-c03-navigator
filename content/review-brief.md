@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **18**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **24**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Instance maintenance policies for EC2 Auto Scaling
 
@@ -20,6 +20,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding-apg.html
 - Detectada em: 2026-10-22T15:18:28.258Z
 - Questões afetadas: perf-86
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Backup Vault Lock governance and compliance modes
+
+- Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: res-41
 
 Checklist:
 
@@ -83,7 +96,7 @@ Checklist:
 ## Common Amazon Cognito scenarios
 
 - Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html
-- Detectada em: 2026-10-21T15:17:02.488Z
+- Detectada em: 2026-10-23T15:06:09.389Z
 - Questões afetadas: sec-25
 
 Checklist:
@@ -132,6 +145,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Failback to on-premises environment with AWS Elastic Disaster Recovery
+
+- Fonte: https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: res-103
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html
@@ -161,8 +187,34 @@ Checklist:
 ## Amazon EventBridge User Guide
 
 - Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
-- Detectada em: 2026-10-21T15:17:02.488Z
+- Detectada em: 2026-10-23T15:06:09.389Z
 - Questões afetadas: res-11
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## API destinations as targets in Amazon EventBridge
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: res-27, res-143
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## EventBridge rule targets including SQS FIFO parameters
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: res-209
 
 Checklist:
 
@@ -228,6 +280,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-dns-firewall.html
 - Detectada em: 2026-10-22T15:18:28.258Z
 - Questões afetadas: sec-44, sec-205
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Transit Gateway isolated routing with shared services
+
+- Fonte: https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: sec-163
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Equal Cost Multipath routing in AWS Transit Gateway
+
+- Fonte: https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html
+- Detectada em: 2026-10-23T15:06:09.389Z
+- Questões afetadas: perf-77
 
 Checklist:
 

@@ -1,506 +1,8 @@
 {
-  "version": "2026.10.19-1",
-  "generatedAt": "2026-10-23T15:06:10.158Z",
-  "pendingChanges": [
-    {
-      "sourceId": "asg-instance-maintenance-policy",
-      "title": "Instance maintenance policies for EC2 Auto Scaling",
-      "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-instance-maintenance-policy.html",
-      "tier": "service",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "0e75fb0f39368ed5b429d28e8c9cfbf65e443c86dca218a892deaf36c1be8824",
-      "affectedBlueprintIds": [
-        "res-122"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "aurora-global-write-forwarding",
-      "title": "Aurora PostgreSQL global write forwarding",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding-apg.html",
-      "tier": "service",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "7afe3b9ef2ccf921b1b8d83d0e427bc017169f67ec86a9ce745f1488928125e1",
-      "affectedBlueprintIds": [
-        "perf-86"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "backup-vault-lock",
-      "title": "AWS Backup Vault Lock governance and compliance modes",
-      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "33448efeaca41c48b6b0859c1a374d915a30c81c4797bd70ddb8443f08ebbdda",
-      "affectedBlueprintIds": [
-        "res-41"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito",
-      "title": "Amazon Cognito Developer Guide",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "15bb7583bc6fa93ed4f00c6368ac1e7922492d2334d8e50b104dd261acc5e74f",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-client-security",
-      "title": "Cognito client secrets and unpredictable PKCE verifiers",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-security-best-practices.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "1efac9e1666011b08e0b8330b8048ed7d6eb88ced06e33e2c48ede788c10fa4e",
-      "affectedBlueprintIds": [
-        "sec-181"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-identity-pool-settings",
-      "title": "Cognito identity pool authenticated and guest access settings",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "58bfbbc4d445970adc516d3f25dbd5f6fc6343ada5dd48bf1f17a4de69c8bee7",
-      "affectedBlueprintIds": [
-        "sec-211"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-jwt-revocation-validation",
-      "title": "Cognito validating JWT claims and revocation status",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "f6852af8a155db40a94b2fc4c4e464ddf035619007077673c94522a040221b8d",
-      "affectedBlueprintIds": [
-        "sec-193"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-pools-scenarios",
-      "title": "Common Amazon Cognito scenarios",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-scenarios.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "39bee335cd9297cbac76d5fb0827fe71658aabd96c7cedf36786c34617ec1c24",
-      "affectedBlueprintIds": [
-        "sec-25"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-public-client-pkce",
-      "title": "Cognito public clients and authorization code with PKCE",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "9d7981df42fc45f8502687943c95d8f79aeb8625234a828ef089e69dcfc2ee5a",
-      "affectedBlueprintIds": [
-        "sec-181"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-threat-protection",
-      "title": "Amazon Cognito threat protection and adaptive authentication",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-settings-threat-protection.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "b887ee7cc6936e846f7e53728d9dcf0b4307b612180bf9e4629b4ba99c57e6f4",
-      "affectedBlueprintIds": [
-        "sec-87"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cognito-token-revocation",
-      "title": "Cognito token revocation and offline JWT validation limits",
-      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/token-revocation.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "d15e01b0738ec4bab1597d5d0ea1b8bb9ec16de2c2a46924b4bcd60e806186eb",
-      "affectedBlueprintIds": [
-        "sec-193"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "drs-failback-client",
-      "title": "Failback to on-premises environment with AWS Elastic Disaster Recovery",
-      "url": "https://docs.aws.amazon.com/drs/latest/userguide/failback-performing.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "de647984d8f9bb52390bd04e50bfe23af7392482a9d15558d7e0d214b3b0ab7f",
-      "affectedBlueprintIds": [
-        "res-103"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-efa",
-      "title": "Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2",
-      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "fca8a6f5a14084b0fffd59847416be4e4b2caff6244154b85d636b6169e6943f",
-      "affectedBlueprintIds": [
-        "perf-23"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "elasticache-current-pricing",
-      "title": "Amazon ElastiCache pricing by engine and deployment",
-      "url": "https://aws.amazon.com/elasticache/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "2cffdb94065c7046e9116b8f98ea8b9702790a67fe37ba9010dff4762c4a0738",
-      "affectedBlueprintIds": [
-        "cost-126"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "eventbridge",
-      "title": "Amazon EventBridge User Guide",
-      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "ec928721793e55beffce4be716d8f8323c154ab9b74ff3b259b5de5dcbf1e53f",
-      "affectedBlueprintIds": [
-        "res-11"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "eventbridge-api-destination",
-      "title": "API destinations as targets in Amazon EventBridge",
-      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "6393c69be718723e5c34380bfe63f03d707c32f8a028fabe7902edae1db4a177",
-      "affectedBlueprintIds": [
-        "res-27",
-        "res-143"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "eventbridge-sqs-fifo-target",
-      "title": "EventBridge rule targets including SQS FIFO parameters",
-      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "d511366d15402c52d285cbdcc1bef469f75351a49d8cd182c8b8c01e0f376d89",
-      "affectedBlueprintIds": [
-        "res-209"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "network-firewall-domain-list-sni",
-      "title": "Network Firewall stateful domain lists for HTTP Host and TLS SNI",
-      "url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/stateful-rule-groups-domain-names.html",
-      "tier": "service",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "71e5eabb6f418d46a77c2658ea1fd0bd13cec40164c740a1b644be2f398e221c",
-      "affectedBlueprintIds": [
-        "sec-150"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-read-replica-promotion",
-      "title": "RDS promote a read replica to standalone database",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.Promote.html",
-      "tier": "service",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "9ac36874df3b7296475dec1db3a1abd1a3cabd64e8f9d7afae8f54b6cf6b392d",
-      "affectedBlueprintIds": [
-        "res-173"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "redshift-data-sharing",
-      "title": "Data sharing in Amazon Redshift",
-      "url": "https://docs.aws.amazon.com/redshift/latest/dg/datashare-overview.html",
-      "tier": "service",
-      "detectedAt": "2026-10-20T15:07:03.857Z",
-      "currentHash": "50055d2ced32f63603f77ac1ad79fb74d42f803846c8f9e876bc7fcfdbf64683",
-      "affectedBlueprintIds": [
-        "perf-76"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "route53-health-check-pricing",
-      "title": "Route 53 health check pricing and AWS endpoint allowance",
-      "url": "https://aws.amazon.com/route53/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "2a624b0577bb05c1fd6d864d9c53ffd48861ba72270d4b879eb394fa137bb2fe",
-      "affectedBlueprintIds": [
-        "cost-142"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "route53-resolver-dns-firewall",
-      "title": "Route 53 Resolver DNS Firewall filters outbound DNS requests",
-      "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-dns-firewall.html",
-      "tier": "service",
-      "detectedAt": "2026-10-22T15:18:28.258Z",
-      "currentHash": "3a9824690057b81959c1430d3736758953d191bb43fa5ef86da65287e6d7cc1d",
-      "affectedBlueprintIds": [
-        "sec-44",
-        "sec-205"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "tgw-isolated-shared-routing",
-      "title": "AWS Transit Gateway isolated routing with shared services",
-      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
-      "affectedBlueprintIds": [
-        "sec-163"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "transit-gateway-vpn-ecmp",
-      "title": "Equal Cost Multipath routing in AWS Transit Gateway",
-      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
-      "affectedBlueprintIds": [
-        "perf-77"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "fe0e1b6997aec741beb928c9b1442e5ac2f8b15c1e9357321d8975fad8aaf148",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "e6317f93003089e016c24da7a68ab015d6db28cf8538756bc9a0d8f740b6fc26",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "training-blog",
-      "title": "AWS Training and Certification Blog Feed",
-      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-21T15:17:02.488Z",
-      "currentHash": "dc586b94976cb43bd38b32979e285cd828fb76751c0907bf2556a4e2081979f4",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-23T15:06:09.389Z",
-      "currentHash": "4c05e7987467089dddc55e70f321f0986b9b9145333ea5d17e4967653adfe559",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.23-1",
+  "generatedAt": "2026-10-23T21:06:19.241Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -1671,6 +1173,180 @@
       "currentHash": "f4b79a93b5198957bb48dd0cebdee9089d75001f2ec8fb5d1dbe8b762f06f76d",
       "approvedAt": "2026-10-19T19:25:26.698Z",
       "note": "Revisão deliberada registrada em content/source-review-2026-10-19.md e editorial-evidence.md: 13 questões integralmente relidas, trechos pertinentes das fontes e 54 entradas novas/alteradas dos feeds triadas; 30 snapshots correspondentes. Nenhum texto/gabarito alterado; 800 fingerprints e gabaritos conferidos contra o registro anterior. Não é releitura integral das 800 nem aprovação de mudanças futuras."
+    },
+    {
+      "sourceId": "cognito",
+      "currentHash": "15bb7583bc6fa93ed4f00c6368ac1e7922492d2334d8e50b104dd261acc5e74f",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-client-security",
+      "currentHash": "1efac9e1666011b08e0b8330b8048ed7d6eb88ced06e33e2c48ede788c10fa4e",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-identity-pool-settings",
+      "currentHash": "58bfbbc4d445970adc516d3f25dbd5f6fc6343ada5dd48bf1f17a4de69c8bee7",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-jwt-revocation-validation",
+      "currentHash": "f6852af8a155db40a94b2fc4c4e464ddf035619007077673c94522a040221b8d",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-pools-scenarios",
+      "currentHash": "39bee335cd9297cbac76d5fb0827fe71658aabd96c7cedf36786c34617ec1c24",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-public-client-pkce",
+      "currentHash": "9d7981df42fc45f8502687943c95d8f79aeb8625234a828ef089e69dcfc2ee5a",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-threat-protection",
+      "currentHash": "b887ee7cc6936e846f7e53728d9dcf0b4307b612180bf9e4629b4ba99c57e6f4",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "cognito-token-revocation",
+      "currentHash": "d15e01b0738ec4bab1597d5d0ea1b8bb9ec16de2c2a46924b4bcd60e806186eb",
+      "approvedAt": "2026-10-23T21:06:17.608Z",
+      "note": "23/10/2026: user/identity pools, PKCE público, guest, revogação JWT e threat protection conferidos; contratos delimitados mantidos. Decisões individuais e limites: content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "eventbridge",
+      "currentHash": "ec928721793e55beffce4be716d8f8323c154ab9b74ff3b259b5de5dcbf1e53f",
+      "approvedAt": "2026-10-23T21:06:17.694Z",
+      "note": "23/10/2026: esclarecidos res-11/res-27/res-143 para Classic existente versus novo Custom Bus; retry/DLQ/OAuth/rate limit e caminho S3-FIFO conferidos. IDs e gabaritos preservados. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "eventbridge-api-destination",
+      "currentHash": "6393c69be718723e5c34380bfe63f03d707c32f8a028fabe7902edae1db4a177",
+      "approvedAt": "2026-10-23T21:06:17.694Z",
+      "note": "23/10/2026: esclarecidos res-11/res-27/res-143 para Classic existente versus novo Custom Bus; retry/DLQ/OAuth/rate limit e caminho S3-FIFO conferidos. IDs e gabaritos preservados. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "eventbridge-sqs-fifo-target",
+      "currentHash": "d511366d15402c52d285cbdcc1bef469f75351a49d8cd182c8b8c01e0f376d89",
+      "approvedAt": "2026-10-23T21:06:17.694Z",
+      "note": "23/10/2026: esclarecidos res-11/res-27/res-143 para Classic existente versus novo Custom Bus; retry/DLQ/OAuth/rate limit e caminho S3-FIFO conferidos. IDs e gabaritos preservados. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "network-firewall-domain-list-sni",
+      "currentHash": "71e5eabb6f418d46a77c2658ea1fd0bd13cec40164c740a1b644be2f398e221c",
+      "approvedAt": "2026-10-23T21:06:17.773Z",
+      "note": "23/10/2026: NAT 1:1 versus IPAM esclarecido em sec-136; segmentação/ECMP BGP, TLS_SNI versus validação IP Resolver e DNS versus egress conferidos. Demais cenários mantidos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "route53-resolver-dns-firewall",
+      "currentHash": "3a9824690057b81959c1430d3736758953d191bb43fa5ef86da65287e6d7cc1d",
+      "approvedAt": "2026-10-23T21:06:17.773Z",
+      "note": "23/10/2026: NAT 1:1 versus IPAM esclarecido em sec-136; segmentação/ECMP BGP, TLS_SNI versus validação IP Resolver e DNS versus egress conferidos. Demais cenários mantidos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "tgw-isolated-shared-routing",
+      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
+      "approvedAt": "2026-10-23T21:06:17.773Z",
+      "note": "23/10/2026: NAT 1:1 versus IPAM esclarecido em sec-136; segmentação/ECMP BGP, TLS_SNI versus validação IP Resolver e DNS versus egress conferidos. Demais cenários mantidos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "transit-gateway-vpn-ecmp",
+      "currentHash": "3781556646e0a81d5632ac4655885f8c4edd8c34005b9d4dcba13d656cdc11b1",
+      "approvedAt": "2026-10-23T21:06:17.773Z",
+      "note": "23/10/2026: NAT 1:1 versus IPAM esclarecido em sec-136; segmentação/ECMP BGP, TLS_SNI versus validação IP Resolver e DNS versus egress conferidos. Demais cenários mantidos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "asg-instance-maintenance-policy",
+      "currentHash": "0e75fb0f39368ed5b429d28e8c9cfbf65e443c86dca218a892deaf36c1be8824",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "aurora-global-write-forwarding",
+      "currentHash": "7afe3b9ef2ccf921b1b8d83d0e427bc017169f67ec86a9ce745f1488928125e1",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "backup-vault-lock",
+      "currentHash": "33448efeaca41c48b6b0859c1a374d915a30c81c4797bd70ddb8443f08ebbdda",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "drs-failback-client",
+      "currentHash": "de647984d8f9bb52390bd04e50bfe23af7392482a9d15558d7e0d214b3b0ab7f",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "ec2-efa",
+      "currentHash": "69bbcb81cc99c56c0acc926abb633bcb27707cd3568bc6bf485c780e3e569220",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "elasticache-current-pricing",
+      "currentHash": "2cffdb94065c7046e9116b8f98ea8b9702790a67fe37ba9010dff4762c4a0738",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "opensearch-serverless-pricing",
+      "currentHash": "12581f7f52e65b01db196a3d7a798eb1202dc90dea0fb4ccf6388124378019c2",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "rds-read-replica-promotion",
+      "currentHash": "9ac36874df3b7296475dec1db3a1abd1a3cabd64e8f9d7afae8f54b6cf6b392d",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "redshift-data-sharing",
+      "currentHash": "50055d2ced32f63603f77ac1ad79fb74d42f803846c8f9e876bc7fcfdbf64683",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "route53-health-check-pricing",
+      "currentHash": "2a624b0577bb05c1fd6d864d9c53ffd48861ba72270d4b879eb394fa137bb2fe",
+      "approvedAt": "2026-10-23T21:06:17.864Z",
+      "note": "23/10/2026: ASG, Aurora forwarding, Vault Lock, DRS, EFA, Valkey, NextGen OpenSearch, promoção PostgreSQL, Redshift sharing e Route53 ALB/preços conferidos nos cenários individuais; mantidos sem mudar gabaritos. content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "fe0e1b6997aec741beb928c9b1442e5ac2f8b15c1e9357321d8975fad8aaf148",
+      "approvedAt": "2026-10-23T21:06:17.945Z",
+      "note": "23/10/2026: triagem de títulos/sínteses de 65 entradas novas/alteradas e 10 atuais Training sem baseline; resumos pertinentes lidos, não 75 artigos integrais. NAT 1:1 levou à correção sec-136; demais impactos e limites documentados em content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "0443caf00a7b6ed7aa28cb5f679200aac27f91ed7476869a6f9bc291627f2e68",
+      "approvedAt": "2026-10-23T21:06:17.945Z",
+      "note": "23/10/2026: triagem de títulos/sínteses de 65 entradas novas/alteradas e 10 atuais Training sem baseline; resumos pertinentes lidos, não 75 artigos integrais. NAT 1:1 levou à correção sec-136; demais impactos e limites documentados em content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "training-blog",
+      "currentHash": "dc586b94976cb43bd38b32979e285cd828fb76751c0907bf2556a4e2081979f4",
+      "approvedAt": "2026-10-23T21:06:17.945Z",
+      "note": "23/10/2026: triagem de títulos/sínteses de 65 entradas novas/alteradas e 10 atuais Training sem baseline; resumos pertinentes lidos, não 75 artigos integrais. NAT 1:1 levou à correção sec-136; demais impactos e limites documentados em content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "ff3906f9925eaacdcc81fd4bad1c2446c7076a2de59642dd193100411ae648c5",
+      "approvedAt": "2026-10-23T21:06:17.945Z",
+      "note": "23/10/2026: triagem de títulos/sínteses de 65 entradas novas/alteradas e 10 atuais Training sem baseline; resumos pertinentes lidos, não 75 artigos integrais. NAT 1:1 levou à correção sec-136; demais impactos e limites documentados em content/source-review-2026-10-23.md."
     }
   ]
 }

@@ -1,150 +1,8 @@
 {
-  "version": "2026.10.23-1",
-  "generatedAt": "2026-10-25T14:23:45.089Z",
-  "pendingChanges": [
-    {
-      "sourceId": "aurora-serverless-v2",
-      "title": "Amazon Aurora Serverless v2 capacity and scaling",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.setting-capacity.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "f8dce6b49a770d30ad9e72bda20c4d163567905f648cb25964c2c944c5cb5a6b",
-      "affectedBlueprintIds": [
-        "cost-18"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-composite-alarm-suppression",
-      "title": "Suppressing composite alarm actions",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-suppression.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "48d13493d0726e6f82cc4c66d0b1e854a97d981b09e396bc5dc24401af89250f",
-      "affectedBlueprintIds": [
-        "res-105"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-ebs-optimized-instance-limits",
-      "title": "EC2 EBS-optimized instance bandwidth and sustained performance",
-      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "2903f8268815da4623ad1bfd492c82db509d7db3a79407ab0117f054a5dc6a2a",
-      "affectedBlueprintIds": [
-        "perf-166"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-enhanced-networking",
-      "title": "Enhanced networking on Amazon EC2",
-      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "7de38b0499f08b948b7d25b122e7a169e85a712040062102ae2f4b97e4a624e9",
-      "affectedBlueprintIds": [
-        "perf-41"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "redshift-zero-etl-considerations",
-      "title": "Considerations when using zero-ETL integrations with Amazon Redshift",
-      "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/zero-etl.reqs-lims.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "08abe04d3df50554007b73959ae2345a798017582f127093e53361ca74d5803a",
-      "affectedBlueprintIds": [
-        "perf-144"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "vpc-traffic-mirroring",
-      "title": "What is Amazon VPC Traffic Mirroring?",
-      "url": "https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "2278e02470280a7bcdfec929c5e4d708f91f27f660a080308748a0e3947a3b5c",
-      "affectedBlueprintIds": [
-        "sec-65"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "4ac839697d4168f6af2919dc216e82d2fc6c8f986ca4ad82252b80b8313cabe8",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-25T14:23:44.219Z",
-      "currentHash": "c656ed9f3508b862abb86de75924a2741511e441d411729d52ca1fac97f84802",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.25-1",
+  "generatedAt": "2026-10-25T19:45:01.916Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -1489,6 +1347,54 @@
       "currentHash": "ff3906f9925eaacdcc81fd4bad1c2446c7076a2de59642dd193100411ae648c5",
       "approvedAt": "2026-10-23T21:06:17.945Z",
       "note": "23/10/2026: triagem de títulos/sínteses de 65 entradas novas/alteradas e 10 atuais Training sem baseline; resumos pertinentes lidos, não 75 artigos integrais. NAT 1:1 levou à correção sec-136; demais impactos e limites documentados em content/source-review-2026-10-23.md."
+    },
+    {
+      "sourceId": "aurora-serverless-v2",
+      "currentHash": "f8dce6b49a770d30ad9e72bda20c4d163567905f648cb25964c2c944c5cb5a6b",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "cloudwatch-composite-alarm-suppression",
+      "currentHash": "48d13493d0726e6f82cc4c66d0b1e854a97d981b09e396bc5dc24401af89250f",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "ec2-ebs-optimized-instance-limits",
+      "currentHash": "2903f8268815da4623ad1bfd492c82db509d7db3a79407ab0117f054a5dc6a2a",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "ec2-enhanced-networking",
+      "currentHash": "7de38b0499f08b948b7d25b122e7a169e85a712040062102ae2f4b97e4a624e9",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "redshift-zero-etl-considerations",
+      "currentHash": "08abe04d3df50554007b73959ae2345a798017582f127093e53361ca74d5803a",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "vpc-traffic-mirroring",
+      "currentHash": "2278e02470280a7bcdfec929c5e4d708f91f27f660a080308748a0e3947a3b5c",
+      "approvedAt": "2026-10-25T19:44:57.836Z",
+      "note": "25/10/2026: seis questões relidas integralmente; ACU/auto-pause, suppression, ENA/EFA-only, limites EBS, zero-ETL e Traffic Mirroring conferidos nos cenários. Textos e gabaritos mantidos; res-105 teve rótulo corrigido e perf-41 recebeu fonte complementar. Decisões individuais em content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "4ac839697d4168f6af2919dc216e82d2fc6c8f986ca4ad82252b80b8313cabe8",
+      "approvedAt": "2026-10-25T19:44:57.985Z",
+      "note": "25/10/2026: uma síntese Security alterada e duas entradas Whats New novas comparadas com 23/10; resumos lidos, não artigos integrais. PHP/WAF, busca Bedrock e chat Connect não invalidam os cenários revisados. content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "6cbb515ec9f96a072e860b8b630c3286c96f23618ccb2c44959200cb68477a2d",
+      "approvedAt": "2026-10-25T19:44:57.985Z",
+      "note": "25/10/2026: uma síntese Security alterada e duas entradas Whats New novas comparadas com 23/10; resumos lidos, não artigos integrais. PHP/WAF, busca Bedrock e chat Connect não invalidam os cenários revisados. content/source-review-2026-10-25.md."
     }
   ]
 }

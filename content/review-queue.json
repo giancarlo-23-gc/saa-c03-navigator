@@ -1,6 +1,6 @@
 {
   "version": "2026.10.23-1",
-  "generatedAt": "2026-10-24T14:01:51.186Z",
+  "generatedAt": "2026-10-25T14:23:45.089Z",
   "pendingChanges": [
     {
       "sourceId": "aurora-serverless-v2",
@@ -133,8 +133,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-24T14:01:50.153Z",
-      "currentHash": "f355d49f5738b9e1eda988af4738ad0bf1658e36f6b7d4101b2565e36f198f81",
+      "detectedAt": "2026-10-25T14:23:44.219Z",
+      "currentHash": "c656ed9f3508b862abb86de75924a2741511e441d411729d52ca1fac97f84802",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

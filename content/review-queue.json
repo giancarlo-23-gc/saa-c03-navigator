@@ -1,7 +1,44 @@
 {
   "version": "2026.10.25-1",
-  "generatedAt": "2026-10-25T19:45:01.916Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-26T16:48:26.904Z",
+  "pendingChanges": [
+    {
+      "sourceId": "cloudwatch-logs-retention",
+      "title": "Working with log groups and log streams in CloudWatch Logs",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html",
+      "tier": "service",
+      "detectedAt": "2026-10-26T16:48:25.864Z",
+      "currentHash": "b36419d53961d970f9cbd6ecefefa2bddcd152a50d8b46ddcfbaf878eb07f231",
+      "affectedBlueprintIds": [
+        "cost-17"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudwatch-logs-subscription-filter",
+      "title": "Real-time processing of log data with subscription filters",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html",
+      "tier": "service",
+      "detectedAt": "2026-10-26T16:48:25.864Z",
+      "currentHash": "dd3ee5cc62effa8667d44be06af2452cfa90d42505827f74647b61fade8a7c50",
+      "affectedBlueprintIds": [
+        "sec-138"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {

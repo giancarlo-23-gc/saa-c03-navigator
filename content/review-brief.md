@@ -1,6 +1,19 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **19**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **23**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## CloudTrail Lake and event data stores
+
+- Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
+- Detectada em: 2026-10-28T16:39:05.053Z
+- Questões afetadas: sec-90
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## Working with log groups and log streams in CloudWatch Logs
 
@@ -197,6 +210,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon OpenSearch Service pricing and Serverless compute/storage
+
+- Fonte: https://aws.amazon.com/opensearch-service/pricing/
+- Detectada em: 2026-10-28T16:39:05.053Z
+- Questões afetadas: cost-153
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## SAA-C03 Out-of-Scope AWS Services
 
 - Fonte: https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-out-of-scope-services.html
@@ -249,11 +275,39 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (2)
+## Step Functions large payload references in Amazon S3
+
+- Fonte: https://docs.aws.amazon.com/step-functions/latest/dg/sfn-best-practices.html
+- Detectada em: 2026-10-28T16:39:05.053Z
+- Questões afetadas: res-166
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Integrate services with Step Functions callback task tokens
+
+- Fonte: https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html
+- Detectada em: 2026-10-28T16:39:05.053Z
+- Questões afetadas: res-31
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Sinais de descoberta (4)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
 - AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
+- AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
+- AWS Training and Certification Blog Feed: https://aws.amazon.com/blogs/training-and-certification/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.

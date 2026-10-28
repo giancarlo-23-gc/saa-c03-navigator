@@ -1,7 +1,25 @@
 {
   "version": "2026.10.25-1",
-  "generatedAt": "2026-10-27T15:53:53.582Z",
+  "generatedAt": "2026-10-28T16:39:05.836Z",
   "pendingChanges": [
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "title": "CloudTrail Lake and event data stores",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "32a090c2d92c96a6f475c822eac2588f2068ede313616f8e6a67cd6920cd5c2f",
+      "affectedBlueprintIds": [
+        "sec-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cloudwatch-logs-retention",
       "title": "Working with log groups and log streams in CloudWatch Logs",
@@ -628,6 +646,24 @@
       ]
     },
     {
+      "sourceId": "opensearch-serverless-pricing",
+      "title": "Amazon OpenSearch Service pricing and Serverless compute/storage",
+      "url": "https://aws.amazon.com/opensearch-service/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "6e5fc0ce5c3e2f8043b6259e4176785b3d3441c8d6dae8ca786d4a3fe947e1b4",
+      "affectedBlueprintIds": [
+        "cost-153"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "out-of-scope",
       "title": "SAA-C03 Out-of-Scope AWS Services",
       "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-out-of-scope-services.html",
@@ -696,6 +732,42 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "step-functions-large-payload-practices",
+      "title": "Step Functions large payload references in Amazon S3",
+      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/sfn-best-practices.html",
+      "tier": "service",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "0a594d2ba76ef0476c87c8c5124c8791e9febb2a32d17bd965f3341592e08895",
+      "affectedBlueprintIds": [
+        "res-166"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "stepfunctions-callback-task-token",
+      "title": "Integrate services with Step Functions callback task tokens",
+      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html",
+      "tier": "service",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "235e03e2aa0f8bb4cf01bb176b5ebcf873ea0ed38ee7a081ccfc560d2d0593a5",
+      "affectedBlueprintIds": [
+        "res-31"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -704,8 +776,40 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "3ebc7ba2499dfc60fcaab9ebdb50fb2ba5ed5d7de0d7d42282d108aabca38571",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "75eb78660f60308a2528ad364d8a110734388279cb27b701beda70c3e0504584",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "9828f26a57d44aecdf2ec5c6b9e829c2e24804fbdcd318059362d53aee2e1171",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "training-blog",
+      "title": "AWS Training and Certification Blog Feed",
+      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "565fd4e12d7a2cbd96c30c099fac95739ba0ce9b4853af325c58cc9ffde2b8d9",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -720,8 +824,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "5fcb3bc123ec34331c9df1d360813c81a3062cd7704c104bf72d73850bfc4391",
+      "detectedAt": "2026-10-28T16:39:05.053Z",
+      "currentHash": "a5132593e08ae7db75a01b0c9d819e17380901d829054848e6c134b43f0372dc",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

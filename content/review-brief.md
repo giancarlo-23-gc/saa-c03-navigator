@@ -1,6 +1,19 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **23**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **28**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## AWS Backup restore testing
+
+- Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html
+- Detectada em: 2026-10-29T16:56:38.928Z
+- Questões afetadas: res-47
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## CloudTrail Lake and event data stores
 
@@ -85,6 +98,45 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html
 - Detectada em: 2026-10-27T15:53:52.691Z
 - Questões afetadas: res-127, cost-157
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Data tiering in Amazon ElastiCache
+
+- Fonte: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/data-tiering.html
+- Detectada em: 2026-10-29T16:56:38.928Z
+- Questões afetadas: perf-51
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Manage ElastiCache Global Datastores
+
+- Fonte: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/Redis-Global-Datastores-Console.html
+- Detectada em: 2026-10-29T16:56:38.928Z
+- Questões afetadas: res-76
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## API destinations as targets in Amazon EventBridge
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html
+- Detectada em: 2026-10-29T16:56:38.928Z
+- Questões afetadas: res-27, res-143
 
 Checklist:
 
@@ -202,6 +254,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/kms/latest/developerguide/conditions-kms.html
 - Detectada em: 2026-10-27T15:53:52.691Z
 - Questões afetadas: sec-121
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Selecting an instruction set architecture for AWS Lambda
+
+- Fonte: https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html
+- Detectada em: 2026-10-29T16:56:38.928Z
+- Questões afetadas: cost-50
 
 Checklist:
 

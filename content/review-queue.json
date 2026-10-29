@@ -1,7 +1,25 @@
 {
   "version": "2026.10.25-1",
-  "generatedAt": "2026-10-28T16:39:05.836Z",
+  "generatedAt": "2026-10-29T16:56:40.038Z",
   "pendingChanges": [
+    {
+      "sourceId": "aws-backup-restore-testing",
+      "title": "AWS Backup restore testing",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html",
+      "tier": "service",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "9909fa6af95f5a886f5c9f519f9459665ffbf16e67642ea36e578ada4036563b",
+      "affectedBlueprintIds": [
+        "res-47"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cloudtrail-lake-eds",
       "title": "CloudTrail Lake and event data stores",
@@ -486,6 +504,61 @@
       ]
     },
     {
+      "sourceId": "elasticache-data-tiering",
+      "title": "Data tiering in Amazon ElastiCache",
+      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/data-tiering.html",
+      "tier": "service",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "4d76834a58c8a517bc94b5a6bbe5099141aff326f78c3965f53a0fb93938f424",
+      "affectedBlueprintIds": [
+        "perf-51"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "elasticache-global-datastore",
+      "title": "Manage ElastiCache Global Datastores",
+      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/Redis-Global-Datastores-Console.html",
+      "tier": "service",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "28e3cb50632fdcf8183e06eaee50ade09d3c9dd239aa4bc12b453094f00ddfcf",
+      "affectedBlueprintIds": [
+        "res-76"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge-api-destination",
+      "title": "API destinations as targets in Amazon EventBridge",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html",
+      "tier": "service",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "c0a4248b22c8e54be4cbd72be458a3cb2863cd72672fdbad6e2f52d1f42ec193",
+      "affectedBlueprintIds": [
+        "res-27",
+        "res-143"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "exam-guide",
       "title": "AWS Certified Solutions Architect - Associate Exam Guide",
       "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
@@ -646,6 +719,24 @@
       ]
     },
     {
+      "sourceId": "lambda-arm64",
+      "title": "Selecting an instruction set architecture for AWS Lambda",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html",
+      "tier": "service",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "b682f9ae80d62015d3cfc8c57a7f0d274b6372010277f3003a20cb019e7fc688",
+      "affectedBlueprintIds": [
+        "cost-50"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "opensearch-serverless-pricing",
       "title": "Amazon OpenSearch Service pricing and Serverless compute/storage",
       "url": "https://aws.amazon.com/opensearch-service/pricing/",
@@ -776,8 +867,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "75eb78660f60308a2528ad364d8a110734388279cb27b701beda70c3e0504584",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "81a9161c46a93f7a66a04231aabbd6d57c9c6fe7c2abea67e5764cb91bedab7e",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -824,8 +915,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "a5132593e08ae7db75a01b0c9d819e17380901d829054848e6c134b43f0372dc",
+      "detectedAt": "2026-10-29T16:56:38.928Z",
+      "currentHash": "c16abc375403738cecc40681bf2552a7a5b6b61d28427df0e746a360b09c22f9",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

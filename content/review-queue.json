@@ -1,1060 +1,8 @@
 {
-  "version": "2026.10.25-1",
-  "generatedAt": "2026-10-30T16:42:41.141Z",
-  "pendingChanges": [
-    {
-      "sourceId": "aurora-postgresql-sql-privileges",
-      "title": "Aurora PostgreSQL security levels and database roles",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Security.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "247969fac1465aada9d3353b2f2da3c2d60bfa39bcd0fc6fab01adda8a8605cc",
-      "affectedBlueprintIds": [
-        "sec-242"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "aws-backup-restore-testing",
-      "title": "AWS Backup restore testing",
-      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html",
-      "tier": "service",
-      "detectedAt": "2026-10-29T16:56:38.928Z",
-      "currentHash": "9909fa6af95f5a886f5c9f519f9459665ffbf16e67642ea36e578ada4036563b",
-      "affectedBlueprintIds": [
-        "res-47"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "builders-library-cache-coalescing",
-      "title": "AWS Builders Library caching challenges and request coalescing",
-      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "1601637e5711f5668fbc230803d77bf1dfc5a7805f8a65ab62d65a5717f88ddc",
-      "affectedBlueprintIds": [
-        "perf-178"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudtrail-data-events",
-      "title": "Logging data events with AWS CloudTrail",
-      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "7d9444c72f63a1e5efa3f22f3d0d70ed9efb8e6f4496421306633bfbb42ec561",
-      "affectedBlueprintIds": [
-        "sec-73"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudtrail-lake-eds",
-      "title": "CloudTrail Lake and event data stores",
-      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
-      "tier": "service",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "32a090c2d92c96a6f475c822eac2588f2068ede313616f8e6a67cd6920cd5c2f",
-      "affectedBlueprintIds": [
-        "sec-90"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-logs-retention",
-      "title": "Working with log groups and log streams in CloudWatch Logs",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html",
-      "tier": "service",
-      "detectedAt": "2026-10-26T16:48:25.864Z",
-      "currentHash": "b36419d53961d970f9cbd6ecefefa2bddcd152a50d8b46ddcfbaf878eb07f231",
-      "affectedBlueprintIds": [
-        "cost-17"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudwatch-logs-subscription-filter",
-      "title": "Real-time processing of log data with subscription filters",
-      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html",
-      "tier": "service",
-      "detectedAt": "2026-10-26T16:48:25.864Z",
-      "currentHash": "dd3ee5cc62effa8667d44be06af2452cfa90d42505827f74647b61fade8a7c50",
-      "affectedBlueprintIds": [
-        "sec-138"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "datasync-enhanced-mode",
-      "title": "Choosing a DataSync task mode",
-      "url": "https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "f1b654e69571450af3ae6de55971f6cba7119d5f0b3f8293194e33b94a903fa1",
-      "affectedBlueprintIds": [
-        "perf-111"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "dms-cdc",
-      "title": "Creating tasks for ongoing replication using AWS DMS",
-      "url": "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "5a0fcdbf80067f017e92e60a07c2ff96c0a7cefd178979e2a1a01fa497df0199",
-      "affectedBlueprintIds": [
-        "res-55"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "domain-2",
-      "title": "SAA-C03 Domain 2 - Design Resilient Architectures",
-      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html",
-      "tier": "exam",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "06707c0a81ad43a6d113f12168ceffcb9dab5c36ecfb25b9a77e3ed84d1aad1c",
-      "affectedBlueprintIds": [
-        "res-01",
-        "res-02",
-        "res-04",
-        "res-05",
-        "res-06",
-        "res-07",
-        "res-08",
-        "res-09",
-        "res-10",
-        "res-11",
-        "res-12",
-        "res-13",
-        "res-14",
-        "res-16",
-        "res-18",
-        "res-19",
-        "res-20",
-        "res-21",
-        "res-22",
-        "res-23",
-        "res-24",
-        "res-25",
-        "res-26",
-        "res-27",
-        "res-31",
-        "res-35",
-        "res-36",
-        "res-37",
-        "res-38",
-        "res-39",
-        "res-40",
-        "res-41",
-        "res-42",
-        "res-43",
-        "res-44",
-        "res-45",
-        "res-46",
-        "res-47",
-        "res-48",
-        "res-49",
-        "res-50",
-        "res-51",
-        "res-52",
-        "res-53",
-        "res-54",
-        "res-55",
-        "res-57",
-        "res-58",
-        "res-59",
-        "res-60",
-        "res-61",
-        "res-62",
-        "res-63",
-        "res-64",
-        "res-65",
-        "res-66",
-        "res-67",
-        "res-68",
-        "res-69",
-        "res-70",
-        "res-71",
-        "res-72",
-        "res-73",
-        "res-74",
-        "res-75",
-        "res-76",
-        "res-77",
-        "res-78",
-        "res-79",
-        "res-80",
-        "res-81",
-        "res-82",
-        "res-83",
-        "res-84",
-        "res-85",
-        "res-86",
-        "res-87",
-        "res-88",
-        "res-89",
-        "res-90",
-        "res-91",
-        "res-92",
-        "res-93",
-        "res-94",
-        "res-95",
-        "res-96",
-        "res-97",
-        "res-98",
-        "res-99",
-        "res-100",
-        "res-101",
-        "res-102",
-        "res-103",
-        "res-104",
-        "res-105",
-        "res-106",
-        "res-107",
-        "res-108",
-        "res-109",
-        "res-110",
-        "res-111",
-        "res-112",
-        "res-113",
-        "res-114",
-        "res-115",
-        "res-116",
-        "res-117",
-        "res-118",
-        "res-119",
-        "res-120",
-        "res-121",
-        "res-122",
-        "res-123",
-        "res-124",
-        "res-125",
-        "res-126",
-        "res-127",
-        "res-128",
-        "res-129",
-        "res-130",
-        "res-131",
-        "res-132",
-        "res-133",
-        "res-134",
-        "res-136",
-        "res-137",
-        "res-138",
-        "res-139",
-        "res-140",
-        "res-141",
-        "res-142",
-        "res-143",
-        "res-144",
-        "res-145",
-        "res-146",
-        "res-147",
-        "res-148",
-        "res-149",
-        "res-150",
-        "res-151",
-        "res-152",
-        "res-153",
-        "res-154",
-        "res-155",
-        "res-156",
-        "res-157",
-        "res-158",
-        "res-159",
-        "res-160",
-        "res-161",
-        "res-162",
-        "res-163",
-        "res-164",
-        "res-165",
-        "res-166",
-        "res-167",
-        "res-168",
-        "res-169",
-        "res-170",
-        "res-171",
-        "res-172",
-        "res-173",
-        "res-174",
-        "res-175",
-        "res-176",
-        "res-177",
-        "res-178",
-        "res-179",
-        "res-180",
-        "res-181",
-        "res-182",
-        "res-183",
-        "res-184",
-        "res-185",
-        "res-186",
-        "res-187",
-        "res-188",
-        "res-189",
-        "res-190",
-        "res-191",
-        "res-192",
-        "res-193",
-        "res-194",
-        "res-195",
-        "res-196",
-        "res-197",
-        "res-198",
-        "res-199",
-        "res-200",
-        "res-201",
-        "res-202",
-        "res-203",
-        "res-204",
-        "res-205",
-        "res-206",
-        "res-207",
-        "res-208",
-        "res-209",
-        "res-210"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "domain-4",
-      "title": "SAA-C03 Domain 4 - Design Cost-Optimized Architectures",
-      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html",
-      "tier": "exam",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "5a46877628fb9e2883f3164d87e755e54be099b432e556db405a8ae32658c342",
-      "affectedBlueprintIds": [
-        "cost-01",
-        "cost-02",
-        "cost-03",
-        "cost-04",
-        "cost-05",
-        "cost-06",
-        "cost-07",
-        "cost-08",
-        "cost-09",
-        "cost-10",
-        "cost-11",
-        "cost-12",
-        "cost-13",
-        "cost-14",
-        "cost-15",
-        "cost-16",
-        "cost-17",
-        "cost-18",
-        "cost-19",
-        "cost-20",
-        "cost-21",
-        "cost-22",
-        "cost-24",
-        "cost-25",
-        "cost-26",
-        "cost-27",
-        "cost-28",
-        "cost-29",
-        "cost-30",
-        "cost-31",
-        "cost-32",
-        "cost-33",
-        "cost-34",
-        "cost-35",
-        "cost-36",
-        "cost-37",
-        "cost-38",
-        "cost-39",
-        "cost-40",
-        "cost-41",
-        "cost-42",
-        "cost-43",
-        "cost-44",
-        "cost-45",
-        "cost-46",
-        "cost-47",
-        "cost-48",
-        "cost-49",
-        "cost-50",
-        "cost-51",
-        "cost-52",
-        "cost-53",
-        "cost-54",
-        "cost-55",
-        "cost-56",
-        "cost-57",
-        "cost-58",
-        "cost-59",
-        "cost-60",
-        "cost-61",
-        "cost-62",
-        "cost-63",
-        "cost-64",
-        "cost-65",
-        "cost-66",
-        "cost-67",
-        "cost-68",
-        "cost-69",
-        "cost-70",
-        "cost-71",
-        "cost-72",
-        "cost-73",
-        "cost-74",
-        "cost-75",
-        "cost-76",
-        "cost-77",
-        "cost-78",
-        "cost-79",
-        "cost-80",
-        "cost-81",
-        "cost-82",
-        "cost-83",
-        "cost-84",
-        "cost-85",
-        "cost-86",
-        "cost-87",
-        "cost-88",
-        "cost-89",
-        "cost-90",
-        "cost-91",
-        "cost-92",
-        "cost-93",
-        "cost-94",
-        "cost-95",
-        "cost-96",
-        "cost-97",
-        "cost-98",
-        "cost-99",
-        "cost-100",
-        "cost-101",
-        "cost-102",
-        "cost-103",
-        "cost-104",
-        "cost-105",
-        "cost-106",
-        "cost-107",
-        "cost-108",
-        "cost-109",
-        "cost-110",
-        "cost-111",
-        "cost-112",
-        "cost-113",
-        "cost-114",
-        "cost-115",
-        "cost-116",
-        "cost-117",
-        "cost-118",
-        "cost-119",
-        "cost-120",
-        "cost-121",
-        "cost-122",
-        "cost-123",
-        "cost-124",
-        "cost-125",
-        "cost-126",
-        "cost-127",
-        "cost-128",
-        "cost-129",
-        "cost-130",
-        "cost-131",
-        "cost-132",
-        "cost-133",
-        "cost-134",
-        "cost-135",
-        "cost-136",
-        "cost-137",
-        "cost-138",
-        "cost-139",
-        "cost-140",
-        "cost-141",
-        "cost-142",
-        "cost-143",
-        "cost-144",
-        "cost-145",
-        "cost-146",
-        "cost-147",
-        "cost-148",
-        "cost-149",
-        "cost-150",
-        "cost-151",
-        "cost-152",
-        "cost-153",
-        "cost-154",
-        "cost-155",
-        "cost-156",
-        "cost-157",
-        "cost-158",
-        "cost-159",
-        "cost-160"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ec2-image-builder-pipeline",
-      "title": "Create and update AMI image pipelines in EC2 Image Builder",
-      "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "66ff32dd3144a469089b42ab213b545841cf6cab9639ea4ad5c3f8b5618c06ce",
-      "affectedBlueprintIds": [
-        "sec-145"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ecr-private-replication",
-      "title": "Private image replication in Amazon ECR",
-      "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "66f906cc707f1981704b578e108e97091610a8f7be3d804d538b8e4d6192d78a",
-      "affectedBlueprintIds": [
-        "res-127",
-        "cost-157"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "ecs",
-      "title": "Amazon ECS Developer Guide",
-      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "f33f0d67b42088a562dd1f9ba556c55d3db79d09ee086294ab86feca4ddbaed0",
-      "affectedBlueprintIds": [
-        "cost-18",
-        "res-32"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "elasticache-data-tiering",
-      "title": "Data tiering in Amazon ElastiCache",
-      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/data-tiering.html",
-      "tier": "service",
-      "detectedAt": "2026-10-29T16:56:38.928Z",
-      "currentHash": "4d76834a58c8a517bc94b5a6bbe5099141aff326f78c3965f53a0fb93938f424",
-      "affectedBlueprintIds": [
-        "perf-51"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "elasticache-global-datastore",
-      "title": "Manage ElastiCache Global Datastores",
-      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/Redis-Global-Datastores-Console.html",
-      "tier": "service",
-      "detectedAt": "2026-10-29T16:56:38.928Z",
-      "currentHash": "28e3cb50632fdcf8183e06eaee50ade09d3c9dd239aa4bc12b453094f00ddfcf",
-      "affectedBlueprintIds": [
-        "res-76"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "eventbridge-api-destination",
-      "title": "API destinations as targets in Amazon EventBridge",
-      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-api-destinations.html",
-      "tier": "service",
-      "detectedAt": "2026-10-29T16:56:38.928Z",
-      "currentHash": "c0a4248b22c8e54be4cbd72be458a3cb2863cd72672fdbad6e2f52d1f42ec193",
-      "affectedBlueprintIds": [
-        "res-27",
-        "res-143"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "exam-guide",
-      "title": "AWS Certified Solutions Architect - Associate Exam Guide",
-      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
-      "tier": "exam",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "eaac1cd399b418fe36d2689f5d72cfdaa70dd6435d7dacd2c83ffb7c9285c058",
-      "affectedBlueprintIds": [
-        "res-03"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "in-scope",
-      "title": "SAA-C03 In-Scope AWS Services",
-      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-in-scope-services.html",
-      "tier": "exam",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "5d9fa957ed74820e63b189b9a5dc8b5f75f28049ee9c019c4ca4c8edf9ac40a8",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-asymmetric-sign-verify",
-      "title": "Asymmetric keys and offline signature verification in AWS KMS",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/symmetric-asymmetric.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "c68d9aeb31f293566ae8cb7fe8eda842ae57a5120485126bfdefb010591a4ed6",
-      "affectedBlueprintIds": [
-        "sec-10"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-default-key-policy",
-      "title": "AWS KMS default key policy, administrators and key users",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "b77efb537495ee44204ceb35772a73bfb32357161d1f80e538ad80468d0242a1",
-      "affectedBlueprintIds": [
-        "sec-220"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-encrypt-api-limit",
-      "title": "AWS KMS Encrypt API plaintext limits",
-      "url": "https://docs.aws.amazon.com/kms/latest/APIReference/API_Encrypt.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "615b69ba368fb523acbf50f90da5836fa2b7408d446ddc1b4eb3c3a24b51a1cb",
-      "affectedBlueprintIds": [
-        "sec-164"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-grants",
-      "title": "Grants in AWS KMS",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/grants.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "e63bcba5b001eac7e06b7ee37dd28f7337de1633217f47785471a886ebb45ea9",
-      "affectedBlueprintIds": [
-        "sec-56"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-import-key-material-api",
-      "title": "KMS ImportKeyMaterial API and expired material recovery",
-      "url": "https://docs.aws.amazon.com/kms/latest/APIReference/API_ImportKeyMaterial.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "e450e52349da66f39f5612377dd473f58fa1f59fa8e7c02d4e9214861572ee0d",
-      "affectedBlueprintIds": [
-        "sec-238"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-multi-region-keys",
-      "title": "Multi-Region keys in AWS KMS",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/multi-region-keys-overview.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "f5a1e3c7de2ccb6d40e820741f1e5facba656e1ef418a0fddffe5cecf4105d28",
-      "affectedBlueprintIds": [
-        "sec-74"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-via-service",
-      "title": "AWS KMS condition keys: kms:ViaService",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/conditions-kms.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "ad0634e2bdaddb2ca86fd8ee1efa83500ea000cecb3d56c3e413465d827a53b6",
-      "affectedBlueprintIds": [
-        "sec-121"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "lambda-arm64",
-      "title": "Selecting an instruction set architecture for AWS Lambda",
-      "url": "https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html",
-      "tier": "service",
-      "detectedAt": "2026-10-29T16:56:38.928Z",
-      "currentHash": "b682f9ae80d62015d3cfc8c57a7f0d274b6372010277f3003a20cb019e7fc688",
-      "affectedBlueprintIds": [
-        "cost-50"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "opensearch-serverless-pricing",
-      "title": "Amazon OpenSearch Service pricing and Serverless compute/storage",
-      "url": "https://aws.amazon.com/opensearch-service/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "6e5fc0ce5c3e2f8043b6259e4176785b3d3441c8d6dae8ca786d4a3fe947e1b4",
-      "affectedBlueprintIds": [
-        "cost-153"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "out-of-scope",
-      "title": "SAA-C03 Out-of-Scope AWS Services",
-      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/saa-03-out-of-scope-services.html",
-      "tier": "exam",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "9baf4a06e257fd5a5f475d2c00bb36bfb29c267613a3f9cc3d05a18c0ea34a3c",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-storage",
-      "title": "Amazon RDS DB instance storage",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "15a75ba3c5edf37ded1a23637ba23c12aabaa56c97f78fe8de748a6a7aa82b42",
-      "affectedBlueprintIds": [
-        "cost-15"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-storage-autoscaling",
-      "title": "Amazon RDS storage autoscaling conditions and limitations",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "466a265a3f5f372cfb448308e5372958ffe68e0825832279496e60c492bac06c",
-      "affectedBlueprintIds": [
-        "res-44"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "s3-storage-lens",
-      "title": "Monitor storage activity and usage with Amazon S3 Storage Lens",
-      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html",
-      "tier": "service",
-      "detectedAt": "2026-10-27T15:53:52.691Z",
-      "currentHash": "5c060355479de6f4bea1baf1b8ec4a877bf2d71fdab317b87c57b51014b01e1f",
-      "affectedBlueprintIds": [
-        "cost-57"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "s3-tls-policy-keys",
-      "title": "S3 condition keys for TLS versions and prefix access",
-      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/amazon-s3-policy-keys.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "93eaafb9d99ac5a90e6efa2de194cb8a4a8f291c0d24e70efc64e436ade19029",
-      "affectedBlueprintIds": [
-        "sec-194",
-        "sec-198"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "step-functions-large-payload-practices",
-      "title": "Step Functions large payload references in Amazon S3",
-      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/sfn-best-practices.html",
-      "tier": "service",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "0a594d2ba76ef0476c87c8c5124c8791e9febb2a32d17bd965f3341592e08895",
-      "affectedBlueprintIds": [
-        "res-166"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "stepfunctions-callback-task-token",
-      "title": "Integrate services with Step Functions callback task tokens",
-      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/connect-to-resource.html",
-      "tier": "service",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "235e03e2aa0f8bb4cf01bb176b5ebcf873ea0ed38ee7a081ccfc560d2d0593a5",
-      "affectedBlueprintIds": [
-        "res-31"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
-  "discoveryChanges": [
-    {
-      "sourceId": "architecture-blog",
-      "title": "AWS Architecture Blog Feed",
-      "url": "https://aws.amazon.com/blogs/architecture/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "8f04998b32f614ba7355f26c3821cf5fc5690b7483c864c56b3421921493b99d",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "security-blog",
-      "title": "AWS Security Blog Feed",
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "390cd362e6fc888b1dcf823ac88fc2b92ce1596b54210adf646099131133b097",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "training-blog",
-      "title": "AWS Training and Certification Blog Feed",
-      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-28T16:39:05.053Z",
-      "currentHash": "565fd4e12d7a2cbd96c30c099fac95739ba0ce9b4853af325c58cc9ffde2b8d9",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "whats-new",
-      "title": "AWS What's New Feed",
-      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
-      "tier": "watch",
-      "detectedAt": "2026-10-30T16:42:40.021Z",
-      "currentHash": "c0a592b238985f129a27bcdbbad46ac369daa6ef6e62593db06bbfddca0c43ce",
-      "affectedBlueprintIds": [],
-      "status": "discovery",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.30-1",
+  "generatedAt": "2026-10-30T18:25:12.123Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
   "approvedChanges": [
     {
       "sourceId": "security-blog",
@@ -2447,6 +1395,258 @@
       "currentHash": "6cbb515ec9f96a072e860b8b630c3286c96f23618ccb2c44959200cb68477a2d",
       "approvedAt": "2026-10-25T19:44:57.985Z",
       "note": "25/10/2026: uma síntese Security alterada e duas entradas Whats New novas comparadas com 23/10; resumos lidos, não artigos integrais. PHP/WAF, busca Bedrock e chat Connect não invalidam os cenários revisados. content/source-review-2026-10-25.md."
+    },
+    {
+      "sourceId": "aurora-postgresql-sql-privileges",
+      "currentHash": "247969fac1465aada9d3353b2f2da3c2d60bfa39bcd0fc6fab01adda8a8605cc",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "aws-backup-restore-testing",
+      "currentHash": "9909fa6af95f5a886f5c9f519f9459665ffbf16e67642ea36e578ada4036563b",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "currentHash": "1601637e5711f5668fbc230803d77bf1dfc5a7805f8a65ab62d65a5717f88ddc",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "cloudtrail-data-events",
+      "currentHash": "7d9444c72f63a1e5efa3f22f3d0d70ed9efb8e6f4496421306633bfbb42ec561",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "currentHash": "32a090c2d92c96a6f475c822eac2588f2068ede313616f8e6a67cd6920cd5c2f",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "cloudwatch-logs-retention",
+      "currentHash": "b36419d53961d970f9cbd6ecefefa2bddcd152a50d8b46ddcfbaf878eb07f231",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "cloudwatch-logs-subscription-filter",
+      "currentHash": "dd3ee5cc62effa8667d44be06af2452cfa90d42505827f74647b61fade8a7c50",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "datasync-enhanced-mode",
+      "currentHash": "f1b654e69571450af3ae6de55971f6cba7119d5f0b3f8293194e33b94a903fa1",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "dms-cdc",
+      "currentHash": "5a0fcdbf80067f017e92e60a07c2ff96c0a7cefd178979e2a1a01fa497df0199",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "ec2-image-builder-pipeline",
+      "currentHash": "66ff32dd3144a469089b42ab213b545841cf6cab9639ea4ad5c3f8b5618c06ce",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "ecr-private-replication",
+      "currentHash": "66f906cc707f1981704b578e108e97091610a8f7be3d804d538b8e4d6192d78a",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "ecs",
+      "currentHash": "f33f0d67b42088a562dd1f9ba556c55d3db79d09ee086294ab86feca4ddbaed0",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "elasticache-data-tiering",
+      "currentHash": "4d76834a58c8a517bc94b5a6bbe5099141aff326f78c3965f53a0fb93938f424",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "elasticache-global-datastore",
+      "currentHash": "28e3cb50632fdcf8183e06eaee50ade09d3c9dd239aa4bc12b453094f00ddfcf",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "eventbridge-api-destination",
+      "currentHash": "c0a4248b22c8e54be4cbd72be458a3cb2863cd72672fdbad6e2f52d1f42ec193",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-asymmetric-sign-verify",
+      "currentHash": "c68d9aeb31f293566ae8cb7fe8eda842ae57a5120485126bfdefb010591a4ed6",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-default-key-policy",
+      "currentHash": "b77efb537495ee44204ceb35772a73bfb32357161d1f80e538ad80468d0242a1",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-encrypt-api-limit",
+      "currentHash": "615b69ba368fb523acbf50f90da5836fa2b7408d446ddc1b4eb3c3a24b51a1cb",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-grants",
+      "currentHash": "e63bcba5b001eac7e06b7ee37dd28f7337de1633217f47785471a886ebb45ea9",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-import-key-material-api",
+      "currentHash": "e450e52349da66f39f5612377dd473f58fa1f59fa8e7c02d4e9214861572ee0d",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-multi-region-keys",
+      "currentHash": "f5a1e3c7de2ccb6d40e820741f1e5facba656e1ef418a0fddffe5cecf4105d28",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "kms-via-service",
+      "currentHash": "ad0634e2bdaddb2ca86fd8ee1efa83500ea000cecb3d56c3e413465d827a53b6",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "lambda-arm64",
+      "currentHash": "b682f9ae80d62015d3cfc8c57a7f0d274b6372010277f3003a20cb019e7fc688",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "opensearch-serverless-pricing",
+      "currentHash": "6e5fc0ce5c3e2f8043b6259e4176785b3d3441c8d6dae8ca786d4a3fe947e1b4",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "rds-storage",
+      "currentHash": "15a75ba3c5edf37ded1a23637ba23c12aabaa56c97f78fe8de748a6a7aa82b42",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "rds-storage-autoscaling",
+      "currentHash": "466a265a3f5f372cfb448308e5372958ffe68e0825832279496e60c492bac06c",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "s3-storage-lens",
+      "currentHash": "5c060355479de6f4bea1baf1b8ec4a877bf2d71fdab317b87c57b51014b01e1f",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "s3-tls-policy-keys",
+      "currentHash": "93eaafb9d99ac5a90e6efa2de194cb8a4a8f291c0d24e70efc64e436ade19029",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "step-functions-large-payload-practices",
+      "currentHash": "0a594d2ba76ef0476c87c8c5124c8791e9febb2a32d17bd965f3341592e08895",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "stepfunctions-callback-task-token",
+      "currentHash": "235e03e2aa0f8bb4cf01bb176b5ebcf873ea0ed38ee7a081ccfc560d2d0593a5",
+      "approvedAt": "2026-10-30T17:21:17.875Z",
+      "note": "Revisão de 30/10/2026: 34 questões técnicas relidas integralmente, fontes e complementares consultadas; correções delimitadas de Lambda ARM64, RDS, ECR backfill, ECS multi-AZ, callback e Storage Lens. Decisões individuais e limites em content/source-review-2026-10-30.md; IDs e gabaritos preservados."
+    },
+    {
+      "sourceId": "domain-2",
+      "currentHash": "06707c0a81ad43a6d113f12168ceffcb9dab5c36ecfb25b9a77e3ed84d1aad1c",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "domain-4",
+      "currentHash": "5a46877628fb9e2883f3164d87e755e54be099b432e556db405a8ae32658c342",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "exam-guide",
+      "currentHash": "eaac1cd399b418fe36d2689f5d72cfdaa70dd6435d7dacd2c83ffb7c9285c058",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "exam-revisions",
+      "currentHash": "0228fc225b53e5c188874dd32a1475ca1dcb4e436e1ca2e5b6b1ed64c046f091",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "in-scope",
+      "currentHash": "5d9fa957ed74820e63b189b9a5dc8b5f75f28049ee9c019c4ca4c8edf9ac40a8",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "out-of-scope",
+      "currentHash": "9baf4a06e257fd5a5f475d2c00bb36bfb29c267613a3f9cc3d05a18c0ea34a3c",
+      "approvedAt": "2026-10-30T17:21:17.970Z",
+      "note": "Revisão de 30/10/2026: guia e domínios comparados; pesos/formato/tarefas preservados, AMS corrigido para managed services e ALB abreviado. Listas e histórico de revisão 1.1 lidos, serviços removidos ausentes do banco; listas não exaustivas, sem impor troca imediata de exame. Escopo e comparação em content/source-review-2026-10-30.md, sem nova leitura factual dos 358 itens vinculados só por domínio."
+    },
+    {
+      "sourceId": "architecture-blog",
+      "currentHash": "8f04998b32f614ba7355f26c3821cf5fc5690b7483c864c56b3421921493b99d",
+      "approvedAt": "2026-10-30T17:21:18.061Z",
+      "note": "Triagem de 30/10/2026: 64 títulos/sínteses novos/alterados e resumos pertinentes; trechos de Resilience Hub e Resolved IP Validation consultados, sem alegar 64 artigos completos. ECR backfill incorporado, demais ampliações avaliadas contra cenários delimitados. Decisões e limites em content/source-review-2026-10-30.md."
+    },
+    {
+      "sourceId": "security-blog",
+      "currentHash": "390cd362e6fc888b1dcf823ac88fc2b92ce1596b54210adf646099131133b097",
+      "approvedAt": "2026-10-30T17:21:18.061Z",
+      "note": "Triagem de 30/10/2026: 64 títulos/sínteses novos/alterados e resumos pertinentes; trechos de Resilience Hub e Resolved IP Validation consultados, sem alegar 64 artigos completos. ECR backfill incorporado, demais ampliações avaliadas contra cenários delimitados. Decisões e limites em content/source-review-2026-10-30.md."
+    },
+    {
+      "sourceId": "training-blog",
+      "currentHash": "565fd4e12d7a2cbd96c30c099fac95739ba0ce9b4853af325c58cc9ffde2b8d9",
+      "approvedAt": "2026-10-30T17:21:18.061Z",
+      "note": "Triagem de 30/10/2026: 64 títulos/sínteses novos/alterados e resumos pertinentes; trechos de Resilience Hub e Resolved IP Validation consultados, sem alegar 64 artigos completos. ECR backfill incorporado, demais ampliações avaliadas contra cenários delimitados. Decisões e limites em content/source-review-2026-10-30.md."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "f092209630087c63ba8f8a49e9198972208a50ccf765db6e940744189fe1cd4f",
+      "approvedAt": "2026-10-30T17:21:18.061Z",
+      "note": "Triagem de 30/10/2026: 64 títulos/sínteses novos/alterados e resumos pertinentes; trechos de Resilience Hub e Resolved IP Validation consultados, sem alegar 64 artigos completos. ECR backfill incorporado, demais ampliações avaliadas contra cenários delimitados. Decisões e limites em content/source-review-2026-10-30.md."
+    },
+    {
+      "sourceId": "sagemaker-serverless-on-demand",
+      "currentHash": "4af664c5d73596c0ae98533d9650a1ad3e56722c42664e328a3808aa702352e6",
+      "approvedAt": "2026-10-30T18:25:10.853Z",
+      "note": "Revisão 30/10/2026, preflight: cost-120 relida integralmente. Modelo CPU compatível, chamadas síncronas esparsas e cold starts aceitos continuam favorecendo on-demand sem Provisioned Concurrency. Limites e exclusões conferidos na fonte; mantida. Registro: content/source-review-2026-10-30.md."
+    },
+    {
+      "sourceId": "whats-new",
+      "currentHash": "ebdd158d78e284fb71178d61c396f6c1428c8dba1aa6f1720a97c51c8df73285",
+      "approvedAt": "2026-10-30T18:25:10.948Z",
+      "note": "Revisão 30/10/2026, preflight: hash atual confrontado com o snapshot. As 100 entradas, comparadas por título, data, URL e descrição, são idênticas às já triadas; nenhum impacto adicional identificado no banco. Não atribuída variação do hash a campo RSS específico sem prova. Registro: content/source-review-2026-10-30.md."
     }
   ]
 }

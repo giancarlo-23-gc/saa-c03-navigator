@@ -1,12 +1,51 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **28**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **35**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Aurora PostgreSQL security levels and database roles
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Security.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: sec-242
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## AWS Backup restore testing
 
 - Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html
 - Detectada em: 2026-10-29T16:56:38.928Z
 - Questões afetadas: res-47
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Builders Library caching challenges and request coalescing
+
+- Fonte: https://aws.amazon.com/builders-library/caching-challenges-and-strategies/
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: perf-178
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Logging data events with AWS CloudTrail
+
+- Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: sec-73
 
 Checklist:
 
@@ -54,6 +93,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Choosing a DataSync task mode
+
+- Fonte: https://docs.aws.amazon.com/datasync/latest/userguide/choosing-task-mode.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: perf-111
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Creating tasks for ongoing replication using AWS DMS
 
 - Fonte: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html
@@ -93,11 +145,37 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Create and update AMI image pipelines in EC2 Image Builder
+
+- Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: sec-145
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Private image replication in Amazon ECR
 
 - Fonte: https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html
 - Detectada em: 2026-10-27T15:53:52.691Z
 - Questões afetadas: res-127, cost-157
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon ECS Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: cost-18, res-32
 
 Checklist:
 
@@ -332,6 +410,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html
 - Detectada em: 2026-10-27T15:53:52.691Z
 - Questões afetadas: cost-57
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## S3 condition keys for TLS versions and prefix access
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/amazon-s3-policy-keys.html
+- Detectada em: 2026-10-30T16:42:40.021Z
+- Questões afetadas: sec-194, sec-198
 
 Checklist:
 

@@ -1,8 +1,228 @@
 {
   "version": "2026.10.30-1",
-  "generatedAt": "2026-10-30T18:25:12.123Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-10-31T15:45:00.966Z",
+  "pendingChanges": [
+    {
+      "sourceId": "cloudfront-cache-behavior-ttl",
+      "title": "CloudFront minimum TTL overriding private and no-store headers",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesCacheBehavior.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "bfd635fea93518727f9e69073ff8c4a71430a8c12acc9ba0697e65f44a0fc547",
+      "affectedBlueprintIds": [
+        "perf-184",
+        "sec-236"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-compression",
+      "title": "Serve compressed files with Amazon CloudFront",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "3efb9a8a4ef891c8a2d0f6a8b615d5ed424e01945093c94d95cdcc3384880cef",
+      "affectedBlueprintIds": [
+        "perf-58"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-custom-tls-certificate",
+      "title": "Requirements for using SSL/TLS certificates with CloudFront",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cnames-and-https-requirements.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "d6d9863351803da0440ad942b53317d8659e96bf1345cd1c5db81749f8d9329f",
+      "affectedBlueprintIds": [
+        "sec-103"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-field-encryption",
+      "title": "Use field-level encryption to help protect sensitive data",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "552ec3bcff2d6f3891e4c1bebc2249a2a6d84d50f3298bd42248c5fd504933f4",
+      "affectedBlueprintIds": [
+        "sec-61"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-private-origin",
+      "title": "Restrict access to private content and origins in CloudFront",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-overview.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "933fd7c1cefe3ff40f746656afb64f01299ffa13bf483cab3c5356e2cb5d2722",
+      "affectedBlueprintIds": [
+        "sec-34"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-public-alb-origin-restriction",
+      "title": "CloudFront restrict public ALB origin with secret custom header",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/restrict-access-to-load-balancer.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "b82e0b060a5ffc845268f0d51c5a545b362ec641c31c45871555ec62433a5820",
+      "affectedBlueprintIds": [
+        "sec-191"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-real-time-logs",
+      "title": "Use CloudFront real-time access logs",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/real-time-logs.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "61b1d4f51b39326d37a132d0d16078791b5a008940a3f3fac697a103b728c1c6",
+      "affectedBlueprintIds": [
+        "sec-144",
+        "cost-155"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-s3-oac",
+      "title": "Restrict access to an Amazon S3 origin",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "07a8163687f54fa460918f63a10d7dd7e0bd449876ccefc9c27e7ee76f6e8e39",
+      "affectedBlueprintIds": [
+        "sec-24",
+        "sec-236",
+        "sec-237"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudfront-viewer-https",
+      "title": "CloudFront HTTPS policy for viewers",
+      "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-viewers-to-cloudfront.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "a72b67f3f1c57797359c9423684a04a28bde323610c5e12406df9e39eeee7c95",
+      "affectedBlueprintIds": [
+        "sec-202"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudwatch-log-classes",
+      "title": "Amazon CloudWatch Logs log classes",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatch_Logs_Log_Classes.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "05819e5982f9f3579112dd5c5916cf588da322bd3b594bfa888119a2ab60a076",
+      "affectedBlueprintIds": [
+        "cost-29"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ecs-service-connect",
+      "title": "Use Service Connect to connect Amazon ECS services",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html",
+      "tier": "service",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "32655cee49c2a1ab955745d77bd880b83ed21cd5129b6ac90215a1025a1b165a",
+      "affectedBlueprintIds": [
+        "res-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-10-31T15:44:59.954Z",
+      "currentHash": "8aea59727eaaafc778da6c0c9f3a0e1d05337f529aac4ce73234ecb2178cd46e",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

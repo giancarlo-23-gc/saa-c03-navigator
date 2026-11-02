@@ -1,6 +1,45 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **11**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **15**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## ACM wildcard certificate domain coverage limitations
+
+- Fonte: https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-characteristics.html
+- Detectada em: 2026-11-02T20:22:32.587Z
+- Questões afetadas: sec-215
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Certificate Manager DNS validation and managed renewal
+
+- Fonte: https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html
+- Detectada em: 2026-11-02T20:22:32.587Z
+- Questões afetadas: sec-66
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## ACM exportable public certificates and private key deployment
+
+- Fonte: https://docs.aws.amazon.com/acm/latest/userguide/acm-exportable-certificates.html
+- Detectada em: 2026-11-02T20:22:32.587Z
+- Questões afetadas: sec-57
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## CloudFront minimum TTL overriding private and no-store headers
 
@@ -132,6 +171,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Real-time processing of log data with subscription filters
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html
+- Detectada em: 2026-11-02T20:22:32.587Z
+- Questões afetadas: sec-138
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Use Service Connect to connect Amazon ECS services
 
 - Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html
@@ -145,10 +197,12 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (1)
+## Sinais de descoberta (3)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
+- AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.

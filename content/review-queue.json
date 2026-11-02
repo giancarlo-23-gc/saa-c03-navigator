@@ -1,7 +1,61 @@
 {
   "version": "2026.10.30-1",
-  "generatedAt": "2026-11-01T16:49:07.233Z",
+  "generatedAt": "2026-11-02T20:22:33.444Z",
   "pendingChanges": [
+    {
+      "sourceId": "acm-certificate-characteristics",
+      "title": "ACM wildcard certificate domain coverage limitations",
+      "url": "https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-characteristics.html",
+      "tier": "service",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "883045ca4e2479e7423fc7e4d82f1d3669b4aae684768298486710222b31faf4",
+      "affectedBlueprintIds": [
+        "sec-215"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "acm-dns-renewal",
+      "title": "AWS Certificate Manager DNS validation and managed renewal",
+      "url": "https://docs.aws.amazon.com/acm/latest/userguide/dns-validation.html",
+      "tier": "service",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "2060c238578fa8069167da6eeb31a55910f3964c4b08182f0b9b020b604be998",
+      "affectedBlueprintIds": [
+        "sec-66"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "acm-exportable-certificates",
+      "title": "ACM exportable public certificates and private key deployment",
+      "url": "https://docs.aws.amazon.com/acm/latest/userguide/acm-exportable-certificates.html",
+      "tier": "service",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "43fd6dce8b4b8c1463af56eaf23fecfd8f34c3345281732894bf9ee0f284f8c1",
+      "affectedBlueprintIds": [
+        "sec-57"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cloudfront-cache-behavior-ttl",
       "title": "CloudFront minimum TTL overriding private and no-store headers",
@@ -187,6 +241,24 @@
       ]
     },
     {
+      "sourceId": "cloudwatch-logs-subscription-filter",
+      "title": "Real-time processing of log data with subscription filters",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html",
+      "tier": "service",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "26412ea21f4d9bd4f433dc2d2b17512f4010c848b21000cd90635380087bd6b9",
+      "affectedBlueprintIds": [
+        "sec-138"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ecs-service-connect",
       "title": "Use Service Connect to connect Amazon ECS services",
       "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html",
@@ -207,12 +279,44 @@
   ],
   "discoveryChanges": [
     {
+      "sourceId": "architecture-blog",
+      "title": "AWS Architecture Blog Feed",
+      "url": "https://aws.amazon.com/blogs/architecture/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "364a6dd502505b82c35e5589a2a73400765af161ebb2f9622536c2479e47d4c7",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "2ced9f31c0ac768783a982bb0febdb8278f25d254ce6eafc010601aa366d5bec",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-01T16:49:06.605Z",
-      "currentHash": "2029890cdd5602c5ae48a10e6223cd62b992e9a10a1e0d8edf8abe9028a312d4",
+      "detectedAt": "2026-11-02T20:22:32.587Z",
+      "currentHash": "fe5023c6c45516dbca2542654ec60f25a09d55e60ecffc8e20c9d69f5814f8ab",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

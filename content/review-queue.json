@@ -1,8 +1,170 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-02T23:15:39.795Z",
-  "pendingChanges": [],
-  "discoveryChanges": [],
+  "generatedAt": "2026-11-03T17:51:35.116Z",
+  "pendingChanges": [
+    {
+      "sourceId": "cloudtrail-data-events",
+      "title": "Logging data events with AWS CloudTrail",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "cf7ac09fd6bb1e712fa0ef251bdbccd18cf5e8382b4f3700a3831dd61537c4fb",
+      "affectedBlueprintIds": [
+        "sec-73"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudtrail-lake-eds",
+      "title": "CloudTrail Lake and event data stores",
+      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "0aec00152159d09070e204172d2cac761ef32842c44a400c16eed9a50a4ed3b9",
+      "affectedBlueprintIds": [
+        "sec-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cloudwatch-emf-spec",
+      "title": "CloudWatch embedded metric format specification",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format_Specification.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "43e09592ed3b5a0b47b4b26b4af64ab8eaccf368a49a4f5c914f82f0a2fe5c5e",
+      "affectedBlueprintIds": [
+        "perf-146"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "compute-optimizer-enhanced-lookback",
+      "title": "Compute Optimizer enhanced infrastructure metrics lookback",
+      "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/enhanced-infrastructure-metrics.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "6fefb52ad75a3ffd772f74bb66da373677153e87b1844e8c25739e78f6bbd0ad",
+      "affectedBlueprintIds": [
+        "cost-137"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "compute-optimizer-graviton",
+      "title": "Viewing EC2 instance recommendations with Graviton preference",
+      "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "3496375cd591b06f924ec0c887881587bd7b73111d36dd650adae1021a9259d5",
+      "affectedBlueprintIds": [
+        "cost-19"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "redshift-concurrency-scaling",
+      "title": "Amazon Redshift concurrency scaling",
+      "url": "https://docs.aws.amazon.com/redshift/latest/dg/concurrency-scaling.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "9849e7bd732d111c7f3599f688e9f32b39a8ebfa3970bc3d600c351903075165",
+      "affectedBlueprintIds": [
+        "perf-60"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "redshift-pause-resume",
+      "title": "Pause and resume an Amazon Redshift cluster",
+      "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/rs-mgmt-pause-resume-cluster.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "2c90dee65def547abf261a4a1341ca9c0566bb0837aebd10c107c8bd9bcf9499",
+      "affectedBlueprintIds": [
+        "cost-69"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "redshift-ra3-storage",
+      "title": "Amazon Redshift provisioned clusters and managed storage",
+      "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "fab56345f89a95e9d9ff7481238051b66048ece3c2a7e26b9d39209402049fae",
+      "affectedBlueprintIds": [
+        "cost-100"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
+  "discoveryChanges": [
+    {
+      "sourceId": "whats-new",
+      "title": "AWS What's New Feed",
+      "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-11-03T17:51:34.023Z",
+      "currentHash": "36414556097499cb29a1c1044936d7ca106d2c5b4b1fa5af309da2202be6164f",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "approvedChanges": [
     {
       "sourceId": "security-blog",

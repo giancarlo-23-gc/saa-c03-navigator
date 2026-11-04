@@ -1,14 +1,14 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-03T17:51:35.116Z",
+  "generatedAt": "2026-11-04T17:59:40.264Z",
   "pendingChanges": [
     {
       "sourceId": "cloudtrail-data-events",
       "title": "Logging data events with AWS CloudTrail",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
       "tier": "service",
-      "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "cf7ac09fd6bb1e712fa0ef251bdbccd18cf5e8382b4f3700a3831dd61537c4fb",
+      "detectedAt": "2026-11-04T17:59:39.112Z",
+      "currentHash": "8d3ace75db156d86bf211790f364cbc117be9fe3aa5bec417c17b7bb9b45fcf8",
       "affectedBlueprintIds": [
         "sec-73"
       ],
@@ -25,8 +25,8 @@
       "title": "CloudTrail Lake and event data stores",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
       "tier": "service",
-      "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "0aec00152159d09070e204172d2cac761ef32842c44a400c16eed9a50a4ed3b9",
+      "detectedAt": "2026-11-04T17:59:39.112Z",
+      "currentHash": "c2d59e021b979d99961e14d75d3f643fe2956f2cf2f73919ef399369ba684c49",
       "affectedBlueprintIds": [
         "sec-90"
       ],
@@ -93,12 +93,30 @@
       ]
     },
     {
+      "sourceId": "lambda-request-concurrency-quotas",
+      "title": "Lambda request quotas for functions and provisioned aliases",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+      "tier": "service",
+      "detectedAt": "2026-11-04T17:59:39.112Z",
+      "currentHash": "117c664ea3088444a92f27a79a46efbd32a327862443b434ec2b9312cd028f11",
+      "affectedBlueprintIds": [
+        "perf-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "redshift-concurrency-scaling",
       "title": "Amazon Redshift concurrency scaling",
       "url": "https://docs.aws.amazon.com/redshift/latest/dg/concurrency-scaling.html",
       "tier": "service",
       "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "9849e7bd732d111c7f3599f688e9f32b39a8ebfa3970bc3d600c351903075165",
+      "currentHash": "8209083fc2a662906390aada121f44b854b1bb4d0ebb435caa77c6f33d175c44",
       "affectedBlueprintIds": [
         "perf-60"
       ],
@@ -116,7 +134,7 @@
       "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/rs-mgmt-pause-resume-cluster.html",
       "tier": "service",
       "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "2c90dee65def547abf261a4a1341ca9c0566bb0837aebd10c107c8bd9bcf9499",
+      "currentHash": "48784e0cf47325f00b334174becbac6a224c7210136f7b2cc775325b716859d4",
       "affectedBlueprintIds": [
         "cost-69"
       ],
@@ -134,9 +152,27 @@
       "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html",
       "tier": "service",
       "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "fab56345f89a95e9d9ff7481238051b66048ece3c2a7e26b9d39209402049fae",
+      "currentHash": "f35dc31901ea7f791beddbb8f137dbdde64d1ba6f86911bf851f8316062b570e",
       "affectedBlueprintIds": [
         "cost-100"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "redshift-zero-etl-considerations",
+      "title": "Considerations when using zero-ETL integrations with Amazon Redshift",
+      "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/zero-etl.reqs-lims.html",
+      "tier": "service",
+      "detectedAt": "2026-11-04T17:59:39.112Z",
+      "currentHash": "06a07ae8a9300a6243e232f9f7670bb75dc69f1c0819d4b9575c99e6c216bec1",
+      "affectedBlueprintIds": [
+        "perf-144"
       ],
       "status": "pending",
       "requiredActions": [
@@ -153,8 +189,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "36414556097499cb29a1c1044936d7ca106d2c5b4b1fa5af309da2202be6164f",
+      "detectedAt": "2026-11-04T17:59:39.112Z",
+      "currentHash": "cc170b1fc34e10d03143420566d542ddb86ce61ff10ec5e5394c34db8896498c",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-04T17:59:40.264Z",
+  "generatedAt": "2026-11-05T18:02:20.329Z",
   "pendingChanges": [
     {
       "sourceId": "cloudtrail-data-events",
@@ -83,6 +83,96 @@
       "currentHash": "3496375cd591b06f924ec0c887881587bd7b73111d36dd650adae1021a9259d5",
       "affectedBlueprintIds": [
         "cost-19"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "documentdb",
+      "title": "Amazon DocumentDB Developer Guide",
+      "url": "https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "211ecf7d21f7a127780ee7116d4e9a742a0f68d2f5cb0803c6ad58838586aa22",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "dynamodb-leading-keys",
+      "title": "IAM condition keys for DynamoDB",
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/specifying-conditions.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "e15037dc084ce0d37bc6a957e96817820bf7da6affb451d1cbf2c2e05648f4e7",
+      "affectedBlueprintIds": [
+        "sec-112"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge",
+      "title": "Amazon EventBridge User Guide",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "a33e36706ad20dddec97ab9e11a5dab2b340244d42fe5079194a2dcdc7af9ba2",
+      "affectedBlueprintIds": [
+        "res-11",
+        "res-27",
+        "res-143"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge-global-endpoints",
+      "title": "Amazon EventBridge global endpoints",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-global-endpoints.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "d128ba1d4d699a55ae34b1ae4788a8600ba4bbb491124c218479fb5b58199c37",
+      "affectedBlueprintIds": [
+        "res-50"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eventbridge-pipes-targets",
+      "title": "Amazon EventBridge Pipes targets and invocation modes",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-pipes-event-target.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "8fc57f49234bf3bb47bbcdbfbd02459fa3dc2d677c9df486fac7ae0b06d492a5",
+      "affectedBlueprintIds": [
+        "res-87"
       ],
       "status": "pending",
       "requiredActions": [
@@ -181,16 +271,68 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "s3-current-pricing",
+      "title": "Amazon S3 pricing including Transfer Acceleration",
+      "url": "https://aws.amazon.com/s3/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "454b21c452d4c71270e5a817029793ba25db121b595c125d1ac2256a7c0727c7",
+      "affectedBlueprintIds": [
+        "cost-156"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "waf-bot-control-targeted",
+      "title": "Choosing and configuring Bot Control for your use case",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html",
+      "tier": "service",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "21f90d135a793f043f07f1cf38886c18faeb3b3b1532cabacaf0880107379f4e",
+      "affectedBlueprintIds": [
+        "sec-108"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
+    {
+      "sourceId": "security-blog",
+      "title": "AWS Security Blog Feed",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "df5b6431fa2cc84603ab695fdacb4974ee5b5ae8cfc1b47af60c6c33d173f914",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-04T17:59:39.112Z",
-      "currentHash": "cc170b1fc34e10d03143420566d542ddb86ce61ff10ec5e5394c34db8896498c",
+      "detectedAt": "2026-11-05T18:02:19.265Z",
+      "currentHash": "e4d3cda172240606a3aebcc2e645b0f00da227b1506e3938f5088228c9c73950",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

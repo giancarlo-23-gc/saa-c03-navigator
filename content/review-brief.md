@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **10**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **17**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Logging data events with AWS CloudTrail
 
@@ -59,6 +59,71 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html
 - Detectada em: 2026-11-03T17:51:34.023Z
 - Questões afetadas: cost-19
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon DocumentDB Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## IAM condition keys for DynamoDB
+
+- Fonte: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/specifying-conditions.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: sec-112
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EventBridge User Guide
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: res-11, res-27, res-143
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EventBridge global endpoints
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-global-endpoints.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: res-50
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EventBridge Pipes targets and invocation modes
+
+- Fonte: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-pipes-event-target.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: res-87
 
 Checklist:
 
@@ -132,10 +197,37 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (1)
+## Amazon S3 pricing including Transfer Acceleration
+
+- Fonte: https://aws.amazon.com/s3/pricing/
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: cost-156
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Choosing and configuring Bot Control for your use case
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html
+- Detectada em: 2026-11-05T18:02:19.265Z
+- Questões afetadas: sec-108
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Sinais de descoberta (2)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.

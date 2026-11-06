@@ -1,11 +1,11 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **17**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **23**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-04T17:59:39.112Z
+- Detectada em: 2026-11-06T17:30:43.129Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -18,7 +18,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-04T17:59:39.112Z
+- Detectada em: 2026-11-06T17:30:43.129Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -33,6 +33,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Embedded_Metric_Format_Specification.html
 - Detectada em: 2026-11-03T17:51:34.023Z
 - Questões afetadas: perf-146
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Working with log groups and log streams in CloudWatch Logs
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: cost-17
 
 Checklist:
 
@@ -72,6 +85,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html
 - Detectada em: 2026-11-05T18:02:19.265Z
 - Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## BatchWriteItem API
+
+- Fonte: https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchWriteItem.html
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: perf-119
 
 Checklist:
 
@@ -132,11 +158,50 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Managing provisioned FSx for Lustre metadata performance
+
+- Fonte: https://docs.aws.amazon.com/fsx/latest/LustreGuide/managing-metadata-performance.html
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: perf-192
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Lambda pricing: ephemeral storage
+
+- Fonte: https://aws.amazon.com/lambda/pricing/
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: cost-107
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Lambda request quotas for functions and provisioned aliases
 
 - Fonte: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
-- Detectada em: 2026-11-04T17:59:39.112Z
+- Detectada em: 2026-11-06T17:30:43.129Z
 - Questões afetadas: perf-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon OpenSearch Service pricing and Serverless compute/storage
+
+- Fonte: https://aws.amazon.com/opensearch-service/pricing/
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: cost-153
 
 Checklist:
 
@@ -210,6 +275,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS Well-Architected Tool workload reviews
+
+- Fonte: https://docs.aws.amazon.com/wellarchitected/latest/userguide/well-architected.html
+- Detectada em: 2026-11-06T17:30:43.129Z
+- Questões afetadas: res-149
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Choosing and configuring Bot Control for your use case
 
 - Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html
@@ -223,10 +301,11 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (2)
+## Sinais de descoberta (3)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
+- AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
 - AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 

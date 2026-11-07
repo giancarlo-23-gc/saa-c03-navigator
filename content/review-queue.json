@@ -1,14 +1,32 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-06T17:30:44.208Z",
+  "generatedAt": "2026-11-07T16:28:02.259Z",
   "pendingChanges": [
+    {
+      "sourceId": "backup-logically-air-gapped",
+      "title": "AWS Backup logically air-gapped vault",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "670f8e70584baf65eeac66638fb9b7c2298261f370802b34c2725ef901cc5a0e",
+      "affectedBlueprintIds": [
+        "res-66"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "cloudtrail-data-events",
       "title": "Logging data events with AWS CloudTrail",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
       "tier": "service",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "659a5fcd6a9bd943c6a4c7b1ab0e749aa4db41c51bdf9a3923231c7ba6bd9c26",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "4db2831dc4cf9da33ccabe95eaabba19fd69ce77f26e0486e9b5432f2d524338",
       "affectedBlueprintIds": [
         "sec-73"
       ],
@@ -25,8 +43,8 @@
       "title": "CloudTrail Lake and event data stores",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
       "tier": "service",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "8f6c88c1b761ec357c5c0740bcde76b558c8b4e16d0aad687fd18bf1e19cb148",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "9b4aa1d4998767fe32ad2baf1106099aced697486c4cbdd88d74ea99e83e8fe6",
       "affectedBlueprintIds": [
         "sec-90"
       ],
@@ -75,6 +93,42 @@
       ]
     },
     {
+      "sourceId": "compute-optimizer-ebs-recommendations",
+      "title": "Viewing Amazon EBS volume recommendations",
+      "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ebs-recommendations.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "ee4c99837f56744b606183d613d61fbb641152ce0dacbca7c7dc1177e56e02b3",
+      "affectedBlueprintIds": [
+        "cost-108"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "compute-optimizer-ec2-memory",
+      "title": "EC2 instance metrics analyzed by AWS Compute Optimizer",
+      "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/ec2-metrics-analyzed.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "754ed2c3ea5ed279c130579b50d0b5e53be988c911818ee68fe9452b75f31f47",
+      "affectedBlueprintIds": [
+        "cost-78"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "compute-optimizer-enhanced-lookback",
       "title": "Compute Optimizer enhanced infrastructure metrics lookback",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/enhanced-infrastructure-metrics.html",
@@ -97,8 +151,8 @@
       "title": "Viewing EC2 instance recommendations with Graviton preference",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html",
       "tier": "service",
-      "detectedAt": "2026-11-03T17:51:34.023Z",
-      "currentHash": "3496375cd591b06f924ec0c887881587bd7b73111d36dd650adae1021a9259d5",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "47a55afd5fe9ae4aa1eac2f61a7d32bf0249c21d877601b1d1ee495bf6487d34",
       "affectedBlueprintIds": [
         "cost-19"
       ],
@@ -153,6 +207,24 @@
       "currentHash": "e15037dc084ce0d37bc6a957e96817820bf7da6affb451d1cbf2c2e05648f4e7",
       "affectedBlueprintIds": [
         "sec-112"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "emr-node-role-overview",
+      "title": "EMR primary core and task node responsibilities",
+      "url": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "fc5e070e43222d11f386ae16376196c9980a18deda51d1026bfc8789fa96b5b0",
+      "affectedBlueprintIds": [
+        "cost-129"
       ],
       "status": "pending",
       "requiredActions": [
@@ -227,6 +299,26 @@
       "currentHash": "dee81a89a9ee8b75b4f37689056e306af2e8f705cd504007cb8734930e043d43",
       "affectedBlueprintIds": [
         "perf-192"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "iam-requested-region",
+      "title": "IAM global condition key aws:RequestedRegion",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "e1fdab8bcb13b4bf852674e69c10f4868a69e5be99da011bd57d45e992232fcb",
+      "affectedBlueprintIds": [
+        "sec-92",
+        "sec-206",
+        "sec-210"
       ],
       "status": "pending",
       "requiredActions": [
@@ -415,6 +507,24 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "wavelength-carrier-gateway",
+      "title": "AWS Wavelength carrier gateway connectivity",
+      "url": "https://docs.aws.amazon.com/wavelength/latest/developerguide/carrier-gateways.html",
+      "tier": "service",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "5281466c82e2e5924d6226964274692648eb5f7f37c70a97381fa525076b39bc",
+      "affectedBlueprintIds": [
+        "perf-154"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -423,8 +533,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "fa8ba69dc48c9abe002289323eb246fc78bb039dbab336f485a053d43f0a9e10",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "744ab3a1bae63f87b24d5023c69217d65287c41826f72f4a0dcbfcc8b830ca8d",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -439,8 +549,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "db86e7c24ebabf720b9148177091a08d304ec0294e7a3780ea9e36dea2a697cd",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "c449cd0be47041104f36ba19df54751670363da0f7b6a796e43382ce2f232494",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -455,8 +565,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "96453d5151db98373dd9f60c1dd00519a964c3cfa3b54e2a9cd71c1b877f159d",
+      "detectedAt": "2026-11-07T16:28:01.064Z",
+      "currentHash": "674bd6a3e03181ed284a9bc14eac76446ca8e92876cf88368dec69b4f00d4b85",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

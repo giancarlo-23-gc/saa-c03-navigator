@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-07T16:28:02.259Z",
+  "generatedAt": "2026-11-08T16:41:05.538Z",
   "pendingChanges": [
     {
       "sourceId": "backup-logically-air-gapped",
@@ -565,8 +565,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "674bd6a3e03181ed284a9bc14eac76446ca8e92876cf88368dec69b4f00d4b85",
+      "detectedAt": "2026-11-08T16:41:04.691Z",
+      "currentHash": "32b817b67844c97577dc00e45ca880b7c0be7dbe37f750de81ef2a16c2731d7e",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

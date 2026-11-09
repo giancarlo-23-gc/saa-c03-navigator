@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-08T16:41:05.538Z",
+  "generatedAt": "2026-11-09T20:46:05.352Z",
   "pendingChanges": [
     {
       "sourceId": "backup-logically-air-gapped",
@@ -217,6 +217,78 @@
       ]
     },
     {
+      "sourceId": "eks",
+      "title": "Amazon EKS User Guide",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "be55bfb4e1fa2724359dfa40e6aa69a9f18afc9837fd59b75ec6b9840798e891",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-managed-node-groups",
+      "title": "Amazon EKS managed node groups",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "d9be2005c54b525ae3df06f95ad2f18829f57a940bd1801a867a52ed47bf831e",
+      "affectedBlueprintIds": [
+        "res-147",
+        "res-158"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-pod-identity",
+      "title": "Learn how EKS Pod Identity grants pods access to AWS services",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "d3c47dfe9d97b70c98e08068237627fa5d1e7edecce77af9af551f8a0631e62a",
+      "affectedBlueprintIds": [
+        "sec-97",
+        "sec-185"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "elasticache-online-resharding",
+      "title": "Scaling Valkey or Redis OSS cluster mode enabled clusters",
+      "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/scaling-redis-cluster-mode-enabled.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "0eacca5230a771db16ba984c924751de46a8cc6d0698289ca6291d9976e7eccc",
+      "affectedBlueprintIds": [
+        "perf-123"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "emr-node-role-overview",
       "title": "EMR primary core and task node responsibilities",
       "url": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html",
@@ -319,6 +391,42 @@
         "sec-92",
         "sec-206",
         "sec-210"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ipam-public-ip-insights",
+      "title": "View public IP insights in Amazon VPC IPAM",
+      "url": "https://docs.aws.amazon.com/vpc/latest/ipam/view-public-ip-insights.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "eddaf3e5d6e24922d65a3ba305afee99cb2322fc64d14dd339d854ca8e7f4a44",
+      "affectedBlueprintIds": [
+        "cost-63"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kms-via-service",
+      "title": "AWS KMS condition keys: kms:ViaService",
+      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/conditions-kms.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "1fc3314f316b3a0f34a0430d7cb18b0fe1414e048b4c76a714b000a6b05841e5",
+      "affectedBlueprintIds": [
+        "sec-121"
       ],
       "status": "pending",
       "requiredActions": [
@@ -533,8 +641,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "744ab3a1bae63f87b24d5023c69217d65287c41826f72f4a0dcbfcc8b830ca8d",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "51cfaae83f3d696e64326adcda948d5c456ae892ebd37632d109089cbb055d22",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -549,8 +657,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "c449cd0be47041104f36ba19df54751670363da0f7b6a796e43382ce2f232494",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "9550894cc4c1e41d026a61e47397b613ca0ea1855d91f6578794e862fe0b17de",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -565,8 +673,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-08T16:41:04.691Z",
-      "currentHash": "32b817b67844c97577dc00e45ca880b7c0be7dbe37f750de81ef2a16c2731d7e",
+      "detectedAt": "2026-11-09T20:46:04.251Z",
+      "currentHash": "cef728288fb75488be905193fef4897472d1396de2eec02275f03dd522a68df3",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

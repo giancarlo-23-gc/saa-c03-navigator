@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **29**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **35**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## AWS Backup logically air-gapped vault
 
@@ -158,6 +158,58 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon EKS User Guide
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EKS managed node groups
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: res-147, res-158
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Learn how EKS Pod Identity grants pods access to AWS services
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: sec-97, sec-185
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Scaling Valkey or Redis OSS cluster mode enabled clusters
+
+- Fonte: https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/scaling-redis-cluster-mode-enabled.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: perf-123
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## EMR primary core and task node responsibilities
 
 - Fonte: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-overview.html
@@ -228,6 +280,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html
 - Detectada em: 2026-11-07T16:28:01.064Z
 - Questões afetadas: sec-92, sec-206, sec-210
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## View public IP insights in Amazon VPC IPAM
+
+- Fonte: https://docs.aws.amazon.com/vpc/latest/ipam/view-public-ip-insights.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: cost-63
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS KMS condition keys: kms:ViaService
+
+- Fonte: https://docs.aws.amazon.com/kms/latest/developerguide/conditions-kms.html
+- Detectada em: 2026-11-09T20:46:04.251Z
+- Questões afetadas: sec-121
 
 Checklist:
 

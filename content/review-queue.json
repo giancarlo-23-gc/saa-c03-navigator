@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-09T20:46:05.352Z",
+  "generatedAt": "2026-11-09T21:23:25.640Z",
   "pendingChanges": [
     {
       "sourceId": "backup-logically-air-gapped",
@@ -165,6 +165,25 @@
       ]
     },
     {
+      "sourceId": "distributed-saga-orchestration",
+      "title": "Saga orchestration for distributed transactions and compensations",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga-orchestration.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "775f5d225a799dbb982cc9459f2ca1f6bcfc8e679deea307c35a06d6b4822ad4",
+      "affectedBlueprintIds": [
+        "res-206"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.",
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "documentdb",
       "title": "Amazon DocumentDB Developer Guide",
       "url": "https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html",
@@ -210,6 +229,25 @@
       ],
       "status": "pending",
       "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "efs-encryption-policy-guidance",
+      "title": "EFS encryption enforcement best practices",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "32f0c776c976247b0d61b73266a54923ab853e6f63543733973e4124ed2daedb",
+      "affectedBlueprintIds": [
+        "sec-195"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.",
         "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
         "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
         "Executar pnpm verify:release e revisar o simulado no navegador.",
@@ -374,6 +412,25 @@
       ],
       "status": "pending",
       "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "glue-etl-engine-selection",
+      "title": "AWS Glue ETL job engines in serverless ETL guidance",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "663281f2ee09ab83d0e8754529b9d8e734c2ebec735bf9dd158cf10cee97de0b",
+      "affectedBlueprintIds": [
+        "cost-154"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.",
         "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
         "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
         "Executar pnpm verify:release e revisar o simulado no navegador.",
@@ -581,6 +638,27 @@
       ]
     },
     {
+      "sourceId": "transactional-outbox-dual-write",
+      "title": "AWS transactional outbox pattern for reliable dual writes",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html",
+      "tier": "service",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "48a406410e6314000854d743b70a6c9fa158359d8101655bd35fbee87a39c5af",
+      "affectedBlueprintIds": [
+        "res-170",
+        "res-178",
+        "res-185"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.",
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "wa-tool-overview",
       "title": "AWS Well-Architected Tool workload reviews",
       "url": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/well-architected.html",
@@ -669,12 +747,28 @@
       ]
     },
     {
+      "sourceId": "training-blog",
+      "title": "AWS Training and Certification Blog Feed",
+      "url": "https://aws.amazon.com/blogs/training-and-certification/feed/",
+      "tier": "watch",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "081b21d975bee4811b0c339b2ddd6d2eabb01ef05ed1483a9fee7934984b6d0d",
+      "affectedBlueprintIds": [],
+      "status": "discovery",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "whats-new",
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-09T20:46:04.251Z",
-      "currentHash": "cef728288fb75488be905193fef4897472d1396de2eec02275f03dd522a68df3",
+      "detectedAt": "2026-11-09T21:23:24.805Z",
+      "currentHash": "e371a5bed04e6d7bbb8caa4da1f990baef8a916237e2d42f6879e4169a82f3cd",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

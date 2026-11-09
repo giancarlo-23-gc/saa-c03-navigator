@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "version": "2026.11.02-1",
-  "publishedAt": "2026-11-09T20:46:04.251Z",
+  "publishedAt": "2026-11-09T21:23:24.805Z",
   "sourceManifestVersion": "2026.11.02-1",
   "files": {
-    "source-manifest.json": "99f69dcc93315e6bc51a7ea1a8e8f1ba0c82a05f78551414aa5d1fd801ecf198",
-    "review-queue.json": "7e1356d732bd5fda8d73d1caa259ef21d6151aa61e74197860a7ff3ee169680d",
+    "source-manifest.json": "7cafa1691d0b3b547f49018a1d116663f0bf2a8f563efb5e45dbc825674b6392",
+    "review-queue.json": "3292781e951e6be6d39da2c1b29e57275b2bbe3fab415411418e546ee4418609",
     "content-policy.json": "420d7506cb171a616526a8571529dc28d0eccefa18fb1f45751943ca81134b64"
   }
 }

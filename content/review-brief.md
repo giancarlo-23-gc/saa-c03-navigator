@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **35**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **39**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## AWS Backup logically air-gapped vault
 
@@ -119,6 +119,20 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Saga orchestration for distributed transactions and compensations
+
+- Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga-orchestration.html
+- Detectada em: 2026-11-09T21:23:24.805Z
+- Questões afetadas: res-206
+
+Checklist:
+
+- [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon DocumentDB Developer Guide
 
 - Fonte: https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html
@@ -153,6 +167,20 @@ Checklist:
 
 Checklist:
 
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## EFS encryption enforcement best practices
+
+- Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
+- Detectada em: 2026-11-09T21:23:24.805Z
+- Questões afetadas: sec-195
+
+Checklist:
+
+- [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
 - [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
 - [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
@@ -270,6 +298,20 @@ Checklist:
 
 Checklist:
 
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Glue ETL job engines in serverless ETL guidance
+
+- Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
+- Detectada em: 2026-11-09T21:23:24.805Z
+- Questões afetadas: cost-154
+
+Checklist:
+
+- [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
 - [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
 - [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
@@ -418,6 +460,20 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS transactional outbox pattern for reliable dual writes
+
+- Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html
+- Detectada em: 2026-11-09T21:23:24.805Z
+- Questões afetadas: res-170, res-178, res-185
+
+Checklist:
+
+- [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS Well-Architected Tool workload reviews
 
 - Fonte: https://docs.aws.amazon.com/wellarchitected/latest/userguide/well-architected.html
@@ -457,12 +513,13 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
-## Sinais de descoberta (3)
+## Sinais de descoberta (4)
 
 Feeds oficiais publicaram novos itens. Esses sinais exigem triagem, mas não bloqueiam o conteúdo porque não alteram por si só uma regra documental.
 
 - AWS Architecture Blog Feed: https://aws.amazon.com/blogs/architecture/feed/
 - AWS Security Blog Feed: https://aws.amazon.com/blogs/security/feed/
+- AWS Training and Certification Blog Feed: https://aws.amazon.com/blogs/training-and-certification/feed/
 - AWS What's New Feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
 
 O monitor apenas sinaliza mudanças. Nenhuma resposta é alterada automaticamente sem revisão editorial e validação.

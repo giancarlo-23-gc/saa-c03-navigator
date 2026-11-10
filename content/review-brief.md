@@ -1,6 +1,32 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **39**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **50**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Use Amazon Athena Federated Query
+
+- Fonte: https://docs.aws.amazon.com/athena/latest/ug/federated-queries.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: perf-88
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Aurora Serverless v2 capacity and scaling
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.setting-capacity.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: cost-18
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## AWS Backup logically air-gapped vault
 
@@ -122,7 +148,7 @@ Checklist:
 ## Saga orchestration for distributed transactions and compensations
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga-orchestration.html
-- Detectada em: 2026-11-09T21:23:24.805Z
+- Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: res-206
 
 Checklist:
@@ -175,7 +201,7 @@ Checklist:
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-09T21:23:24.805Z
+- Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -306,7 +332,7 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-09T21:23:24.805Z
+- Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: cost-154
 
 Checklist:
@@ -356,6 +382,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS Lake Formation Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS Lambda pricing: ephemeral storage
 
 - Fonte: https://aws.amazon.com/lambda/pricing/
@@ -382,6 +421,32 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon OpenSearch Service Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## OpenSearch bulk ingestion and refresh interval performance
+
+- Fonte: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/bp.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: perf-185
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon OpenSearch Service pricing and Serverless compute/storage
 
 - Fonte: https://aws.amazon.com/opensearch-service/pricing/
@@ -395,11 +460,63 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Quick Sight SPICE import and in-memory analytical queries
+
+- Fonte: https://docs.aws.amazon.com/quick/latest/userguide/spice.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: perf-163
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Quick Sight SPICE dataset refresh and direct query behavior
+
+- Fonte: https://docs.aws.amazon.com/quick/latest/userguide/refreshing-data.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: perf-163
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## RDS PostgreSQL dynamic and static database parameters
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.PostgreSQL.CommonDBATasks.Parameters.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: sec-183
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon Redshift concurrency scaling
 
 - Fonte: https://docs.aws.amazon.com/redshift/latest/dg/concurrency-scaling.html
 - Detectada em: 2026-11-03T17:51:34.023Z
 - Questões afetadas: perf-60
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Materialized views in Amazon Redshift
+
+- Fonte: https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-overview.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: perf-74
 
 Checklist:
 
@@ -460,10 +577,36 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon S3 analytics Storage Class Analysis
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: cost-62
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Systems Manager Patch Manager
+
+- Fonte: https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html
+- Detectada em: 2026-11-10T17:52:06.998Z
+- Questões afetadas: sec-109
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS transactional outbox pattern for reliable dual writes
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html
-- Detectada em: 2026-11-09T21:23:24.805Z
+- Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: res-170, res-178, res-185
 
 Checklist:

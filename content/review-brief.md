@@ -1,6 +1,19 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **50**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **64**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## EC2 Auto Scaling target tracking metric choice and target throughput
+
+- Fonte: https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: perf-06, perf-176
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## Use Amazon Athena Federated Query
 
@@ -44,7 +57,7 @@ Checklist:
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-07T16:28:01.064Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -57,7 +70,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-07T16:28:01.064Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -85,6 +98,45 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html
 - Detectada em: 2026-11-06T17:30:43.129Z
 - Questões afetadas: cost-17
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cognito client secrets and unpredictable PKCE verifiers
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-security-best-practices.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-181
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cognito identity pool authenticated and guest access settings
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-211
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cognito public clients and authorization code with PKCE
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-181
 
 Checklist:
 
@@ -148,12 +200,11 @@ Checklist:
 ## Saga orchestration for distributed transactions and compensations
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/saga-orchestration.html
-- Detectada em: 2026-11-10T17:52:06.998Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: res-206
 
 Checklist:
 
-- [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
 - [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
 - [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
@@ -198,10 +249,36 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Create and update AMI image pipelines in EC2 Image Builder
+
+- Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-145
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Automate image cleanup with Amazon ECR lifecycle policies
+
+- Fonte: https://docs.aws.amazon.com/AmazonECR/latest/userguide/LifecyclePolicies.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: cost-52, cost-157
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-10T17:52:06.998Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -243,6 +320,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html
 - Detectada em: 2026-11-09T20:46:04.251Z
 - Questões afetadas: sec-97, sec-185
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon ElastiCache pricing by engine and deployment
+
+- Fonte: https://aws.amazon.com/elasticache/pricing/
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: cost-126
 
 Checklist:
 
@@ -332,7 +422,7 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-10T17:52:06.998Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: cost-154
 
 Checklist:
@@ -398,7 +488,7 @@ Checklist:
 ## AWS Lambda pricing: ephemeral storage
 
 - Fonte: https://aws.amazon.com/lambda/pricing/
-- Detectada em: 2026-11-06T17:30:43.129Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: cost-107
 
 Checklist:
@@ -413,6 +503,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
 - Detectada em: 2026-11-06T17:30:43.129Z
 - Questões afetadas: perf-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Network Firewall stateful domain lists for HTTP Host and TLS SNI
+
+- Fonte: https://docs.aws.amazon.com/network-firewall/latest/developerguide/stateful-rule-groups-domain-names.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-150
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Creating a TLS inspection configuration in AWS Network Firewall
+
+- Fonte: https://docs.aws.amazon.com/network-firewall/latest/developerguide/creating-tls-configuration.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-91
 
 Checklist:
 
@@ -460,10 +576,49 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Resource control policies in AWS Organizations
+
+- Fonte: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-132
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Polly long audio and asynchronous synthesis
+
+- Fonte: https://docs.aws.amazon.com/polly/latest/dg/asynchronous.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: perf-151
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Polly StartSpeechSynthesisTask
+
+- Fonte: https://docs.aws.amazon.com/polly/latest/APIReference/API_StartSpeechSynthesisTask.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: perf-151
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Quick Sight SPICE import and in-memory analytical queries
 
 - Fonte: https://docs.aws.amazon.com/quick/latest/userguide/spice.html
-- Detectada em: 2026-11-10T17:52:06.998Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: perf-163
 
 Checklist:
@@ -476,7 +631,7 @@ Checklist:
 ## Quick Sight SPICE dataset refresh and direct query behavior
 
 - Fonte: https://docs.aws.amazon.com/quick/latest/userguide/refreshing-data.html
-- Detectada em: 2026-11-10T17:52:06.998Z
+- Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: perf-163
 
 Checklist:
@@ -564,6 +719,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Requesting temporary credentials through S3 Access Grants
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-credentials.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-94
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon S3 pricing including Transfer Acceleration
 
 - Fonte: https://aws.amazon.com/s3/pricing/
@@ -612,6 +780,19 @@ Checklist:
 Checklist:
 
 - [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## VPC Flow Logs basics
+
+- Fonte: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs-basics.html
+- Detectada em: 2026-11-11T17:55:14.323Z
+- Questões afetadas: sec-60
+
+Checklist:
+
 - [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
 - [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.

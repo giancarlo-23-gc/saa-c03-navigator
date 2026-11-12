@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **64**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **74**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## EC2 Auto Scaling target tracking metric choice and target throughput
 
@@ -57,7 +57,7 @@ Checklist:
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -70,8 +70,21 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: sec-90
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## CloudWatch alarm actions on state transitions
+
+- Fonte: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Alarms.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: res-195
 
 Checklist:
 
@@ -132,11 +145,37 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Cognito validating JWT claims and revocation status
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: sec-193
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Cognito public clients and authorization code with PKCE
 
 - Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html
 - Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: sec-181
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cognito token revocation and offline JWT validation limits
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/token-revocation.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: sec-193
 
 Checklist:
 
@@ -174,7 +213,7 @@ Checklist:
 ## Compute Optimizer enhanced infrastructure metrics lookback
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/enhanced-infrastructure-metrics.html
-- Detectada em: 2026-11-03T17:51:34.023Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: cost-137
 
 Checklist:
@@ -189,6 +228,58 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html
 - Detectada em: 2026-11-07T16:28:01.064Z
 - Questões afetadas: cost-19
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Viewing Aurora and RDS database recommendations
+
+- Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-rds-recommendations.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: cost-21
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Cost Anomaly Detection monitors and alerts
+
+- Fonte: https://docs.aws.amazon.com/cost-management/latest/userguide/manage-ad.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: cost-34
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Cost Explorer User Guide
+
+- Fonte: https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: cost-12
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Identifying opportunities with Cost Optimization Hub
+
+- Fonte: https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: cost-60
 
 Checklist:
 
@@ -249,6 +340,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## DynamoDB transaction APIs
+
+- Fonte: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: res-96
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Create and update AMI image pipelines in EC2 Image Builder
 
 - Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
@@ -275,10 +379,23 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## ECS task definition revision requires explicit service update
+
+- Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/update-task-definition-console-v2.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: res-193
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -422,12 +539,25 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: cost-154
 
 Checklist:
 
 - [ ] Restabelecer a leitura oficial (HTTP 404); não aprovar usando o hash antigo.
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Glue flexible execution class
+
+- Fonte: https://docs.aws.amazon.com/glue/latest/dg/add-job.html
+- Detectada em: 2026-11-12T18:20:33.244Z
+- Questões afetadas: cost-46
+
+Checklist:
+
 - [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
 - [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
@@ -488,7 +618,7 @@ Checklist:
 ## AWS Lambda pricing: ephemeral storage
 
 - Fonte: https://aws.amazon.com/lambda/pricing/
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-12T18:20:33.244Z
 - Questões afetadas: cost-107
 
 Checklist:

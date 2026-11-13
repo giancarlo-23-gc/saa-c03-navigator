@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **74**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **78**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## EC2 Auto Scaling target tracking metric choice and target throughput
 
@@ -44,7 +44,7 @@ Checklist:
 ## AWS Backup logically air-gapped vault
 
 - Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html
-- Detectada em: 2026-11-07T16:28:01.064Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: res-66
 
 Checklist:
@@ -57,7 +57,7 @@ Checklist:
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -70,7 +70,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -184,6 +184,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS Compute Optimizer User Guide
+
+- Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html
+- Detectada em: 2026-11-13T17:45:38.856Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Viewing Amazon EBS volume recommendations
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ebs-recommendations.html
@@ -200,7 +213,7 @@ Checklist:
 ## EC2 instance metrics analyzed by AWS Compute Optimizer
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/ec2-metrics-analyzed.html
-- Detectada em: 2026-11-07T16:28:01.064Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-78
 
 Checklist:
@@ -213,7 +226,7 @@ Checklist:
 ## Compute Optimizer enhanced infrastructure metrics lookback
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/enhanced-infrastructure-metrics.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-137
 
 Checklist:
@@ -226,7 +239,7 @@ Checklist:
 ## Viewing EC2 instance recommendations with Graviton preference
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html
-- Detectada em: 2026-11-07T16:28:01.064Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-19
 
 Checklist:
@@ -239,7 +252,7 @@ Checklist:
 ## Viewing Aurora and RDS database recommendations
 
 - Fonte: https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-rds-recommendations.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-21
 
 Checklist:
@@ -395,7 +408,7 @@ Checklist:
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -526,7 +539,7 @@ Checklist:
 ## Managing provisioned FSx for Lustre metadata performance
 
 - Fonte: https://docs.aws.amazon.com/fsx/latest/LustreGuide/managing-metadata-performance.html
-- Detectada em: 2026-11-06T17:30:43.129Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: perf-192
 
 Checklist:
@@ -539,7 +552,7 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-154
 
 Checklist:
@@ -553,7 +566,7 @@ Checklist:
 ## AWS Glue flexible execution class
 
 - Fonte: https://docs.aws.amazon.com/glue/latest/dg/add-job.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-46
 
 Checklist:
@@ -709,7 +722,7 @@ Checklist:
 ## Resource control policies in AWS Organizations
 
 - Fonte: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html
-- Detectada em: 2026-11-11T17:55:14.323Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: sec-132
 
 Checklist:
@@ -865,7 +878,7 @@ Checklist:
 ## Amazon S3 pricing including Transfer Acceleration
 
 - Fonte: https://aws.amazon.com/s3/pricing/
-- Detectada em: 2026-11-05T18:02:19.265Z
+- Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: cost-156
 
 Checklist:
@@ -880,6 +893,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
 - Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: cost-62
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Access an AWS Secrets Manager secret from a different account
+
+- Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html
+- Detectada em: 2026-11-13T17:45:38.856Z
+- Questões afetadas: sec-54
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Retrieving Secrets Manager values in applications
+
+- Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets.html
+- Detectada em: 2026-11-13T17:45:38.856Z
+- Questões afetadas: res-155
 
 Checklist:
 
@@ -946,6 +985,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html
 - Detectada em: 2026-11-05T18:02:19.265Z
 - Questões afetadas: sec-108
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS WAF CAPTCHA and Challenge action behavior
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-captcha-and-challenge-actions.html
+- Detectada em: 2026-11-13T17:45:38.856Z
+- Questões afetadas: sec-86
 
 Checklist:
 

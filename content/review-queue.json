@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-12T18:20:33.873Z",
+  "generatedAt": "2026-11-13T17:45:39.809Z",
   "pendingChanges": [
     {
       "sourceId": "asg-alb-request-target-tracking",
@@ -62,8 +62,8 @@
       "title": "AWS Backup logically air-gapped vault",
       "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html",
       "tier": "service",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "670f8e70584baf65eeac66638fb9b7c2298261f370802b34c2725ef901cc5a0e",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "cf2028885d835c049ce4ccef3587171ea0772aa901da3bd3f3789097f8d32446",
       "affectedBlueprintIds": [
         "res-66"
       ],
@@ -80,8 +80,8 @@
       "title": "Logging data events with AWS CloudTrail",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "85728394ab80ebeced733bfbc738796ee8bef485ca753b4fe583cfd373e84dca",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "9e2749ff0cb0696f76e6dee2c00698a5f437522c651937d493ea740cc2f692c0",
       "affectedBlueprintIds": [
         "sec-73"
       ],
@@ -98,8 +98,8 @@
       "title": "CloudTrail Lake and event data stores",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "1a358a6f9fa947ed80c1115f3c374ef7aeb0454412801fbd0b73961ef31c0a78",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "7f5b3612220f3efb890407b0014ff53d8885befc9ea95fb9beae1124cf624080",
       "affectedBlueprintIds": [
         "sec-90"
       ],
@@ -256,6 +256,22 @@
       ]
     },
     {
+      "sourceId": "compute-optimizer",
+      "title": "AWS Compute Optimizer User Guide",
+      "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html",
+      "tier": "service",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "812fb5934f2a23d30b5969ff087a4ebca60c1d1d0f05d908249f764493249d7f",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "compute-optimizer-ebs-recommendations",
       "title": "Viewing Amazon EBS volume recommendations",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ebs-recommendations.html",
@@ -278,8 +294,8 @@
       "title": "EC2 instance metrics analyzed by AWS Compute Optimizer",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/ec2-metrics-analyzed.html",
       "tier": "service",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "754ed2c3ea5ed279c130579b50d0b5e53be988c911818ee68fe9452b75f31f47",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "c0b9c7e61397dbe23f67eaf124235f27ae8da46117d107a02e26cf82a6e37b06",
       "affectedBlueprintIds": [
         "cost-78"
       ],
@@ -296,8 +312,8 @@
       "title": "Compute Optimizer enhanced infrastructure metrics lookback",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/enhanced-infrastructure-metrics.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "1ddbcb26d973f9e2fd57e324a383f0761c58a4c9c03627021aad041341b5b745",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "7dcd4c5d4c48166b3ed3ce1b40561ec5b9e91ebe4df990e7cc1497cb28d261b9",
       "affectedBlueprintIds": [
         "cost-137"
       ],
@@ -314,8 +330,8 @@
       "title": "Viewing EC2 instance recommendations with Graviton preference",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html",
       "tier": "service",
-      "detectedAt": "2026-11-07T16:28:01.064Z",
-      "currentHash": "47a55afd5fe9ae4aa1eac2f61a7d32bf0249c21d877601b1d1ee495bf6487d34",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "e365a23d040f3c61b55f91130963f79c513d86d9a3a796384829f46be30ca106",
       "affectedBlueprintIds": [
         "cost-19"
       ],
@@ -332,8 +348,8 @@
       "title": "Viewing Aurora and RDS database recommendations",
       "url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-rds-recommendations.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "2c8395fbe2035b8c2a78638b43dfeb113538372d1f09d974aa5d66d308f1cbc4",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "9e622a79d2bfd5acdfbfdc1022479b717c16474ab128ce81c62facbc2f9efaeb",
       "affectedBlueprintIds": [
         "cost-21"
       ],
@@ -547,7 +563,7 @@
       "title": "EFS encryption enforcement best practices",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
       "currentHash": "32f0c776c976247b0d61b73266a54923ab853e6f63543733973e4124ed2daedb",
       "affectedBlueprintIds": [
         "sec-195"
@@ -730,8 +746,8 @@
       "title": "Managing provisioned FSx for Lustre metadata performance",
       "url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/managing-metadata-performance.html",
       "tier": "service",
-      "detectedAt": "2026-11-06T17:30:43.129Z",
-      "currentHash": "dee81a89a9ee8b75b4f37689056e306af2e8f705cd504007cb8734930e043d43",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "9e73f5f99548c6c4ab6bca086a00b7a0bb2f639a8b125b2e2dc95859963e026d",
       "affectedBlueprintIds": [
         "perf-192"
       ],
@@ -748,7 +764,7 @@
       "title": "AWS Glue ETL job engines in serverless ETL guidance",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
       "currentHash": "663281f2ee09ab83d0e8754529b9d8e734c2ebec735bf9dd158cf10cee97de0b",
       "affectedBlueprintIds": [
         "cost-154"
@@ -767,8 +783,8 @@
       "title": "AWS Glue flexible execution class",
       "url": "https://docs.aws.amazon.com/glue/latest/dg/add-job.html",
       "tier": "service",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "c216877fe1639107ed2b9a88bc82ef5287ae63d420a166a3b1c11ff1964192f9",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "235d12474a88bb4377ec01e323b990d17b4e507a5678b56c47248f6ec870b3eb",
       "affectedBlueprintIds": [
         "cost-46"
       ],
@@ -981,8 +997,8 @@
       "title": "Resource control policies in AWS Organizations",
       "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html",
       "tier": "service",
-      "detectedAt": "2026-11-11T17:55:14.323Z",
-      "currentHash": "f10c12abc7e47dd4ce70947b7c9329912d92802439952ad7139bc535975b2284",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "3f32575d82773d0eee00b5c4e589a662fc5a8e211595cb62c41fc082e3e72f3a",
       "affectedBlueprintIds": [
         "sec-132"
       ],
@@ -1197,8 +1213,8 @@
       "title": "Amazon S3 pricing including Transfer Acceleration",
       "url": "https://aws.amazon.com/s3/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-05T18:02:19.265Z",
-      "currentHash": "454b21c452d4c71270e5a817029793ba25db121b595c125d1ac2256a7c0727c7",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "4377ad6a67d87855d168b9f32e8f966379491e0f8c0f5ed082dfc406bd65eb93",
       "affectedBlueprintIds": [
         "cost-156"
       ],
@@ -1219,6 +1235,42 @@
       "currentHash": "1d50604b8f105e52fbf8902e920f0b1a35f11768f0f7fc45c58dca08812027f4",
       "affectedBlueprintIds": [
         "cost-62"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "secrets-cross-account",
+      "title": "Access an AWS Secrets Manager secret from a different account",
+      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html",
+      "tier": "service",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "a6e54fe35e867a3b8582776decc9d144d680cd95420150a8020b5fd3527824cd",
+      "affectedBlueprintIds": [
+        "sec-54"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "secrets-runtime-retrieval",
+      "title": "Retrieving Secrets Manager values in applications",
+      "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets.html",
+      "tier": "service",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "fb9a5ccaa79ca2b8744354db2c8ca940ebd5da4452273868e3f8a3de5ced88c4",
+      "affectedBlueprintIds": [
+        "res-155"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1322,6 +1374,24 @@
       ]
     },
     {
+      "sourceId": "waf-challenge-action",
+      "title": "AWS WAF CAPTCHA and Challenge action behavior",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-captcha-and-challenge-actions.html",
+      "tier": "service",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "ae4388eab33072b8a578dca37f030b48ef678e9d63e39fc609ae56f088673d6a",
+      "affectedBlueprintIds": [
+        "sec-86"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "wavelength-carrier-gateway",
       "title": "AWS Wavelength carrier gateway connectivity",
       "url": "https://docs.aws.amazon.com/wavelength/latest/developerguide/carrier-gateways.html",
@@ -1346,8 +1416,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "4f81cb8add6e7b6bd31677ebe7d9931aabbe1596505747694b07027967e6be6e",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "286a1be458d079d4a7840cd672c1e2ba44c64faa2174036667b7829634325644",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1394,8 +1464,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "7c374bde5f4d5904d77883fec624709bdfb93887433dce7ede24f5f73c27a9cf",
+      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "currentHash": "d42f7dda5cbcf4f0f6691ee57844d9cb640eeb810ad1e8b3557392919fc4ca6a",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

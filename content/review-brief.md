@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **78**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **85**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## EC2 Auto Scaling target tracking metric choice and target throughput
 
@@ -57,7 +57,7 @@ Checklist:
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-13T17:45:38.856Z
+- Detectada em: 2026-11-14T16:36:51.239Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -70,7 +70,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-13T17:45:38.856Z
+- Detectada em: 2026-11-14T16:36:51.239Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -408,7 +408,7 @@ Checklist:
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-13T17:45:38.856Z
+- Detectada em: 2026-11-14T16:36:51.239Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -536,6 +536,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Schedule types and time zones in EventBridge Scheduler
+
+- Fonte: https://docs.aws.amazon.com/scheduler/latest/UserGuide/schedule-types.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: res-89
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Managing provisioned FSx for Lustre metadata performance
 
 - Fonte: https://docs.aws.amazon.com/fsx/latest/LustreGuide/managing-metadata-performance.html
@@ -552,7 +565,7 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-13T17:45:38.856Z
+- Detectada em: 2026-11-14T16:36:51.239Z
 - Questões afetadas: cost-154
 
 Checklist:
@@ -581,6 +594,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html
 - Detectada em: 2026-11-07T16:28:01.064Z
 - Questões afetadas: sec-92, sec-206, sec-210
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## What is AWS IAM Roles Anywhere?
+
+- Fonte: https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: sec-53
 
 Checklist:
 
@@ -862,6 +888,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon S3 User Guide
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: perf-08, perf-15, sec-35
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Requesting temporary credentials through S3 Access Grants
 
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-credentials.html
@@ -888,11 +927,37 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon S3 Requester Pays billing behavior
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: cost-35
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon S3 analytics Storage Class Analysis
 
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
 - Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: cost-62
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon S3 Versioning and recovery from accidental deletion
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: res-06
 
 Checklist:
 
@@ -919,6 +984,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets.html
 - Detectada em: 2026-11-13T17:45:38.856Z
 - Questões afetadas: res-155
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cross-Region aggregation in AWS Security Hub CSPM
+
+- Fonte: https://docs.aws.amazon.com/securityhub/latest/userguide/finding-aggregation.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: sec-83
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Security Hub CSPM automation rules
+
+- Fonte: https://docs.aws.amazon.com/securityhub/latest/userguide/automation-rules.html
+- Detectada em: 2026-11-14T16:36:51.239Z
+- Questões afetadas: sec-114
 
 Checklist:
 

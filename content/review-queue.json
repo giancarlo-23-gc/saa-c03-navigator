@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-13T17:45:39.809Z",
+  "generatedAt": "2026-11-14T16:36:52.151Z",
   "pendingChanges": [
     {
       "sourceId": "asg-alb-request-target-tracking",
@@ -80,8 +80,8 @@
       "title": "Logging data events with AWS CloudTrail",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
       "tier": "service",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
-      "currentHash": "9e2749ff0cb0696f76e6dee2c00698a5f437522c651937d493ea740cc2f692c0",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "7f3caa643657c23361284f088dfe0fac52cc80ae132a377a79abd932a51b88c7",
       "affectedBlueprintIds": [
         "sec-73"
       ],
@@ -98,8 +98,8 @@
       "title": "CloudTrail Lake and event data stores",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
       "tier": "service",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
-      "currentHash": "7f5b3612220f3efb890407b0014ff53d8885befc9ea95fb9beae1124cf624080",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "4bf5ab905d6906c61eac75600b1ec402ecff28483adb93ca7a7f08dca71fd28d",
       "affectedBlueprintIds": [
         "sec-90"
       ],
@@ -563,7 +563,7 @@
       "title": "EFS encryption enforcement best practices",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html",
       "tier": "service",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
       "currentHash": "32f0c776c976247b0d61b73266a54923ab853e6f63543733973e4124ed2daedb",
       "affectedBlueprintIds": [
         "sec-195"
@@ -742,6 +742,24 @@
       ]
     },
     {
+      "sourceId": "eventbridge-scheduler-timezones",
+      "title": "Schedule types and time zones in EventBridge Scheduler",
+      "url": "https://docs.aws.amazon.com/scheduler/latest/UserGuide/schedule-types.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "b341765750f1988bd94d93921020858bafd981a1877585112a15d12a689ad783",
+      "affectedBlueprintIds": [
+        "res-89"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "fsx-lustre-metadata-performance",
       "title": "Managing provisioned FSx for Lustre metadata performance",
       "url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/managing-metadata-performance.html",
@@ -764,7 +782,7 @@
       "title": "AWS Glue ETL job engines in serverless ETL guidance",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html",
       "tier": "service",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
       "currentHash": "663281f2ee09ab83d0e8754529b9d8e734c2ebec735bf9dd158cf10cee97de0b",
       "affectedBlueprintIds": [
         "cost-154"
@@ -807,6 +825,24 @@
         "sec-92",
         "sec-206",
         "sec-210"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "iam-roles-anywhere",
+      "title": "What is AWS IAM Roles Anywhere?",
+      "url": "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "712872ea81a1c1d056b65e7d7e84dc9afa25f63d8e9558b01d49623fc44b4bad",
+      "affectedBlueprintIds": [
+        "sec-53"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1191,6 +1227,26 @@
       ]
     },
     {
+      "sourceId": "s3",
+      "title": "Amazon S3 User Guide",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "3f2ecabec37198c5bd41eed3def7077d4326b57332533026e68c8091fc19147b",
+      "affectedBlueprintIds": [
+        "perf-08",
+        "perf-15",
+        "sec-35"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "s3-access-grants-credentials",
       "title": "Requesting temporary credentials through S3 Access Grants",
       "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-credentials.html",
@@ -1227,6 +1283,24 @@
       ]
     },
     {
+      "sourceId": "s3-requester-pays",
+      "title": "Amazon S3 Requester Pays billing behavior",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "a7c00e607ed9d1bfaebb72805ddffdcfbf97d03ddc6c56aa66a29f94de013ab3",
+      "affectedBlueprintIds": [
+        "cost-35"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "s3-storage-class-analysis",
       "title": "Amazon S3 analytics Storage Class Analysis",
       "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html",
@@ -1235,6 +1309,24 @@
       "currentHash": "1d50604b8f105e52fbf8902e920f0b1a35f11768f0f7fc45c58dca08812027f4",
       "affectedBlueprintIds": [
         "cost-62"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-versioning",
+      "title": "Amazon S3 Versioning and recovery from accidental deletion",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "a02cbeb4552ea8f9389ad9f63bde8423ca8b79286c8a862f8a7486b62ff7c1d8",
+      "affectedBlueprintIds": [
+        "res-06"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1271,6 +1363,42 @@
       "currentHash": "fb9a5ccaa79ca2b8744354db2c8ca940ebd5da4452273868e3f8a3de5ced88c4",
       "affectedBlueprintIds": [
         "res-155"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "security-hub-region-aggregation",
+      "title": "Cross-Region aggregation in AWS Security Hub CSPM",
+      "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/finding-aggregation.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "ba22fc19d479a10f6d23205e86e1a35899d37a42af2c0f84a4c7fc28b6fdeb13",
+      "affectedBlueprintIds": [
+        "sec-83"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "securityhub-automation-rules",
+      "title": "Security Hub CSPM automation rules",
+      "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/automation-rules.html",
+      "tier": "service",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "431df0cc9039a6d1bd314e271ab5498045fa84761fbd40e54b63bacd8cfa6247",
+      "affectedBlueprintIds": [
+        "sec-114"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1416,8 +1544,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
-      "currentHash": "286a1be458d079d4a7840cd672c1e2ba44c64faa2174036667b7829634325644",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "d8a8152391a1f7a5b1d5ab930e906da7b74139016100409961c2aeb7799e260c",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1432,8 +1560,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-12T18:20:33.244Z",
-      "currentHash": "711e7262cc41526f193d8562676d40ac191be965c55740392e48010dca9c1970",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "6e141e4380ed70729dd861c70075bffb45e6bce1713e96cfc52a913d690baac0",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1464,8 +1592,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
-      "currentHash": "d42f7dda5cbcf4f0f6691ee57844d9cb640eeb810ad1e8b3557392919fc4ca6a",
+      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "currentHash": "f31133f6796bc62a4fe62109f0c6e33f699d29beafbc0484de55b4b872df4814",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,6 +1,6 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-14T16:36:52.151Z",
+  "generatedAt": "2026-11-15T17:12:58.706Z",
   "pendingChanges": [
     {
       "sourceId": "asg-alb-request-target-tracking",
@@ -563,7 +563,7 @@
       "title": "EFS encryption enforcement best practices",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html",
       "tier": "service",
-      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "detectedAt": "2026-11-15T17:12:57.605Z",
       "currentHash": "32f0c776c976247b0d61b73266a54923ab853e6f63543733973e4124ed2daedb",
       "affectedBlueprintIds": [
         "sec-195"
@@ -782,7 +782,7 @@
       "title": "AWS Glue ETL job engines in serverless ETL guidance",
       "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html",
       "tier": "service",
-      "detectedAt": "2026-11-14T16:36:51.239Z",
+      "detectedAt": "2026-11-15T17:12:57.605Z",
       "currentHash": "663281f2ee09ab83d0e8754529b9d8e734c2ebec735bf9dd158cf10cee97de0b",
       "affectedBlueprintIds": [
         "cost-154"
@@ -1592,8 +1592,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-14T16:36:51.239Z",
-      "currentHash": "f31133f6796bc62a4fe62109f0c6e33f699d29beafbc0484de55b4b872df4814",
+      "detectedAt": "2026-11-15T17:12:57.605Z",
+      "currentHash": "4131cbbcd2e20b2b293de1a642f1dbe67fa91725a4fecb78890b62298dab1b32",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

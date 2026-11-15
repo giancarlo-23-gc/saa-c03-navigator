@@ -408,7 +408,7 @@ Checklist:
 ## EFS encryption enforcement best practices
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/encryption-best-practices/efs.html
-- Detectada em: 2026-11-14T16:36:51.239Z
+- Detectada em: 2026-11-15T17:12:57.605Z
 - Questões afetadas: sec-195
 
 Checklist:
@@ -565,7 +565,7 @@ Checklist:
 ## AWS Glue ETL job engines in serverless ETL guidance
 
 - Fonte: https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-etl.html
-- Detectada em: 2026-11-14T16:36:51.239Z
+- Detectada em: 2026-11-15T17:12:57.605Z
 - Questões afetadas: cost-154
 
 Checklist:

@@ -1,6 +1,32 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **107**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **121**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Choose between API Gateway REST APIs and HTTP APIs
+
+- Fonte: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: cost-67
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## API Gateway REST Lambda authorizers for custom identity validation
+
+- Fonte: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: sec-173
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## EC2 Auto Scaling target tracking metric choice and target throughput
 
@@ -46,6 +72,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html
 - Detectada em: 2026-11-16T20:30:51.467Z
 - Questões afetadas: res-66
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Organizations RI and Savings Plans discount sharing preferences
+
+- Fonte: https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ri-turn-off.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: cost-128
 
 Checklist:
 
@@ -717,6 +756,110 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon Kinesis Data Streams Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/introduction.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Develop enhanced fan-out consumers with dedicated throughput
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/enhanced-consumers.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: perf-24, cost-146
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Kinesis KCL metadata and parent child shard processing
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/kcl-dynamoDB.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: res-172
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Kinesis partition keys, shards and hash distribution
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: perf-30
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Kinesis PutRecord SequenceNumberForOrdering and serial writes
+
+- Fonte: https://docs.aws.amazon.com/kinesis/latest/APIReference/API_PutRecord.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: res-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Kinesis SDK producer batching partial failures and ordering
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/developing-producers-with-sdk.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: res-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Permissions to use customer managed KMS keys with Kinesis Data Streams
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/permissions-user-key-KMS.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: sec-143
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Kinesis Data Streams capacity modes
+
+- Fonte: https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: perf-32
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS KMS default key policy, administrators and key users
 
 - Fonte: https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html
@@ -1097,7 +1240,7 @@ Checklist:
 ## Amazon S3 pricing including Transfer Acceleration
 
 - Fonte: https://aws.amazon.com/s3/pricing/
-- Detectada em: 2026-11-13T17:45:38.856Z
+- Detectada em: 2026-11-17T19:11:59.461Z
 - Questões afetadas: cost-156
 
 Checklist:
@@ -1138,6 +1281,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/analytics-storage-class.html
 - Detectada em: 2026-11-10T17:52:06.998Z
 - Questões afetadas: cost-62
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Monitor storage activity and usage with Amazon S3 Storage Lens
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: cost-57
 
 Checklist:
 
@@ -1214,7 +1370,7 @@ Checklist:
 ## Understanding split cost allocation data
 
 - Fonte: https://docs.aws.amazon.com/cur/latest/userguide/split-cost-allocation-data.html
-- Detectada em: 2026-11-17T14:12:09.803Z
+- Detectada em: 2026-11-17T19:11:59.461Z
 - Questões afetadas: cost-83
 
 Checklist:
@@ -1242,6 +1398,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/wellarchitected/latest/framework/rel05-bp06.html
 - Detectada em: 2026-11-17T14:12:09.803Z
 - Questões afetadas: res-05
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Transit Gateway peering attachments and static routes
+
+- Fonte: https://docs.aws.amazon.com/vpc/latest/tgw/tgw-peering.html
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: res-153
 
 Checklist:
 
@@ -1295,6 +1464,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs-basics.html
 - Detectada em: 2026-11-11T17:55:14.323Z
 - Questões afetadas: sec-60
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon VPC NAT gateway hourly and data processing pricing
+
+- Fonte: https://aws.amazon.com/vpc/pricing/
+- Detectada em: 2026-11-17T19:11:59.461Z
+- Questões afetadas: cost-148
 
 Checklist:
 

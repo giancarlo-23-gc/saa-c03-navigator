@@ -1,7 +1,43 @@
 {
   "version": "2026.11.02-1",
-  "generatedAt": "2026-11-17T14:30:39.124Z",
+  "generatedAt": "2026-11-17T19:12:00.354Z",
   "pendingChanges": [
+    {
+      "sourceId": "api-gateway-http-vs-rest",
+      "title": "Choose between API Gateway REST APIs and HTTP APIs",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "fe4c89d1b12195cd64b7c49b5cf158bec9ac7996de3d73591f8acc2b2d75efaa",
+      "affectedBlueprintIds": [
+        "cost-67"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "apigateway-custom-lambda-authorizer",
+      "title": "API Gateway REST Lambda authorizers for custom identity validation",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "125be7b47b80c9b3a608ddf997460629915d8c432dbd89a286b120a7380906fd",
+      "affectedBlueprintIds": [
+        "sec-173"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "asg-alb-request-target-tracking",
       "title": "EC2 Auto Scaling target tracking metric choice and target throughput",
@@ -66,6 +102,24 @@
       "currentHash": "fdbe25cf6e2f92889da183e17115977d208ead1c7e455751c4600754194b52a1",
       "affectedBlueprintIds": [
         "res-66"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "billing-commitment-discount-sharing",
+      "title": "Organizations RI and Savings Plans discount sharing preferences",
+      "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ri-turn-off.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "4c341491adfd8947fe9e3b72832ce2fc2bdae759d900d44865d6aa81ab3f98ff",
+      "affectedBlueprintIds": [
+        "cost-128"
       ],
       "status": "pending",
       "requiredActions": [
@@ -997,6 +1051,149 @@
       ]
     },
     {
+      "sourceId": "kinesis",
+      "title": "Amazon Kinesis Data Streams Developer Guide",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "8e0b44c7d558488505a3d1829ee4941614f155138a51d7444b6cc75f9a558123",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-enhanced-fanout",
+      "title": "Develop enhanced fan-out consumers with dedicated throughput",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/enhanced-consumers.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "fdbb587ff9dbe37ed2d87c0bfdc5347fa964a283b572b5a138292c2ce5987201",
+      "affectedBlueprintIds": [
+        "perf-24",
+        "cost-146"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-kcl-parent-child-lineage",
+      "title": "Kinesis KCL metadata and parent child shard processing",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/kcl-dynamoDB.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "c1c0a4c5097d038f3d41ed3f21a98be0ba5dc1f4fb871a5887e362af1a04b20e",
+      "affectedBlueprintIds": [
+        "res-172"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-partition-keys",
+      "title": "Kinesis partition keys, shards and hash distribution",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "915cd6db8f426f28cf54c1eefce45d4362bb0887a7456cf2350491197cb6c962",
+      "affectedBlueprintIds": [
+        "perf-30"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-putrecord-ordering",
+      "title": "Kinesis PutRecord SequenceNumberForOrdering and serial writes",
+      "url": "https://docs.aws.amazon.com/kinesis/latest/APIReference/API_PutRecord.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "27241f4d5b07751503bfac1fb60a74502f158da5af7e994501c276a55c3e881f",
+      "affectedBlueprintIds": [
+        "res-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-sdk-producer-batches",
+      "title": "Kinesis SDK producer batching partial failures and ordering",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/developing-producers-with-sdk.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "1eba7777cb223abfebdf68e291dbcfbf192eb69dd2e4bd446f19667888c24ae9",
+      "affectedBlueprintIds": [
+        "res-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-sse-kms-permissions",
+      "title": "Permissions to use customer managed KMS keys with Kinesis Data Streams",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/permissions-user-key-KMS.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "96e6d5dba0ddde734d6fcf592f846b94269638c6b7a15b8e3de9d722311d87e2",
+      "affectedBlueprintIds": [
+        "sec-143"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kinesis-stream-capacity",
+      "title": "Kinesis Data Streams capacity modes",
+      "url": "https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "e26be36109e2c5e997777476430156d66ae65bfd160727cf003bb3a5ee17c2a6",
+      "affectedBlueprintIds": [
+        "perf-32"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "kms-default-key-policy",
       "title": "AWS KMS default key policy, administrators and key users",
       "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html",
@@ -1519,8 +1716,8 @@
       "title": "Amazon S3 pricing including Transfer Acceleration",
       "url": "https://aws.amazon.com/s3/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-13T17:45:38.856Z",
-      "currentHash": "4377ad6a67d87855d168b9f32e8f966379491e0f8c0f5ed082dfc406bd65eb93",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "79edcd39f4b7a6e747d67463745a42e39d9fbd57937735f2c06adcd6cecbfa0f",
       "affectedBlueprintIds": [
         "cost-156"
       ],
@@ -1577,6 +1774,24 @@
       "currentHash": "1d50604b8f105e52fbf8902e920f0b1a35f11768f0f7fc45c58dca08812027f4",
       "affectedBlueprintIds": [
         "cost-62"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-storage-lens",
+      "title": "Monitor storage activity and usage with Amazon S3 Storage Lens",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "7fbf75fde3722536a78efd44042fd96d067c5eef74357a9db8eb2f5086c7a5e6",
+      "affectedBlueprintIds": [
+        "cost-57"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1681,8 +1896,8 @@
       "title": "Understanding split cost allocation data",
       "url": "https://docs.aws.amazon.com/cur/latest/userguide/split-cost-allocation-data.html",
       "tier": "service",
-      "detectedAt": "2026-11-17T14:12:09.803Z",
-      "currentHash": "19424d093396831aaab5f9f691978bbeebbf1bd0c59ca315be15656faf84abf7",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "ef657f1e73093c263925628e6e50ab6e7ac71a6dcf6f4c20e3531f8e51312fef",
       "affectedBlueprintIds": [
         "cost-83"
       ],
@@ -1721,6 +1936,24 @@
       "currentHash": "18515051a3dacc18be31684ed40a0fc5aa0bdd7a50079647a10466eb200188ff",
       "affectedBlueprintIds": [
         "res-05"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "tgw-interregion-peering",
+      "title": "Transit Gateway peering attachments and static routes",
+      "url": "https://docs.aws.amazon.com/vpc/latest/tgw/tgw-peering.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "a0b7bb8f57cf12c9c05aa5f01d3061032f791072f41e7619bbdee7a1821035c9",
+      "affectedBlueprintIds": [
+        "res-153"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1797,6 +2030,24 @@
       "currentHash": "24beb7b67c05590c0a2d1b0f3dc89cca77eed1eacbcb4e1120346703b9926138",
       "affectedBlueprintIds": [
         "sec-60"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "vpc-nat-pricing",
+      "title": "Amazon VPC NAT gateway hourly and data processing pricing",
+      "url": "https://aws.amazon.com/vpc/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "830ca590faad18d86c451fe49015b7cb0d8608276c65fc0b56e1e248f7501188",
+      "affectedBlueprintIds": [
+        "cost-148"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1935,8 +2186,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-16T20:30:51.467Z",
-      "currentHash": "c39ebd9a54e684460e05a8c474525ca2a82b180493136b2fb8951f967325cdeb",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "75c5f003123c562d3d1e6435000ea4963554f5f30a00e297159af5478142e104",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1951,8 +2202,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-16T20:30:51.467Z",
-      "currentHash": "d43cfe6e11c34c3db8b5302fbab5d2218e6fccb440081ccc9a3682fd58b556b5",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "fc60ac9df0ee0eaa150a9e477dc4ee94fc5cadadfd641ff2f09f84cb3aac8132",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1983,8 +2234,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-17T14:12:09.803Z",
-      "currentHash": "9382a3e19aae0e7104784faade1be9725dbf40de7f654478a403d386a64831eb",
+      "detectedAt": "2026-11-17T19:11:59.461Z",
+      "currentHash": "99007ca434d72e7878007ee41124d4b687fb8891a71823a722802bdb5c444357",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **121**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **140**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Choose between API Gateway REST APIs and HTTP APIs
 
@@ -54,6 +54,45 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Cloning an Aurora DB cluster volume
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Clone.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-96
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Fault tolerance for an Aurora DB cluster
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-116
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Aurora reader endpoint and replica load distribution
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Endpoints.Reader.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: perf-03, perf-177
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Amazon Aurora Serverless v2 capacity and scaling
 
 - Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.setting-capacity.html
@@ -80,11 +119,63 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS Batch automated job retries
+
+- Fonte: https://docs.aws.amazon.com/batch/latest/userguide/job_retries.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-144
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Elastic Beanstalk deployment policies and settings
+
+- Fonte: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-138
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Elastic Beanstalk traffic-splitting deployments
+
+- Fonte: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-142
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Organizations RI and Savings Plans discount sharing preferences
 
 - Fonte: https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ri-turn-off.html
 - Detectada em: 2026-11-17T19:11:59.461Z
 - Questões afetadas: cost-128
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Builders Library caching challenges and request coalescing
+
+- Fonte: https://aws.amazon.com/builders-library/caching-challenges-and-strategies/
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: perf-178
 
 Checklist:
 
@@ -106,10 +197,23 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS CloudTrail User Guide
+
+- Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: sec-05, sec-35
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-17T14:12:09.803Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -122,7 +226,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-17T14:12:09.803Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -356,7 +460,7 @@ Checklist:
 ## Identifying opportunities with Cost Optimization Hub
 
 - Fonte: https://docs.aws.amazon.com/cost-management/latest/userguide/cost-optimization-hub.html
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: cost-60
 
 Checklist:
@@ -769,6 +873,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Kinesis Provisioned consumer-shard hours are based on registered EFO consumers
+
+- Fonte: https://aws.amazon.com/kinesis/data-streams/faqs/
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-146
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Develop enhanced fan-out consumers with dedicated throughput
 
 - Fonte: https://docs.aws.amazon.com/streams/latest/dev/enhanced-consumers.html
@@ -860,6 +977,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Kinesis Provisioned stream and enhanced fan-out pricing
+
+- Fonte: https://aws.amazon.com/kinesis/data-streams/pricing/
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-146
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS KMS default key policy, administrators and key users
 
 - Fonte: https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html
@@ -912,11 +1042,50 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Lambda code signing trust enforcement at deployment
+
+- Fonte: https://docs.aws.amazon.com/lambda/latest/dg/configuration-codesigning.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: sec-178
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Lambda container image requirements and single-architecture deployment
+
+- Fonte: https://docs.aws.amazon.com/lambda/latest/dg/images-create.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-50
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS Lambda pricing: ephemeral storage
 
 - Fonte: https://aws.amazon.com/lambda/pricing/
-- Detectada em: 2026-11-12T18:20:33.244Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: cost-107
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Lambda Invoke API invocation status versus function errors
+
+- Fonte: https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-187
 
 Checklist:
 
@@ -928,8 +1097,34 @@ Checklist:
 ## Lambda request quotas for functions and provisioned aliases
 
 - Fonte: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html
-- Detectada em: 2026-11-17T14:12:09.803Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: perf-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon MSK best practices for highly available clusters
+
+- Fonte: https://docs.aws.amazon.com/msk/latest/developerguide/bestpractices.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-79
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## MSK Replicator managed topic and consumer offset replication
+
+- Fonte: https://docs.aws.amazon.com/msk/latest/developerguide/msk-replicator.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: res-156
 
 Checklist:
 
@@ -1006,7 +1201,7 @@ Checklist:
 ## Amazon OpenSearch Service pricing and Serverless compute/storage
 
 - Fonte: https://aws.amazon.com/opensearch-service/pricing/
-- Detectada em: 2026-11-06T17:30:43.129Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: cost-153
 
 Checklist:
@@ -1133,11 +1328,37 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Working with a DB instance in a VPC
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: sec-22
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Stop an Amazon RDS DB instance temporarily
 
 - Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_StopInstance.html
 - Detectada em: 2026-11-16T20:30:51.467Z
 - Questões afetadas: cost-68
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon RDS DB instance storage
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-15
 
 Checklist:
 
@@ -1203,6 +1424,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/redshift/latest/mgmt/zero-etl.reqs-lims.html
 - Detectada em: 2026-11-04T17:59:39.112Z
 - Questões afetadas: perf-144
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 health check pricing and AWS endpoint allowance
+
+- Fonte: https://aws.amazon.com/route53/pricing/
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: cost-142
 
 Checklist:
 
@@ -1294,6 +1528,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html
 - Detectada em: 2026-11-17T19:11:59.461Z
 - Questões afetadas: cost-57
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## S3 encryption in transit and supported TLS versions
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryptionInTransit.html
+- Detectada em: 2026-11-18T18:52:26.803Z
+- Questões afetadas: sec-194
 
 Checklist:
 
@@ -1501,7 +1748,7 @@ Checklist:
 ## Choosing and configuring Bot Control for your use case
 
 - Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control-use-cases.html
-- Detectada em: 2026-11-05T18:02:19.265Z
+- Detectada em: 2026-11-18T18:52:26.803Z
 - Questões afetadas: sec-108
 
 Checklist:

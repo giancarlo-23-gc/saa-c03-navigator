@@ -15,8 +15,16 @@ Erros de enunciado, gabarito ou explicação continuam no botão **Reportar prob
 - O código executado no navegador não contém credenciais.
 - A publicação passa por validação de conteúdo, testes e build reproduzível.
 - Dependências de GitHub Actions são fixadas por hash de commit.
+- O repositório exige hashes completos para ações externas. Checkouts de validação não persistem o token Git, e a chave de distribuição é limitada ao repositório público.
+- O endurecimento de novembro de 2026 inclui CSP no HTML compilado, scanner do histórico e isolamento temporário da chave SSH. A disponibilidade no site depende da conclusão dos controles de publicação; consulte o relatório da revisão.
 - Os arquivos de conteúdo publicados possuem hashes SHA-256 em `public/content/latest.json`.
 
 ## Limites
 
 Links externos para documentação são operados pelos respectivos sites. O projeto não controla disponibilidade, políticas ou conteúdo carregado fora do aplicativo.
+
+Aplicativos em pastas diferentes do mesmo domínio GitHub Pages compartilham a origem do navegador. Identidades PWA e escopos exclusivos evitam confusão de instalação, mas não são uma fronteira de segurança entre códigos da mesma origem. Todos os aplicativos publicados nessa conta precisam ser confiáveis. Um backup exportado contém histórico e respostas: compartilhe-o apenas com pessoas de confiança.
+
+A CSP de produção permite scripts somente da própria origem e estilos inline necessários à interface. Ela é uma defesa adicional; não substitui a revisão do código da mesma origem. Uma política em meta tag não permite impor `frame-ancestors`. O servidor de desenvolvimento é restrito a loopback e não deve ser exposto na rede ou usado como hospedagem pública.
+
+A auditoria completa inclui ferramentas de desenvolvimento. Alertas sem versão corrigida continuam visíveis e podem bloquear uma nova publicação mesmo quando o pacote não integra o JavaScript entregue aos usuários. Não há garantia de ausência absoluta de vulnerabilidades.

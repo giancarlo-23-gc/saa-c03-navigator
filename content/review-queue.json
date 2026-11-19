@@ -1,7 +1,98 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-19T18:31:48.956Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-11-19T18:59:51.062Z",
+  "pendingChanges": [
+    {
+      "sourceId": "builders-library-cache-coalescing",
+      "title": "AWS Builders Library caching challenges and request coalescing",
+      "url": "https://aws.amazon.com/builders-library/caching-challenges-and-strategies/",
+      "tier": "service",
+      "detectedAt": "2026-11-19T18:59:50.137Z",
+      "currentHash": "33926ee9cae17fb98417f4db006c4329ce3c551e31249d1df2f3cb47a2f66558",
+      "affectedBlueprintIds": [
+        "perf-178"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda",
+      "title": "AWS Lambda Developer Guide",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+      "tier": "service",
+      "detectedAt": "2026-11-19T18:59:50.137Z",
+      "currentHash": "ee5b0fe6eec57689ee38914b7df901a5983a1fee17a5f9e9c86cade81ead9169",
+      "affectedBlueprintIds": [
+        "res-33"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda-request-concurrency-quotas",
+      "title": "Lambda request quotas for functions and provisioned aliases",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
+      "tier": "service",
+      "detectedAt": "2026-11-19T18:59:50.137Z",
+      "currentHash": "b2adfd061e44b4b7441f03f8ddf98c5590c14fa0d80f44768feefd17a274455b",
+      "affectedBlueprintIds": [
+        "perf-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda-sqs-batching-window",
+      "title": "Configure Lambda batches and batching window for an SQS event source",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-configure.html",
+      "tier": "service",
+      "detectedAt": "2026-11-19T18:59:50.137Z",
+      "currentHash": "7e2bfb07e9fa921d335a9387b9b56352411ade8a32bba7cd19bd4a89ec9aba8e",
+      "affectedBlueprintIds": [
+        "perf-138"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda-timeout",
+      "title": "AWS Lambda function timeout",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-timeout.html",
+      "tier": "service",
+      "detectedAt": "2026-11-19T18:59:50.137Z",
+      "currentHash": "719177adbcd43b0429780149105c6f5797f3ebc7af93d887c75e1db30893e750",
+      "affectedBlueprintIds": [
+        "res-21"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {

@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-20T18:37:54.892Z",
+  "generatedAt": "2026-11-21T17:35:12.529Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -29,6 +29,61 @@
       "currentHash": "26856695c77f70c0b779623194ab47f25286fb70c17ddf7959fe475fd87a33a6",
       "affectedBlueprintIds": [
         "sec-169"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "alb-multi-az",
+      "title": "Application Load Balancer subnets and target groups",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "24a4750bcb8fa4bbde85790a6f0bca9e8c6af44d7e8d99cf59645c18fe97f02e",
+      "affectedBlueprintIds": [
+        "res-10",
+        "res-16"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "alb-tls-security-policy",
+      "title": "Security policies for an Application Load Balancer",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/describe-ssl-policies.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "8d7f443e8bc3508aebca95c5e8a1c7166e5cb37edafc48857f345870b4945bbc",
+      "affectedBlueprintIds": [
+        "sec-28"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "backup-logically-air-gapped",
+      "title": "AWS Backup logically air-gapped vault",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "e005dc95564f108ef7eeaecebe7d711087060cfa1a36bc5561f292f61d3b5c0a",
+      "affectedBlueprintIds": [
+        "res-66"
       ],
       "status": "pending",
       "requiredActions": [
@@ -116,8 +171,8 @@
       "title": "Logging data events with AWS CloudTrail",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "677e6bdf3ecdcfbbef4bd4a21b56b45c551ca4fd9a7014ae0d41ba1c393a2aac",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "0310c6449a7e64de1b59e2f59dc91d6a5e802a69dc1eaf3eda1d8f55cd809d1b",
       "affectedBlueprintIds": [
         "sec-73"
       ],
@@ -134,8 +189,8 @@
       "title": "CloudTrail Lake and event data stores",
       "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "cddfd97ef2901a3bdf491a0191eba1a8d029421fec1033c4c33f10fa313b0ab9",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "2b53f4b5d86db2ecc5039571e82dbd3d551629f6718ea3bac03f0e3e1ce536bc",
       "affectedBlueprintIds": [
         "sec-90"
       ],
@@ -202,12 +257,67 @@
       ]
     },
     {
+      "sourceId": "ebs-multivolume-backup",
+      "title": "Amazon EBS multi-volume crash-consistent backups",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/multi-volume-crash-consistent.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "fe4e3872d38ac1211d26f64f7f5e0fb24b5f6802ecaad9f2c8e4f3cf3e16e776",
+      "affectedBlueprintIds": [
+        "res-61"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ebs-unattached-volume-cost",
+      "title": "AWS Support cost optimization checks for underutilized EBS volumes",
+      "url": "https://docs.aws.amazon.com/awssupport/latest/user/cost-optimization-checks.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "69d76b812f49766e53cf3e63ced87ccff179937016e794b9c934ccc581a581f1",
+      "affectedBlueprintIds": [
+        "cost-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ec2",
+      "title": "Amazon EC2 User Guide",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "917e58af454646be1a38cbbe5821dc545523f4bf5328caa8e78ccbf280c2329c",
+      "affectedBlueprintIds": [
+        "res-17",
+        "res-28"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-capacity-blocks-window",
       "title": "EC2 Capacity Blocks for scheduled short GPU workloads",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "fd29b34743c74940764def7d44e5ac1e3c495581cc53e771e8554e46fd10bc7d",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "9860af79adaf811f15676198fc892542f5cfca2d83673b8dbd848176ca083b37",
       "affectedBlueprintIds": [
         "cost-138"
       ],
@@ -275,6 +385,42 @@
       ]
     },
     {
+      "sourceId": "ecs-fargate-task-parameters",
+      "title": "ECS Fargate task parameters including restart attempt period and ignored exit codes",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "fef55317a953e670091caab24954736095e59e9a13c3c823f2049d0ef250684b",
+      "affectedBlueprintIds": [
+        "res-200"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-access-policies",
+      "title": "Associate EKS access policies and namespace scopes",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/access-policies.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "6748036f5d84de021bdd4bef2e569aa502bddeab8809ca0225472dbb7fb23970",
+      "affectedBlueprintIds": [
+        "sec-219"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "elb-cross-zone-pricing-faq",
       "title": "Elastic Load Balancing FAQ and NLB regional cross-zone data transfer charges",
       "url": "https://aws.amazon.com/elasticloadbalancing/faqs/",
@@ -301,6 +447,42 @@
       "currentHash": "1a5149035232f80192e55907724e2b56f1657c76cc7d71994abf95e1e1a6b59f",
       "affectedBlueprintIds": [
         "cost-152"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "fsx-ontap-auto-tiering",
+      "title": "FSx for ONTAP volume data tiering policies",
+      "url": "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/volume-storage-capacity.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "b463dd9573cdd158254c59e74b1e234181e881c3dcf93c39e05c27cf76ae8cb3",
+      "affectedBlueprintIds": [
+        "cost-112"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "fsx-ontap-protocols",
+      "title": "Access data with Amazon FSx for NetApp ONTAP",
+      "url": "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/supported-fsx-clients.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "f314a4e80f264c14ceb42705fe9db4cdc5253f2e7ecc2489c03b33c105025907",
+      "affectedBlueprintIds": [
+        "perf-61"
       ],
       "status": "pending",
       "requiredActions": [
@@ -387,10 +569,28 @@
       "title": "Configure Lambda batches and batching window for an SQS event source",
       "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-configure.html",
       "tier": "service",
-      "detectedAt": "2026-11-19T18:59:50.137Z",
-      "currentHash": "7e2bfb07e9fa921d335a9387b9b56352411ade8a32bba7cd19bd4a89ec9aba8e",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "c23894382056b9eb7aae5bfab98b17544539f2f6c5dc60ba55d47ea69e4d055d",
       "affectedBlueprintIds": [
         "perf-138"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lambda-sqs-invocation-model",
+      "title": "Lambda polling and synchronous invocation for an SQS event source",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "bb9f2a8b886fc0f287d193e64e9fff57963cfda4fd6fa230f6a2640291ed44cd",
+      "affectedBlueprintIds": [
+        "res-196"
       ],
       "status": "pending",
       "requiredActions": [
@@ -423,8 +623,8 @@
       "title": "Amazon MSK best practices for highly available clusters",
       "url": "https://docs.aws.amazon.com/msk/latest/developerguide/bestpractices.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "1c76f867f4a1856e001181efa238cd9f99ed1cc39b2615972036ca057a11635a",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "06a553e8bb328ebedaec2ac18f04437009b0fe4c5bb328815c7f304e97494169",
       "affectedBlueprintIds": [
         "res-79"
       ],
@@ -445,6 +645,25 @@
       "currentHash": "cc97c0b9ba81592572aa8b4806880e4c941224ade5f029a2e82721ab44001880",
       "affectedBlueprintIds": [
         "perf-48"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "network-firewall-centralized",
+      "title": "Avoiding asymmetric routing with AWS Network Firewall",
+      "url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/asymmetric-routing.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "6ef4cd0a15f7a46bb64d166f8701eca2b60ada2af4735386e7a36c1d78a24664",
+      "affectedBlueprintIds": [
+        "sec-55",
+        "sec-205"
       ],
       "status": "pending",
       "requiredActions": [
@@ -525,6 +744,60 @@
       ]
     },
     {
+      "sourceId": "rds-backup-shared-storage-allocation",
+      "title": "RDS backups, AWS Backup periodic snapshots and shared backup storage allocation",
+      "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "c2f8f90ce446c90165b1714f6aee98845e14899f298222f23e1ff5bd78738a0e",
+      "affectedBlueprintIds": [
+        "cost-158"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "route53-alias-apex-query-cost",
+      "title": "Route 53 alias records, zone apex support and resource-specific query costs",
+      "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "0876518da70cda24381e40dcbd1065362850f23a6e57a6855ae5903325978b27",
+      "affectedBlueprintIds": [
+        "cost-124"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "route53-alias-target-health",
+      "title": "Route 53 AliasTarget EvaluateTargetHealth behavior",
+      "url": "https://docs.aws.amazon.com/Route53/latest/APIReference/API_AliasTarget.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "229488fd33e8613f9361eb129794e51aad895206e24805d86f4633548abcf165",
+      "affectedBlueprintIds": [
+        "cost-142"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "route53-geoproximity-bias",
       "title": "Geoproximity routing in Amazon Route 53",
       "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geoproximity.html",
@@ -533,6 +806,78 @@
       "currentHash": "ed4ff1d03185887fc79816c4113998971424f4921a899abcd9697cb1697c2215",
       "affectedBlueprintIds": [
         "perf-134"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "route53-health-check-pricing",
+      "title": "Route 53 health check pricing and AWS endpoint allowance",
+      "url": "https://aws.amazon.com/route53/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "7920e7f94d60f44f9626bb1acf016f2f6ba307753c5881111ce1d8c142602360",
+      "affectedBlueprintIds": [
+        "cost-142"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-high-request-rate-design",
+      "title": "Amazon S3 performance design patterns for high request rates",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance-design-patterns.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "51beb7e354d0f33814a5120e68129e9aa887afa21bb63bd27b5696dca86319f7",
+      "affectedBlueprintIds": [
+        "perf-91"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-presigned-session-lifetime",
+      "title": "S3 presigned URLs and temporary credential lifetime",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "753df9c7094722c5def3f1ae5da5f5b1587c31932d6be9f3474f61d11809d16e",
+      "affectedBlueprintIds": [
+        "sec-201"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "s3-replication-time-control",
+      "title": "S3 Replication Time Control and 15-minute objective",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-time-control.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "0f2d1b689028979ea370cc4ab65c26c322ff6fa986f90ee3e4f7006202438c7c",
+      "affectedBlueprintIds": [
+        "res-39"
       ],
       "status": "pending",
       "requiredActions": [
@@ -596,6 +941,24 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
+    },
+    {
+      "sourceId": "waf-body-inspection-limit",
+      "title": "AWS WAF Body inspection limits and oversize options",
+      "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "bcfb5cc746fa62ea98732c1e55c02ed0e0aa0be5fdb40c4b287a896693f72f03",
+      "affectedBlueprintIds": [
+        "sec-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
     }
   ],
   "discoveryChanges": [
@@ -604,8 +967,8 @@
       "title": "AWS Architecture Blog Feed",
       "url": "https://aws.amazon.com/blogs/architecture/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "199ee178d9cee33480f6c11a55caf0d297faf570f024472ba88851f517203620",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "e604e264fbf52b22e8166c609fac891b8f373ae09f41d1870a81c454f5810334",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -620,8 +983,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "e96dc0688b4b6eeb07276375e575da2623e60d8df41ed835c638d684b760b0f2",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "f37975f6901e1a53d9c966110d65d9e649228fd363ba2ac32bcea60ebfd79fc3",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -636,8 +999,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "17c2b793a2f29a9b24cd892d435c96ff20f38b3616329ca2bfb9463c5f233532",
+      "detectedAt": "2026-11-21T17:35:11.547Z",
+      "currentHash": "93cdcfc112f70feabf37e1adc389773cbe5502c0b3785409d116adf286232e54",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

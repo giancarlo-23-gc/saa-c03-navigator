@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **33**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **53**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -20,6 +20,45 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/acm/latest/userguide/import-reimport.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: sec-169
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Application Load Balancer subnets and target groups
+
+- Fonte: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-10, res-16
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Security policies for an Application Load Balancer
+
+- Fonte: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/describe-ssl-policies.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: sec-28
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Backup logically air-gapped vault
+
+- Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-66
 
 Checklist:
 
@@ -83,7 +122,7 @@ Checklist:
 ## Logging data events with AWS CloudTrail
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-data-events-with-cloudtrail.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: sec-73
 
 Checklist:
@@ -96,7 +135,7 @@ Checklist:
 ## CloudTrail Lake and event data stores
 
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: sec-90
 
 Checklist:
@@ -145,10 +184,49 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Amazon EBS multi-volume crash-consistent backups
+
+- Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/multi-volume-crash-consistent.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-61
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS Support cost optimization checks for underutilized EBS volumes
+
+- Fonte: https://docs.aws.amazon.com/awssupport/latest/user/cost-optimization-checks.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-90
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EC2 User Guide
+
+- Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-17, res-28
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## EC2 Capacity Blocks for scheduled short GPU workloads
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: cost-138
 
 Checklist:
@@ -197,6 +275,32 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## ECS Fargate task parameters including restart attempt period and ignored exit codes
+
+- Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-200
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Associate EKS access policies and namespace scopes
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/access-policies.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: sec-219
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Elastic Load Balancing FAQ and NLB regional cross-zone data transfer charges
 
 - Fonte: https://aws.amazon.com/elasticloadbalancing/faqs/
@@ -215,6 +319,32 @@ Checklist:
 - Fonte: https://aws.amazon.com/elasticloadbalancing/pricing/
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: cost-152
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## FSx for ONTAP volume data tiering policies
+
+- Fonte: https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/volume-storage-capacity.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-112
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Access data with Amazon FSx for NetApp ONTAP
+
+- Fonte: https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/supported-fsx-clients.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: perf-61
 
 Checklist:
 
@@ -278,8 +408,21 @@ Checklist:
 ## Configure Lambda batches and batching window for an SQS event source
 
 - Fonte: https://docs.aws.amazon.com/lambda/latest/dg/services-sqs-configure.html
-- Detectada em: 2026-11-19T18:59:50.137Z
+- Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: perf-138
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Lambda polling and synchronous invocation for an SQS event source
+
+- Fonte: https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-196
 
 Checklist:
 
@@ -304,7 +447,7 @@ Checklist:
 ## Amazon MSK best practices for highly available clusters
 
 - Fonte: https://docs.aws.amazon.com/msk/latest/developerguide/bestpractices.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: res-79
 
 Checklist:
@@ -319,6 +462,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/neptune/latest/userguide/graph-get-started.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: perf-48
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Avoiding asymmetric routing with AWS Network Firewall
+
+- Fonte: https://docs.aws.amazon.com/network-firewall/latest/developerguide/asymmetric-routing.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: sec-55, sec-205
 
 Checklist:
 
@@ -379,11 +535,102 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## RDS backups, AWS Backup periodic snapshots and shared backup storage allocation
+
+- Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-158
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 alias records, zone apex support and resource-specific query costs
+
+- Fonte: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-124
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 AliasTarget EvaluateTargetHealth behavior
+
+- Fonte: https://docs.aws.amazon.com/Route53/latest/APIReference/API_AliasTarget.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-142
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Geoproximity routing in Amazon Route 53
 
 - Fonte: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geoproximity.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: perf-134
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Route 53 health check pricing and AWS endpoint allowance
+
+- Fonte: https://aws.amazon.com/route53/pricing/
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: cost-142
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon S3 performance design patterns for high request rates
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance-design-patterns.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: perf-91
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## S3 presigned URLs and temporary credential lifetime
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: sec-201
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## S3 Replication Time Control and 15-minute objective
+
+- Fonte: https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-time-control.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: res-39
 
 Checklist:
 
@@ -423,6 +670,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/textract/latest/dg/api-async.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: perf-148
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS WAF Body inspection limits and oversize options
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html
+- Detectada em: 2026-11-21T17:35:11.547Z
+- Questões afetadas: sec-189
 
 Checklist:
 

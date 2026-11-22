@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **53**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **54**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -669,6 +669,19 @@ Checklist:
 
 - Fonte: https://docs.aws.amazon.com/textract/latest/dg/api-async.html
 - Detectada em: 2026-11-20T18:37:54.128Z
+- Questões afetadas: perf-148
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Textract StartDocumentAnalysis
+
+- Fonte: https://docs.aws.amazon.com/textract/latest/APIReference/API_StartDocumentAnalysis.html
+- Detectada em: 2026-11-22T17:50:52.807Z
 - Questões afetadas: perf-148
 
 Checklist:

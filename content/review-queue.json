@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-21T17:35:12.529Z",
+  "generatedAt": "2026-11-22T17:50:53.681Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -943,6 +943,24 @@
       ]
     },
     {
+      "sourceId": "textract-start-analysis",
+      "title": "Amazon Textract StartDocumentAnalysis",
+      "url": "https://docs.aws.amazon.com/textract/latest/APIReference/API_StartDocumentAnalysis.html",
+      "tier": "service",
+      "detectedAt": "2026-11-22T17:50:52.807Z",
+      "currentHash": "f195eaf768b98c8b31038a63f2bfe8773e55816dcb4286a928f89e061bf72201",
+      "affectedBlueprintIds": [
+        "perf-148"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "waf-body-inspection-limit",
       "title": "AWS WAF Body inspection limits and oversize options",
       "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html",
@@ -999,8 +1017,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-21T17:35:11.547Z",
-      "currentHash": "93cdcfc112f70feabf37e1adc389773cbe5502c0b3785409d116adf286232e54",
+      "detectedAt": "2026-11-22T17:50:52.807Z",
+      "currentHash": "5e4516acdb6c1a2cea869ce71147caa9b031e10074efd19f985411f01158080d",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

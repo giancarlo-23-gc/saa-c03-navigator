@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **54**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **57**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -148,7 +148,7 @@ Checklist:
 ## Cognito public clients and authorization code with PKCE
 
 - Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-23T22:03:30.121Z
 - Questões afetadas: sec-181
 
 Checklist:
@@ -236,6 +236,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## EC2 instance aggregate EBS performance versus attached volume capacity
+
+- Fonte: https://docs.aws.amazon.com/ec2/latest/instancetypes/co.html
+- Detectada em: 2026-11-23T22:03:30.121Z
+- Questões afetadas: perf-166
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## EC2 EBS-optimized instance bandwidth and sustained performance
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html
@@ -262,6 +275,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## EC2 elastic network interface zonal attachment scope
+
+- Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
+- Detectada em: 2026-11-23T22:03:30.121Z
+- Questões afetadas: res-167
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Unlimited mode concepts for burstable EC2 instances
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances-unlimited-mode-concepts.html
@@ -278,7 +304,7 @@ Checklist:
 ## ECS Fargate task parameters including restart attempt period and ignored exit codes
 
 - Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html
-- Detectada em: 2026-11-21T17:35:11.547Z
+- Detectada em: 2026-11-23T22:03:30.121Z
 - Questões afetadas: res-200
 
 Checklist:
@@ -501,6 +527,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-listeners.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: perf-98
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon OpenSearch Service Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html
+- Detectada em: 2026-11-23T22:03:30.121Z
+- Questões afetadas: nenhuma questão mapeada diretamente
 
 Checklist:
 

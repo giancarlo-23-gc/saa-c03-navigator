@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-22T17:50:53.681Z",
+  "generatedAt": "2026-11-23T22:03:30.825Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -207,8 +207,8 @@
       "title": "Cognito public clients and authorization code with PKCE",
       "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "f1ae9f9f08c1cd239b907e6d8137d55973521b17708a4774a22a9c9432b79547",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "50e10b793d59ad0f4ad83d540c115babf932d72ae0fb0ba72d4ca532ad4e4ae1",
       "affectedBlueprintIds": [
         "sec-181"
       ],
@@ -330,6 +330,24 @@
       ]
     },
     {
+      "sourceId": "ec2-ebs-aggregate-performance",
+      "title": "EC2 instance aggregate EBS performance versus attached volume capacity",
+      "url": "https://docs.aws.amazon.com/ec2/latest/instancetypes/co.html",
+      "tier": "service",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "6c0962f0ab55cfdd50a83d884e03a072942e3d02e40be82f5c9f10602e9dd245",
+      "affectedBlueprintIds": [
+        "perf-166"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-ebs-optimized-instance-limits",
       "title": "EC2 EBS-optimized instance bandwidth and sustained performance",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html",
@@ -367,6 +385,24 @@
       ]
     },
     {
+      "sourceId": "ec2-eni",
+      "title": "EC2 elastic network interface zonal attachment scope",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html",
+      "tier": "service",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "3caeb3a9969d9c100aaf614136b8b446588eedb433cdfdc75925d2c99d739f5d",
+      "affectedBlueprintIds": [
+        "res-167"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "ec2-unlimited-cpu-credits",
       "title": "Unlimited mode concepts for burstable EC2 instances",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances-unlimited-mode-concepts.html",
@@ -389,8 +425,8 @@
       "title": "ECS Fargate task parameters including restart attempt period and ignored exit codes",
       "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html",
       "tier": "service",
-      "detectedAt": "2026-11-21T17:35:11.547Z",
-      "currentHash": "fef55317a953e670091caab24954736095e59e9a13c3c823f2049d0ef250684b",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "c2d4baf7c1544f2a5d5b9d316c0ab116b3fe429d3070d0552a4b43810164964c",
       "affectedBlueprintIds": [
         "res-200"
       ],
@@ -710,6 +746,22 @@
       ]
     },
     {
+      "sourceId": "opensearch",
+      "title": "Amazon OpenSearch Service Developer Guide",
+      "url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "509901485d860d3b42e6564cfdd87d74489b54ca05f4c5537623d770238fdc08",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "organizations-rcp",
       "title": "Resource control policies in AWS Organizations",
       "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_rcps.html",
@@ -1001,8 +1053,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-21T17:35:11.547Z",
-      "currentHash": "f37975f6901e1a53d9c966110d65d9e649228fd363ba2ac32bcea60ebfd79fc3",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "29d5abbe673ab8002fac73d96a4766fd57e8f03a6fc4024a98694534928b2595",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1017,8 +1069,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-22T17:50:52.807Z",
-      "currentHash": "5e4516acdb6c1a2cea869ce71147caa9b031e10074efd19f985411f01158080d",
+      "detectedAt": "2026-11-23T22:03:30.121Z",
+      "currentHash": "b7f30fa6f7bd88021c5961182d3fb519e69a7993c3eb3a24ec599a66569b2985",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

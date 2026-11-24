@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-23T22:03:30.825Z",
+  "generatedAt": "2026-11-24T20:40:28.942Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -66,6 +66,24 @@
       "currentHash": "8d7f443e8bc3508aebca95c5e8a1c7166e5cb37edafc48857f345870b4945bbc",
       "affectedBlueprintIds": [
         "sec-28"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "aurora-serverless-v2",
+      "title": "Amazon Aurora Serverless v2 capacity and scaling",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.setting-capacity.html",
+      "tier": "service",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "a6c29f223ef8fedeb089f7753aec4dd887f7a446d7ffdcc61d69863ea6f57791",
+      "affectedBlueprintIds": [
+        "cost-18"
       ],
       "status": "pending",
       "requiredActions": [
@@ -352,8 +370,8 @@
       "title": "EC2 EBS-optimized instance bandwidth and sustained performance",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "b49176fc8ac176b66fdd6f9f4c851889e16326ba1a0c01313468b52be4d74e16",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "260bf6618bb3a2a0cea23a6380f4f91cae02876148dad4321e91a0ea64d01fa3",
       "affectedBlueprintIds": [
         "perf-166"
       ],
@@ -370,8 +388,8 @@
       "title": "Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "cf6e0885fd007fce2fe4a918dc6a122994f48b3dbb141c7d57649d32e5537296",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "2c939faf792b1c710c6041e194ee709889be6571285a6ee2b568e9ad02274cc9",
       "affectedBlueprintIds": [
         "perf-23",
         "perf-41"
@@ -389,10 +407,28 @@
       "title": "EC2 elastic network interface zonal attachment scope",
       "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html",
       "tier": "service",
-      "detectedAt": "2026-11-23T22:03:30.121Z",
-      "currentHash": "3caeb3a9969d9c100aaf614136b8b446588eedb433cdfdc75925d2c99d739f5d",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "e7caa2279c8bf6cbc41c112588981eb4330c49ac4f8220e83d6aef48ae534b5e",
       "affectedBlueprintIds": [
         "res-167"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "ec2-image-builder-pipeline",
+      "title": "Create and update AMI image pipelines in EC2 Image Builder",
+      "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html",
+      "tier": "service",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "6099d4934cbc38dc44784327a1964db33b78f23e892e2f7a5ae33d73262f95d2",
+      "affectedBlueprintIds": [
+        "sec-145"
       ],
       "status": "pending",
       "requiredActions": [
@@ -814,6 +850,44 @@
       ]
     },
     {
+      "sourceId": "rds-reserved-db-instances",
+      "title": "Reserved DB instances for Amazon RDS",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html",
+      "tier": "service",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "f1a1b42a0b816f0104e80a9ff52f7dcec26f723c8b9797f59a081b7b6e82ff60",
+      "affectedBlueprintIds": [
+        "cost-20",
+        "cost-75",
+        "cost-133"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rds-storage-autoscaling",
+      "title": "Amazon RDS storage autoscaling conditions and limitations",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html",
+      "tier": "service",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "df238a3ceaf0820f1092957ebfdd9c78c205b8704337751745f4d40c02254e4b",
+      "affectedBlueprintIds": [
+        "res-44"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "route53-alias-apex-query-cost",
       "title": "Route 53 alias records, zone apex support and resource-specific query costs",
       "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html",
@@ -1053,8 +1127,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-23T22:03:30.121Z",
-      "currentHash": "29d5abbe673ab8002fac73d96a4766fd57e8f03a6fc4024a98694534928b2595",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "fc69d84f054356f4ae986bcca5325e496198202aef8296c4a9a7ce169b9ff891",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1069,8 +1143,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-23T22:03:30.121Z",
-      "currentHash": "b7f30fa6f7bd88021c5961182d3fb519e69a7993c3eb3a24ec599a66569b2985",
+      "detectedAt": "2026-11-24T20:40:27.830Z",
+      "currentHash": "35e44634185719f1e8389e7214297aa0b4b21c493dc62b062fd775c7293b1a80",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

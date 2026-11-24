@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **57**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **61**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -46,6 +46,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/describe-ssl-policies.html
 - Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: sec-28
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Aurora Serverless v2 capacity and scaling
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.setting-capacity.html
+- Detectada em: 2026-11-24T20:40:27.830Z
+- Questões afetadas: cost-18
 
 Checklist:
 
@@ -252,7 +265,7 @@ Checklist:
 ## EC2 EBS-optimized instance bandwidth and sustained performance
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-24T20:40:27.830Z
 - Questões afetadas: perf-166
 
 Checklist:
@@ -265,7 +278,7 @@ Checklist:
 ## Elastic Fabric Adapter for AI/ML and HPC workloads on Amazon EC2
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-24T20:40:27.830Z
 - Questões afetadas: perf-23, perf-41
 
 Checklist:
@@ -278,8 +291,21 @@ Checklist:
 ## EC2 elastic network interface zonal attachment scope
 
 - Fonte: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
-- Detectada em: 2026-11-23T22:03:30.121Z
+- Detectada em: 2026-11-24T20:40:27.830Z
 - Questões afetadas: res-167
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Create and update AMI image pipelines in EC2 Image Builder
+
+- Fonte: https://docs.aws.amazon.com/imagebuilder/latest/userguide/ami-image-pipelines.html
+- Detectada em: 2026-11-24T20:40:27.830Z
+- Questões afetadas: sec-145
 
 Checklist:
 
@@ -579,6 +605,32 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/aws-backup/latest/devguide/rds-backup.html
 - Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: cost-158
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Reserved DB instances for Amazon RDS
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html
+- Detectada em: 2026-11-24T20:40:27.830Z
+- Questões afetadas: cost-20, cost-75, cost-133
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon RDS storage autoscaling conditions and limitations
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.Autoscaling.html
+- Detectada em: 2026-11-24T20:40:27.830Z
+- Questões afetadas: res-44
 
 Checklist:
 

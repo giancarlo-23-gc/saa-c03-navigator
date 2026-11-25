@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **61**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **63**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -343,8 +343,21 @@ Checklist:
 ## Associate EKS access policies and namespace scopes
 
 - Fonte: https://docs.aws.amazon.com/eks/latest/userguide/access-policies.html
-- Detectada em: 2026-11-21T17:35:11.547Z
+- Detectada em: 2026-11-25T19:57:23.449Z
 - Questões afetadas: sec-219
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Learn how EKS Pod Identity grants pods access to AWS services
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html
+- Detectada em: 2026-11-25T19:57:23.449Z
+- Questões afetadas: sec-97, sec-185
 
 Checklist:
 
@@ -488,6 +501,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/lambda/latest/dg/configuration-timeout.html
 - Detectada em: 2026-11-19T18:59:50.137Z
 - Questões afetadas: res-21
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Lex V2 intents and slots
+
+- Fonte: https://docs.aws.amazon.com/lexv2/latest/dg/how-it-works.html
+- Detectada em: 2026-11-25T19:57:23.449Z
+- Questões afetadas: perf-152
 
 Checklist:
 

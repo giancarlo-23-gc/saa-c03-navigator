@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-24T20:40:28.942Z",
+  "generatedAt": "2026-11-25T19:57:24.631Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -479,10 +479,29 @@
       "title": "Associate EKS access policies and namespace scopes",
       "url": "https://docs.aws.amazon.com/eks/latest/userguide/access-policies.html",
       "tier": "service",
-      "detectedAt": "2026-11-21T17:35:11.547Z",
-      "currentHash": "6748036f5d84de021bdd4bef2e569aa502bddeab8809ca0225472dbb7fb23970",
+      "detectedAt": "2026-11-25T19:57:23.449Z",
+      "currentHash": "b3a10a649e5a26297e7d0b77ec71e9c1f9c3733964e6f2b45a9a8298eb2e5813",
       "affectedBlueprintIds": [
         "sec-219"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-pod-identity",
+      "title": "Learn how EKS Pod Identity grants pods access to AWS services",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
+      "tier": "service",
+      "detectedAt": "2026-11-25T19:57:23.449Z",
+      "currentHash": "9f86eafc42e173976715fcd884b807d81d1ea09f48df1205e9268f93c4588a16",
+      "affectedBlueprintIds": [
+        "sec-97",
+        "sec-185"
       ],
       "status": "pending",
       "requiredActions": [
@@ -681,6 +700,24 @@
       "currentHash": "719177adbcd43b0429780149105c6f5797f3ebc7af93d887c75e1db30893e750",
       "affectedBlueprintIds": [
         "res-21"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "lex-core-concepts",
+      "title": "Amazon Lex V2 intents and slots",
+      "url": "https://docs.aws.amazon.com/lexv2/latest/dg/how-it-works.html",
+      "tier": "service",
+      "detectedAt": "2026-11-25T19:57:23.449Z",
+      "currentHash": "297dccec0a1eea06db869915b67ae8ef7f9ffd38bd09eb081a07cd44bd46377c",
+      "affectedBlueprintIds": [
+        "perf-152"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1127,8 +1164,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-24T20:40:27.830Z",
-      "currentHash": "fc69d84f054356f4ae986bcca5325e496198202aef8296c4a9a7ce169b9ff891",
+      "detectedAt": "2026-11-25T19:57:23.449Z",
+      "currentHash": "c2390db398bff01bafb6d6ae3f1bc4ca111b25934128fe284a5bbfa250640d28",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1143,8 +1180,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-24T20:40:27.830Z",
-      "currentHash": "35e44634185719f1e8389e7214297aa0b4b21c493dc62b062fd775c7293b1a80",
+      "detectedAt": "2026-11-25T19:57:23.449Z",
+      "currentHash": "c3c407922ed035fe5674b8e616d77cdcbe14733cebf5f1fcf73de3ac4a2c1006",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

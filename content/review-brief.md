@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **63**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **71**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -150,6 +150,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html
 - Detectada em: 2026-11-21T17:35:11.547Z
 - Questões afetadas: sec-90
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Cognito identity pools security and guest access implications
+
+- Fonte: https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools-security-best-practices.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: sec-211
 
 Checklist:
 
@@ -353,6 +366,45 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## EKS ALB IP targets for Fargate Pods
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: perf-173
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EKS Fargate considerations and runtime limitations
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/fargate.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: res-147, sec-185
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon EKS managed node groups
+
+- Fonte: https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: res-147, res-158
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Learn how EKS Pod Identity grants pods access to AWS services
 
 - Fonte: https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html
@@ -366,10 +418,23 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Elastic Load Balancing User Guide
+
+- Fonte: https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: sec-37, res-30, res-32
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Elastic Load Balancing FAQ and NLB regional cross-zone data transfer charges
 
 - Fonte: https://aws.amazon.com/elasticloadbalancing/faqs/
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-26T19:38:35.559Z
 - Questões afetadas: cost-151
 
 Checklist:
@@ -382,7 +447,7 @@ Checklist:
 ## Elastic Load Balancing pricing and rule evaluation LCU dimension
 
 - Fonte: https://aws.amazon.com/elasticloadbalancing/pricing/
-- Detectada em: 2026-11-20T18:37:54.128Z
+- Detectada em: 2026-11-26T19:38:35.559Z
 - Questões afetadas: cost-152
 
 Checklist:
@@ -808,11 +873,50 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## AWS WAF Developer Guide
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: nenhuma questão mapeada diretamente
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## AWS WAF Body inspection limits and oversize options
 
 - Fonte: https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html
-- Detectada em: 2026-11-21T17:35:11.547Z
+- Detectada em: 2026-11-26T19:38:35.559Z
 - Questões afetadas: sec-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS WAF handling oversized request components
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: sec-189
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## AWS WAF web application protection
+
+- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html
+- Detectada em: 2026-11-26T19:38:35.559Z
+- Questões afetadas: sec-04
 
 Checklist:
 

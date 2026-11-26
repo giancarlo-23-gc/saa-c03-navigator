@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-25T19:57:24.631Z",
+  "generatedAt": "2026-11-26T19:38:36.423Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -211,6 +211,24 @@
       "currentHash": "2b53f4b5d86db2ecc5039571e82dbd3d551629f6718ea3bac03f0e3e1ce536bc",
       "affectedBlueprintIds": [
         "sec-90"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cognito-identity-pool-security",
+      "title": "Cognito identity pools security and guest access implications",
+      "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools-security-best-practices.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "ec46d67d4ad9424ce0abf858a41b798ddcdd711a31dae16623a07186ebd85132",
+      "affectedBlueprintIds": [
+        "sec-211"
       ],
       "status": "pending",
       "requiredActions": [
@@ -493,6 +511,62 @@
       ]
     },
     {
+      "sourceId": "eks-alb-fargate-ip-targets",
+      "title": "EKS ALB IP targets for Fargate Pods",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "5506632ada5446b7c2b15c8877b6ec6784a699f0111acb09b95c6a628e6f767f",
+      "affectedBlueprintIds": [
+        "perf-173"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-fargate-considerations",
+      "title": "Amazon EKS Fargate considerations and runtime limitations",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/fargate.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "aae28eba49c5a95ac4ec49a39d1f735a6cb95d054f11723231109e040c15b0e5",
+      "affectedBlueprintIds": [
+        "res-147",
+        "sec-185"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "eks-managed-node-groups",
+      "title": "Amazon EKS managed node groups",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "7268ad370af4fcb5851cf5dd2e191ee3f0b977fc39f60fbce31cac4063ff7be3",
+      "affectedBlueprintIds": [
+        "res-147",
+        "res-158"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "eks-pod-identity",
       "title": "Learn how EKS Pod Identity grants pods access to AWS services",
       "url": "https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html",
@@ -512,12 +586,32 @@
       ]
     },
     {
+      "sourceId": "elastic-load-balancing",
+      "title": "Elastic Load Balancing User Guide",
+      "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "58415834fc53590b7b2fc14d46c2e679e18d77ab65afda1245ec80b82542c6a7",
+      "affectedBlueprintIds": [
+        "sec-37",
+        "res-30",
+        "res-32"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "elb-cross-zone-pricing-faq",
       "title": "Elastic Load Balancing FAQ and NLB regional cross-zone data transfer charges",
       "url": "https://aws.amazon.com/elasticloadbalancing/faqs/",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "61079d034504661abb4673a7d5ce3f34e31b921a307e6377f973b73900dce1cb",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "8ba35280dbb15fe3d6ebbe43614fd2a49f098a0ced45a0ea5f3d7c56a5ae0cef",
       "affectedBlueprintIds": [
         "cost-151"
       ],
@@ -534,8 +628,8 @@
       "title": "Elastic Load Balancing pricing and rule evaluation LCU dimension",
       "url": "https://aws.amazon.com/elasticloadbalancing/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "1a5149035232f80192e55907724e2b56f1657c76cc7d71994abf95e1e1a6b59f",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "205d50acc5f0f80ac7a4d513041f20f31f33b35e319b76b123fd4aadc6ac4755",
       "affectedBlueprintIds": [
         "cost-152"
       ],
@@ -1124,14 +1218,66 @@
       ]
     },
     {
+      "sourceId": "waf",
+      "title": "AWS WAF Developer Guide",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "96d41bb7e57d2818d0af3099768ca8688632f424677cdc83df900196307f6f0d",
+      "affectedBlueprintIds": [],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "waf-body-inspection-limit",
       "title": "AWS WAF Body inspection limits and oversize options",
       "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html",
       "tier": "service",
-      "detectedAt": "2026-11-21T17:35:11.547Z",
-      "currentHash": "bcfb5cc746fa62ea98732c1e55c02ed0e0aa0be5fdb40c4b287a896693f72f03",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "651051ddbfa360423d95652226e9d54f3b8f9c13eac04dd4307094be871be065",
       "affectedBlueprintIds": [
         "sec-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "waf-oversize-handling",
+      "title": "AWS WAF handling oversized request components",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "1e8898d065f518e5283642e6305a5b2490b06b53baa7dceb9b80838509ce42cb",
+      "affectedBlueprintIds": [
+        "sec-189"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "waf-overview",
+      "title": "AWS WAF web application protection",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+      "tier": "service",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "96d41bb7e57d2818d0af3099768ca8688632f424677cdc83df900196307f6f0d",
+      "affectedBlueprintIds": [
+        "sec-04"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1164,8 +1310,8 @@
       "title": "AWS Security Blog Feed",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-25T19:57:23.449Z",
-      "currentHash": "c2390db398bff01bafb6d6ae3f1bc4ca111b25934128fe284a5bbfa250640d28",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "4887ff3aaf15c59f40745b3a3b7036ad9f9e20f09981345a859caf640472ebff",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -1180,8 +1326,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-25T19:57:23.449Z",
-      "currentHash": "c3c407922ed035fe5674b8e616d77cdcbe14733cebf5f1fcf73de3ac4a2c1006",
+      "detectedAt": "2026-11-26T19:38:35.559Z",
+      "currentHash": "e796e7980ddf91940b28231a1b86e4ffc6fedab2a1f514f290e5992b743c1127",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [

@@ -1,6 +1,6 @@
 {
   "version": "2026.11.19-2",
-  "generatedAt": "2026-11-26T19:38:36.423Z",
+  "generatedAt": "2026-11-27T19:29:20.464Z",
   "pendingChanges": [
     {
       "sourceId": "acm-certificate-characteristics",
@@ -483,6 +483,24 @@
       "currentHash": "c2d4baf7c1544f2a5d5b9d316c0ab116b3fe429d3070d0552a4b43810164964c",
       "affectedBlueprintIds": [
         "res-200"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "efs-encryption-transit",
+      "title": "EFS encryption in transit",
+      "url": "https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html",
+      "tier": "service",
+      "detectedAt": "2026-11-27T19:29:19.684Z",
+      "currentHash": "1c2278dc589abfd77327d9e11ea9a5e43d022146744b4cfe7b5f87504db537b6",
+      "affectedBlueprintIds": [
+        "sec-195"
       ],
       "status": "pending",
       "requiredActions": [
@@ -1180,112 +1198,6 @@
         "Executar pnpm verify:release e revisar o simulado no navegador.",
         "Aprovar a fonte somente depois de registrar a decisão editorial."
       ]
-    },
-    {
-      "sourceId": "textract-async",
-      "title": "Amazon Textract asynchronous document operations",
-      "url": "https://docs.aws.amazon.com/textract/latest/dg/api-async.html",
-      "tier": "service",
-      "detectedAt": "2026-11-20T18:37:54.128Z",
-      "currentHash": "89e5853b09300807fa331be18f1df283e680b5b75b351446d0249cff5294aa44",
-      "affectedBlueprintIds": [
-        "perf-148"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "textract-start-analysis",
-      "title": "Amazon Textract StartDocumentAnalysis",
-      "url": "https://docs.aws.amazon.com/textract/latest/APIReference/API_StartDocumentAnalysis.html",
-      "tier": "service",
-      "detectedAt": "2026-11-22T17:50:52.807Z",
-      "currentHash": "f195eaf768b98c8b31038a63f2bfe8773e55816dcb4286a928f89e061bf72201",
-      "affectedBlueprintIds": [
-        "perf-148"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "waf",
-      "title": "AWS WAF Developer Guide",
-      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
-      "tier": "service",
-      "detectedAt": "2026-11-26T19:38:35.559Z",
-      "currentHash": "96d41bb7e57d2818d0af3099768ca8688632f424677cdc83df900196307f6f0d",
-      "affectedBlueprintIds": [],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "waf-body-inspection-limit",
-      "title": "AWS WAF Body inspection limits and oversize options",
-      "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html",
-      "tier": "service",
-      "detectedAt": "2026-11-26T19:38:35.559Z",
-      "currentHash": "651051ddbfa360423d95652226e9d54f3b8f9c13eac04dd4307094be871be065",
-      "affectedBlueprintIds": [
-        "sec-189"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "waf-oversize-handling",
-      "title": "AWS WAF handling oversized request components",
-      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html",
-      "tier": "service",
-      "detectedAt": "2026-11-26T19:38:35.559Z",
-      "currentHash": "1e8898d065f518e5283642e6305a5b2490b06b53baa7dceb9b80838509ce42cb",
-      "affectedBlueprintIds": [
-        "sec-189"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "waf-overview",
-      "title": "AWS WAF web application protection",
-      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
-      "tier": "service",
-      "detectedAt": "2026-11-26T19:38:35.559Z",
-      "currentHash": "96d41bb7e57d2818d0af3099768ca8688632f424677cdc83df900196307f6f0d",
-      "affectedBlueprintIds": [
-        "sec-04"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
     }
   ],
   "discoveryChanges": [
@@ -1326,8 +1238,8 @@
       "title": "AWS What's New Feed",
       "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
       "tier": "watch",
-      "detectedAt": "2026-11-26T19:38:35.559Z",
-      "currentHash": "e796e7980ddf91940b28231a1b86e4ffc6fedab2a1f514f290e5992b743c1127",
+      "detectedAt": "2026-11-27T19:29:19.684Z",
+      "currentHash": "700474b857f040790e1eb9ef808e5583219c8700c8906222b9c6d69ca1e8562e",
       "affectedBlueprintIds": [],
       "status": "discovery",
       "requiredActions": [
@@ -4092,6 +4004,132 @@
       "currentHash": "f9c382d6c839bb2a6b3d20cb7a8c9dc6f7eb4aae3ff1f727a7178060a1e633e5",
       "approvedAt": "2026-11-19T18:31:47.599Z",
       "note": "Fechamento editorial 19/11/2026: 124 questões afetadas e cinco da triagem relidas; trechos pertinentes das 119 referências técnicas e complementares confrontados com snapshots normalizados e hashes atuais. Seis precisões em CloudFront, EventBridge Classic, ECR, KMS/RAM e S3 Multi-Region key resolution, sem alterar IDs/opções/gabaritos. Feeds: 150 títulos/descrições triados, doze descrições completas de anúncios relevantes; não são 150 artigos integrais. Evidências e limites em content/source-review-2026-11-19-closure.md e content/discovery-triage-2026-11-19.json. Baselines históricos preservados; a publicação depende de todos os testes e CI."
+    },
+    {
+      "sourceId": "waf",
+      "currentHash": "388c7ec81bb87857181561592c835cdb25b63efc290b52a6540b0c797f36d2d9",
+      "approvedAt": "2026-11-27T17:58:55.286Z",
+      "note": "O guia mantém a associação do WAF a ALB e CloudFront, além de inspeção e ações por regra. A atualização do console usa a expressão protection pack para o recurso que continua sendo uma web ACL na API."
+    },
+    {
+      "sourceId": "shield",
+      "currentHash": "61f7102d13d8e5ec24b4d6c1af5970e1011275c69dca2e2c1952a51aa7fe6873",
+      "approvedAt": "2026-11-27T17:58:55.928Z",
+      "note": "O guia distingue a proteção automática contra DDoS do serviço Advanced contratado separadamente. A descrição introdutória está coerente com a distinção entre proteção de rede e inspeção de HTTP."
+    },
+    {
+      "sourceId": "shield-advanced-ddos",
+      "currentHash": "34a9a22fc74491ff6e1ef4398caa05b55a3317fcd87444524e5a302a1f19e51d",
+      "approvedAt": "2026-11-27T17:58:56.480Z",
+      "note": "O guia descreve mitigação avançada nas camadas 3, 4 e 7. Essa cobertura DDoS não atribui à detecção de rede a inspeção de SQL injection que o cenário exige."
+    },
+    {
+      "sourceId": "waf-overview",
+      "currentHash": "388c7ec81bb87857181561592c835cdb25b63efc290b52a6540b0c797f36d2d9",
+      "approvedAt": "2026-11-27T17:58:56.814Z",
+      "note": "ALB está na lista de recursos que aceitam associação ao WAF. A web ACL aplica regras às requisições HTTP. A terminologia do console atualizado não altera a configuração representada pela questão."
+    },
+    {
+      "sourceId": "shield-standard",
+      "currentHash": "9458803539ee5b500168b38ccfc326af94793b54e8723a4a9d6eb04ef408c609",
+      "approvedAt": "2026-11-27T17:58:57.089Z",
+      "note": "A AWS descreve a mitigação automática dos ataques comuns de rede e transporte, sem cobrança adicional pelo Standard. Inspeção de SQL injection continua sendo função do WAF."
+    },
+    {
+      "sourceId": "waf-policy-scope",
+      "currentHash": "6f2ad839dce1e4a1c77c5496f85b82229149a833ff2f8cf2d08696f6545aa0fa",
+      "approvedAt": "2026-11-27T17:58:57.410Z",
+      "note": "A política central do Firewall Manager pode incluir ou excluir contas e OUs e delimitar recursos por tags. Esse é o escopo relevante para aplicar a proteção a ALBs de produção e excluir uma OU de testes."
+    },
+    {
+      "sourceId": "shield-advanced-proactive-engagement",
+      "currentHash": "2c26fde6d8c226ee5e170957456bc0a031c272c3f12ef5fecd84bebd894b9331",
+      "approvedAt": "2026-11-27T17:58:57.829Z",
+      "note": "O guia exige proteção Shield Advanced com health check do Route 53 associado, cadastro de contatos e proactive engagement habilitado. O cenário já fornece o nível de suporte exigido."
+    },
+    {
+      "sourceId": "waf-rate-based-rule",
+      "currentHash": "d5b23046f9e8389cddea0cf4d9451f4b5766e149949d56d1dc06fae4efdf80b7",
+      "approvedAt": "2026-11-27T17:58:58.173Z",
+      "note": "A regra aplica ação quando a instância de agregação excede sua taxa e a requisição atende ao filtro de escopo. Agregação por IP e filtro de caminho resolvem requisitos distintos dos cenários."
+    },
+    {
+      "sourceId": "waf-challenge-action",
+      "currentHash": "fa2b31f5e9cb58e49a4778da450896000f94433c919e15903ee0708d6c145145",
+      "approvedAt": "2026-11-27T17:58:58.447Z",
+      "note": "Challenge verifica o cliente por script sem apresentar quebra-cabeça. Com token válido no período de imunidade, a avaliação continua pelas regras seguintes."
+    },
+    {
+      "sourceId": "waf-sqli-rule",
+      "currentHash": "65de834b8200350ad70181b4cf3c1081d65c35b160306c61c8b35590617aeb9b",
+      "approvedAt": "2026-11-27T17:58:58.852Z",
+      "note": "O WAF inspeciona componentes selecionados de requisições HTTP para identificar padrões de SQL injection. Esse controle complementa a regra de taxa no cenário do ALB."
+    },
+    {
+      "sourceId": "waf-account-takeover-prevention",
+      "currentHash": "d863931b22fcb6dedaf2df189b8c239351a438eebd012d71b2cd35ace9dfa6d4",
+      "approvedAt": "2026-11-27T17:58:59.212Z",
+      "note": "ATP examina POSTs do endpoint de login e admite configuração de sinais da resposta com CloudFront. O cenário explicita o formato de e-mail exigido para os nomes de usuário."
+    },
+    {
+      "sourceId": "waf-bot-control-targeted",
+      "currentHash": "f51c5d129e1087ab11c877fa1b07c181af4982fa4f7d5c0ef0bf8c095c2d4dca",
+      "approvedAt": "2026-11-27T17:58:59.626Z",
+      "note": "Targeted usa sinais de cliente e comportamento, incluindo aprendizado de máquina conforme a configuração. Os rótulos permitem distinguir categorias de tráfego e rastreadores verificados."
+    },
+    {
+      "sourceId": "waf-label-match",
+      "currentHash": "6469cb572abc2d175e233b37bebad6fc5a662ad5a0908a2b18ffb2eb5e5a8101",
+      "approvedAt": "2026-11-27T17:58:59.913Z",
+      "note": "A regra posterior pode comparar rótulos atribuídos por regras anteriores na mesma web ACL. O cenário combina o sinal com o caminho da requisição e depende da ordem de avaliação."
+    },
+    {
+      "sourceId": "waf-rule-action-override",
+      "currentHash": "a3d64cdf6c0dddcb4133108c1424a1d08eec004b52022bef44a39ada4d613dea",
+      "approvedAt": "2026-11-27T17:59:00.263Z",
+      "note": "Count é não terminante e pode substituir a ação de uma regra individual. A documentação distingue essa configuração do override do resultado do grupo."
+    },
+    {
+      "sourceId": "waf-forwarded-ip",
+      "currentHash": "b2d41721164f171bbccc79c37b5c7c1ce3e0f421085523113bd4cdbedd2e4156",
+      "approvedAt": "2026-11-27T17:59:00.728Z",
+      "note": "Para a agregação de taxa, o WAF usa o primeiro endereço do cabeçalho escolhido. Fallback trata valores inválidos, e ausência de cabeçalho exige tratamento independente."
+    },
+    {
+      "sourceId": "waf-oversize-handling",
+      "currentHash": "8c883911a10ab361cd41b9b780968f7f2514ec115d9aa6444ac6e7fb297652d1",
+      "approvedAt": "2026-11-27T17:59:01.021Z",
+      "note": "Para o ALB, a inspeção do corpo é limitada a 8 KiB. A opção MATCH trata excesso como correspondência, e a ação Block rejeita a requisição conforme o contrato da API."
+    },
+    {
+      "sourceId": "waf-data-protection-outputs",
+      "currentHash": "d08a25f15192c98aeed562d22fbf2363090737b0c890dec8f7a43e772cb90cd1",
+      "approvedAt": "2026-11-27T17:59:01.329Z",
+      "note": "Data protection da web ACL é aplicada à coleta em logs, amostras e Security Lake. A redação do destino de logging modifica somente os dados enviados àquele destino."
+    },
+    {
+      "sourceId": "waf-data-protection-fields",
+      "currentHash": "6582aa6b84b3e49dc7b22ea5283afd57c89aa08e723e429a29e448b3c12c5d2d",
+      "approvedAt": "2026-11-27T17:59:01.630Z",
+      "note": "Single header permite substituir ou aplicar hash ao valor do campo nas saídas selecionadas. O cenário escolhe substituição para manter amostras e Security Lake sem o valor bruto."
+    },
+    {
+      "sourceId": "waf-body-inspection-limit",
+      "currentHash": "651051ddbfa360423d95652226e9d54f3b8f9c13eac04dd4307094be871be065",
+      "approvedAt": "2026-11-27T18:01:34.562Z",
+      "note": "Body e AssociationConfig documentam 8 KiB como padrão no ALB, com configuração de limite maior. Para manter o contrato de 8 KiB, conserva-se o limite do cenário e usa-se MATCH na regra com ação Block."
+    },
+    {
+      "sourceId": "textract-async",
+      "currentHash": "89e5853b09300807fa331be18f1df283e680b5b75b351446d0249cff5294aa44",
+      "approvedAt": "2026-11-27T18:01:34.668Z",
+      "note": "O fluxo assíncrono processa o PDF multipágina no S3, recebe a conclusão pelo SNS e usa o identificador do trabalho para buscar os resultados. Uma fila SQS pode consumir a notificação."
+    },
+    {
+      "sourceId": "textract-start-analysis",
+      "currentHash": "f195eaf768b98c8b31038a63f2bfe8773e55816dcb4286a928f89e061bf72201",
+      "approvedAt": "2026-11-27T18:01:34.769Z",
+      "note": "StartDocumentAnalysis aceita FORMS e TABLES em FeatureTypes e retorna JobId. NotificationChannel indica o tópico SNS. Após SUCCEEDED, GetDocumentAnalysis retorna os blocos e NextToken quando houver paginação."
     }
   ]
 }

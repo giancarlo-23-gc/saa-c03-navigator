@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **71**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **66**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## ACM wildcard certificate domain coverage limitations
 
@@ -345,6 +345,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html
 - Detectada em: 2026-11-23T22:03:30.121Z
 - Questões afetadas: res-200
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## EFS encryption in transit
+
+- Fonte: https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html
+- Detectada em: 2026-11-27T19:29:19.684Z
+- Questões afetadas: sec-195
 
 Checklist:
 
@@ -839,84 +852,6 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html
 - Detectada em: 2026-11-20T18:37:54.128Z
 - Questões afetadas: sec-180, sec-218
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## Amazon Textract asynchronous document operations
-
-- Fonte: https://docs.aws.amazon.com/textract/latest/dg/api-async.html
-- Detectada em: 2026-11-20T18:37:54.128Z
-- Questões afetadas: perf-148
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## Amazon Textract StartDocumentAnalysis
-
-- Fonte: https://docs.aws.amazon.com/textract/latest/APIReference/API_StartDocumentAnalysis.html
-- Detectada em: 2026-11-22T17:50:52.807Z
-- Questões afetadas: perf-148
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## AWS WAF Developer Guide
-
-- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html
-- Detectada em: 2026-11-26T19:38:35.559Z
-- Questões afetadas: nenhuma questão mapeada diretamente
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## AWS WAF Body inspection limits and oversize options
-
-- Fonte: https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html
-- Detectada em: 2026-11-26T19:38:35.559Z
-- Questões afetadas: sec-189
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## AWS WAF handling oversized request components
-
-- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html
-- Detectada em: 2026-11-26T19:38:35.559Z
-- Questões afetadas: sec-189
-
-Checklist:
-
-- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
-- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
-- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
-- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
-
-## AWS WAF web application protection
-
-- Fonte: https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html
-- Detectada em: 2026-11-26T19:38:35.559Z
-- Questões afetadas: sec-04
 
 Checklist:
 
